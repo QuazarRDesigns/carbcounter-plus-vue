@@ -1,18 +1,39 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <div class="menu">
+      <MenuButton title="CarbCalc" color="blue" />
+      <MenuButton title="DoseCalc" color="green" />
+      <MenuButton title="Settings" color="pink" />
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import MenuButton from "@/components/MenuButton.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+    MenuButton
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.home {
+  flex: 1 1 auto;
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.menu {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1;
+  background-color: #fff;
+  margin: 1.25rem;
+  padding: 0.625rem;
+}
+</style>
