@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="view-container home">
     <div class="menu">
       <MenuButton title="CarbCalc" color="blue" />
       <MenuButton title="DoseCalc" color="green" />

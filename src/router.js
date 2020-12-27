@@ -1,6 +1,7 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
+import CarbCalc from "./views/CarbCalc.vue";
 
 Vue.use(Router);
 
@@ -9,8 +10,13 @@ export default new Router({
     {
       path: "/",
       name: "Home",
-      component: Home,
+      component: Home
     },
+    {
+      path: "/carbcalc",
+      name: "CarbCalc",
+      component: CarbCalc
+    }
     // {
     //   path: "/about",
     //   name: "about",
@@ -20,5 +26,5 @@ export default new Router({
     //   component: () =>
     //     import(/* webpackChunkName: "about" */ "./views/About.vue")
     // }
-  ],
+  ]
 });
