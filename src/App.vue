@@ -13,9 +13,32 @@
 <style lang="scss">
 @import "@/scss/variables.scss";
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: $yellow;
   margin: 0;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  height: 3rem;
+  padding: 0 1rem;
+
+  &.bg-blue,
+  &.bg-green,
+  &.bg-pink {
+    color: #fff;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #ddd;
+  }
 }
 
 #app {
@@ -38,6 +61,16 @@ body {
       color: #42b983;
     }
   }
+}
+
+button {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+.view-container {
+  width: $container-width;
+  min-width: 320px;
+  margin: 0 auto;
 }
 
 .bg-blue {
