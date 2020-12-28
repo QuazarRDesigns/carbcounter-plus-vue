@@ -1,5 +1,3 @@
-import { findIndex } from "core-js/fn/array";
-
 export default {
   state: () => ({
     selectedItems: []

@@ -2,6 +2,7 @@ import Vue from "vue";
 import Router from "vue-router";
 import Home from "./views/Home.vue";
 import CarbCalc from "./views/CarbCalc.vue";
+import DoseCalc from "./views/DoseCalc.vue";
 
 Vue.use(Router);
 
@@ -16,6 +17,11 @@ export default new Router({
       path: "/carbcalc",
       name: "CarbCalc",
       component: CarbCalc
+    },
+    {
+      path: "/dosecalc",
+      name: "DoseCalc",
+      component: DoseCalc
     }
     // {
     //   path: "/about",

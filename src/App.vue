@@ -41,6 +41,25 @@ button {
   }
 }
 
+label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+
+select,
+input {
+  background: #ddd;
+  border: none;
+  font-size: 1rem;
+  height: 1.3rem;
+  margin-top: 0.5rem;
+  outline: none;
+  width: 100%;
+}
+
 #app {
   min-height: 100vh;
   display: flex;
@@ -61,10 +80,6 @@ button {
       color: #42b983;
     }
   }
-}
-
-button {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
 }
 
 .view-container {
@@ -98,5 +113,17 @@ button {
   &:focus {
     background-color: lighten($color: $pink, $amount: 10);
   }
+}
+
+.text-blue {
+  color: $blue;
+}
+
+.text-green {
+  color: $green;
+}
+
+.text-pink {
+  color: $pink;
 }
 </style>
