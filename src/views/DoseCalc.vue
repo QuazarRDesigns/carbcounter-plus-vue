@@ -32,7 +32,6 @@
 <script>
 import NumberInput from "../components/NumberInput";
 import Results from "../components/Results";
-import CarbRatio from "../classes/CarbRatio.js";
 
 export default {
   name: "dosecalc",
@@ -55,7 +54,7 @@ export default {
       ratioResult: 0,
       correctionResult: 0,
       resultTotal: 0,
-      carbRatio: new CarbRatio(1, 7),
+      carbRatio: this.$store.state.settings.carbRatio,
       target: 6.7,
       correctionFactor: 2
     };
