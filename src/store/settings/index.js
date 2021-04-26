@@ -43,7 +43,6 @@ export default {
   },
   actions: {
     updateRatioInput: function(context, payload) {
-      console.log(payload);
       context.commit("update", {
         property: payload.id,
         index: payload.value
