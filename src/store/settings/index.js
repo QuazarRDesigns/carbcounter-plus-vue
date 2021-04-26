@@ -1,9 +1,11 @@
+import CarbRatio from "../../classes/CarbRatio";
 import CarbUnit from "../../classes/CarbUnit";
 import BGUnit from "../../classes/BGUnit";
 
 export default {
   namespaced: true,
   state: () => ({
+    carbRatio: new CarbRatio(1, 10),
     carbUnitIndex: 2,
     carbUnitOptions: [
       new CarbUnit("BU", 12),
@@ -40,6 +42,13 @@ export default {
     }
   },
   actions: {
+    updateRatioInput: function(context, payload) {
+      console.log(payload);
+      context.commit("update", {
+        property: payload.id,
+        index: payload.value
+      });
+    },
     updateNumberInput: function(context, payload) {
       context.commit("update", {
         property: payload.id,

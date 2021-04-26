@@ -1,5 +1,12 @@
 <template>
   <div class="view-container">
+    <RatioInput
+      title="Insulin to Carb Ratio"
+      id="carbRatio"
+      :step="1"
+      :value="carbRatio"
+      @input="updateRatioInput"
+    />
     <SelectInput
       title="Carbohydrate Unit"
       id="carbUnit"
@@ -34,6 +41,7 @@
 </template>
 
 <script>
+import RatioInput from "../components/RatioInput.vue";
 import NumberInput from "../components/NumberInput.vue";
 import SelectInput from "../components/SelectInput.vue";
 import { createNamespacedHelpers } from "vuex";
@@ -45,11 +53,13 @@ const { mapState, mapGetters, mapActions } = createNamespacedHelpers(
 export default {
   name: "settings",
   components: {
+    RatioInput,
     SelectInput,
     NumberInput
   },
   computed: {
     ...mapState([
+      "carbRatio",
       "carbUnitIndex",
       "carbUnitOptions",
       "BGUnitIndex",
@@ -61,7 +71,11 @@ export default {
     ...mapGetters(["BGUnit"])
   },
   methods: {
-    ...mapActions(["updateNumberInput", "updateSelectInput"])
+    ...mapActions([
+      "updateRatioInput",
+      "updateNumberInput",
+      "updateSelectInput"
+    ])
   }
 };
 </script>
