@@ -1,22 +1,28 @@
 <template>
   <div class="container">
-    <label :class="'text-' + this.color" for="this.id">{{ this.title }}</label>
+    <label :class="this.color ? 'text-' + this.color : ''" for="this.id">{{
+      this.title
+    }}</label>
     <div class="input-wrapper">
-      <input
-        id="this.id"
-        type="number"
-        :step="step"
-        @input="input"
-        :value="computedValue"
-      />
-      <p class="unit" v-html="unit"></p>
+      <select id="this.id" @change="change" :value="value">
+        <option
+          :key="option.name"
+          :value="index"
+          v-for="(option, index) in options"
+          >{{ option.name }}</option
+        >
+      </select>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "NumberInput",
+  name: "SelectInput",
+  model: {
+    prop: "value",
+    event: "change"
+  },
   props: {
     title: String,
     color: {
@@ -25,24 +31,19 @@ export default {
       }
     },
     id: String,
-    value: Number,
-    unit: String,
-    step: Number
+    options: Array
   },
-  computed: {
-    computedValue: function() {
-      return Number(this.value.toFixed(1));
-    }
+  data: function() {
+    return {
+      value: this.$attrs.value
+    };
   },
   methods: {
-    input: function($event) {
-      this.$emit("input", {
+    change: function($event) {
+      this.$emit("change", {
         id: this.id,
         value: $event.target.value
       });
-    },
-    clamp: function(value, min, max) {
-      return Math.min(Math.max(min, value), max);
     }
   }
 };
@@ -65,6 +66,5 @@ export default {
 .unit {
   font-weight: bold;
   margin: 0.5rem 0 0 0.5rem;
-  white-space: nowrap;
 }
 </style>

@@ -1,26 +1,22 @@
 <template>
-  <div class="view-container">
+  <div class="v">
     <h1>Dosage Calculator</h1>
     <NumberInput
       title="Blood Glucose"
       id="glucose"
       color="blue"
-      :unit="BGUnit.name"
+      :unit="BGUnit"
       :step="0.1"
-      :min="0"
-      :max="50"
-      v-model="glucose"
+      v-model.number="glucose"
       @input="getResult"
     />
     <NumberInput
       title="Carbohydrates"
       id="carbs"
       color="green"
-      :unit="carbUnit.name"
+      :unit="carbUnit"
       :step="1"
-      :min="0"
-      :max="1000"
-      v-model="carbs"
+      v-model.number="carbs"
       @input="getResult"
     />
     <Results
@@ -37,8 +33,6 @@
 import NumberInput from "../components/NumberInput";
 import Results from "../components/Results";
 import CarbRatio from "../classes/CarbRatio.js";
-import CarbUnit from "../classes/CarbUnit.js";
-import BGUnit from "../classes/BGUnit.js";
 
 export default {
   name: "dosecalc",
@@ -46,16 +40,22 @@ export default {
     NumberInput,
     Results
   },
+  computed: {
+    BGUnit: function() {
+      return this.$store.getters["settings/BGUnit"].name;
+    },
+    carbUnit: function() {
+      return this.$store.getters["settings/carbUnit"].name;
+    }
+  },
   data: function() {
     return {
       glucose: 0,
-      carbs: 0,
+      carbs: this.$store.getters["carbcalc/total"],
       ratioResult: 0,
       correctionResult: 0,
       resultTotal: 0,
       carbRatio: new CarbRatio(1, 7),
-      carbUnit: new CarbUnit("g", 1),
-      BGUnit: new BGUnit("mmol/L", 1),
       target: 6.7,
       correctionFactor: 2
     };

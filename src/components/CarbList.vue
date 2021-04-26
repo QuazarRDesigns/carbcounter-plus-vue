@@ -22,11 +22,14 @@ export default {
   computed: {
     items: function() {
       return this.$store.state.carbcalc.selectedItems;
+    },
+    carbUnit: function() {
+      return this.$store.getters["settings/carbUnit"];
     }
   },
   methods: {
     remove: function(event, item) {
-      this.$store.commit("remove", item);
+      this.$store.commit("carbcalc/remove", item);
     }
   }
 };

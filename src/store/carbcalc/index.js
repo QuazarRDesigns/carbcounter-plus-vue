@@ -1,4 +1,5 @@
 export default {
+  namespaced: true,
   state: () => ({
     selectedItems: []
   }),
@@ -11,5 +12,16 @@ export default {
     }
   },
   actions: {},
-  getters: {}
+  getters: {
+    total: function(state, getters, rootState, rootGetters) {
+      const reducer = (accumulator, currentValue) => currentValue + accumulator;
+      return state.selectedItems
+        .map(
+          item =>
+            (item.carbs * item.amountMultiplier) /
+            rootGetters["settings/carbUnit"].value
+        )
+        .reduce(reducer, 0);
+    }
+  }
 };
