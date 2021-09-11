@@ -71,6 +71,15 @@ export default {
     },
     BGUnit: state => {
       return state.BGUnitOptions[state.BGUnitIndex];
+    },
+    carbRatio: state => {
+      return state.carbRatio;
+    },
+    target: state => {
+      return state.target;
+    },
+    correctionFactor: state => {
+      return state.correctionFactor;
     }
   }
 };
