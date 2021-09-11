@@ -6,6 +6,7 @@
       :step="1"
       :value="carbRatio"
       @input="updateRatioInput"
+      @blur="carbRatio.simplify()"
     />
     <SelectInput
       title="Carbohydrate Unit"

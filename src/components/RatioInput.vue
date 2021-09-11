@@ -12,6 +12,7 @@
           type="number"
           :step="step"
           @input="input"
+          @blur="blur"
           :value="left"
         />
         <span class="colon">&#58;</span>
@@ -22,6 +23,7 @@
           type="number"
           :step="step"
           @input="input"
+          @blur="blur"
           :value="right"
         />
       </div>
@@ -63,6 +65,9 @@ export default {
         id: this.id,
         value: ratio
       });
+    },
+    blur: function() {
+      this.$emit("blur");
     }
   }
 };
