@@ -1,5 +1,5 @@
 <template>
-  <div class="v">
+  <div class="view-container">
     <h1>Dosage Calculator</h1>
     <NumberInput
       title="Blood Glucose"
