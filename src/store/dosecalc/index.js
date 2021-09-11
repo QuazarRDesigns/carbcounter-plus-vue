@@ -8,6 +8,22 @@ export default {
     update(state, payload) {
       state[payload.property] = payload.index;
     },
+    convertGlucose(state, { previousBGUnitValue, newBGUnitValue }) {
+      const glucose = (state.glucose / previousBGUnitValue) * newBGUnitValue;
+
+      state.glucose = glucose;
+    },
+    convertCarbs(state, { previousCarbUnitValue, newCarbUnitValue }) {
+      let carbs = state.carbs;
+
+      if (previousCarbUnitValue === 1) {
+        carbs = state.carbs / newCarbUnitValue;
+      } else {
+        carbs = (state.carbs * previousCarbUnitValue) / newCarbUnitValue;
+      }
+
+      state.carbs = carbs;
+    }
   },
   actions: {
     updateNumberInput: function(context, payload) {

@@ -8,4 +8,18 @@ export default class carbRatio {
     this.value = carb / insulin;
     this.view = insulin + ":" + carb;
   }
+
+  convert(previousCarbUnitValue, newCarbUnitValue) {
+    let carbs = this.carbs;
+
+    if (previousCarbUnitValue === 1) {
+      carbs = this.carbs / newCarbUnitValue;
+    } else {
+      carbs = (this.carbs * previousCarbUnitValue) / newCarbUnitValue;
+    }
+
+    this.carbs = carbs;
+
+    return this;
+  }
 }

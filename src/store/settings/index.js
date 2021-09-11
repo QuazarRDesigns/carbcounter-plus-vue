@@ -23,22 +23,37 @@ export default {
       state[payload.property] = payload.index;
     },
     convertTarget(state, newBGUnitIndex) {
-      const previousBGUnit = state.BGUnitOptions[state.BGUnitIndex];
-      const newBGUnit = state.BGUnitOptions[newBGUnitIndex];
-      let target = state.target;
-      let correctionNumber = state.correctionNumber;
+      const previousBGUnitValue = Number(
+        state.BGUnitOptions[state.BGUnitIndex].value
+      );
+      const newBGUnitValue = Number(state.BGUnitOptions[newBGUnitIndex].value);
 
-      target = state.target / previousBGUnit.value;
-      correctionNumber =
-        state.correctionNumber / previousBGUnit.value.toFixed(0);
-
-      if (newBGUnit.value !== 1) {
-        target = state.target * newBGUnit.value;
-        correctionNumber = state.correctionNumber * newBGUnit.value.toFixed(0);
-      }
+      const target = (state.target / previousBGUnitValue) * newBGUnitValue;
+      const correctionNumber =
+        (state.correctionNumber / previousBGUnitValue.toFixed(0)) *
+        newBGUnitValue.toFixed(0);
+      const correctionFactor =
+        (state.correctionFactor / previousBGUnitValue.toFixed(0)) *
+        newBGUnitValue.toFixed(0);
 
       state.target = target;
       state.correctionNumber = correctionNumber;
+      state.correctionFactor = correctionFactor;
+    },
+    convertCarbRatio(state, newCarbUnitIndex) {
+      const previousCarbUnitValue = Number(
+        state.carbUnitOptions[state.carbUnitIndex].value
+      );
+      const newCarbUnitValue = Number(
+        state.carbUnitOptions[newCarbUnitIndex].value
+      );
+
+      const carbRatio = state.carbRatio.convert(
+        previousCarbUnitValue,
+        newCarbUnitValue
+      );
+
+      state.CarbRatio = carbRatio;
     }
   },
   actions: {
@@ -57,6 +72,38 @@ export default {
     updateSelectInput: function(context, payload) {
       if (payload.id === "BGUnit") {
         context.commit("convertTarget", payload.value);
+        context.commit(
+          "dosecalc/convertGlucose",
+          {
+            previousBGUnitValue: Number(
+              context.state.BGUnitOptions[context.state.BGUnitIndex].value
+            ),
+            newBGUnitValue: Number(
+              context.state.BGUnitOptions[payload.value].value
+            )
+          },
+          {
+            root: true
+          }
+        );
+      }
+
+      if (payload.id === "carbUnit") {
+        context.commit("convertCarbRatio", payload.value);
+        context.commit(
+          "dosecalc/convertCarbs",
+          {
+            previousCarbUnitValue: Number(
+              context.state.carbUnitOptions[context.state.carbUnitIndex].value
+            ),
+            newCarbUnitValue: Number(
+              context.state.carbUnitOptions[payload.value].value
+            )
+          },
+          {
+            root: true
+          }
+        );
       }
 
       context.commit("update", {
