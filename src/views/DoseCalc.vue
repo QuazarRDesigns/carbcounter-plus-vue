@@ -7,10 +7,8 @@
       color="blue"
       :unit="BGUnit.name"
       :step="0.1"
-      :min="0"
-      :max="50"
-      v-model="glucose"
-      @input="getResult"
+      :value="glucose"
+      @input="updateNumberInput"
     />
     <NumberInput
       title="Carbohydrates"
@@ -18,10 +16,8 @@
       color="green"
       :unit="carbUnit.name"
       :step="1"
-      :min="0"
-      :max="1000"
-      v-model="carbs"
-      @input="getResult"
+      :value="carbs"
+      @input="updateNumberInput"
     />
     <Results
       :carbRatio="carbRatio"
@@ -36,9 +32,11 @@
 <script>
 import NumberInput from "../components/NumberInput";
 import Results from "../components/Results";
-import CarbRatio from "../classes/CarbRatio.js";
-import CarbUnit from "../classes/CarbUnit.js";
-import BGUnit from "../classes/BGUnit.js";
+import { createNamespacedHelpers } from "vuex";
+
+const { mapState, mapGetters, mapActions } = createNamespacedHelpers(
+  "dosecalc"
+);
 
 export default {
   name: "dosecalc",
@@ -46,46 +44,24 @@ export default {
     NumberInput,
     Results
   },
+  computed: {
+    carbUnit: function() {
+      return this.$store.getters["settings/carbUnit"];
+    },
+    BGUnit: function() {
+      return this.$store.getters["settings/BGUnit"];
+    },
+    ...mapState(["glucose", "carbs"]),
+    ...mapGetters(["ratioResult", "correctionResult", "resultTotal"])
+  },
   data: function() {
     return {
-      glucose: 0,
-      carbs: 0,
-      ratioResult: 0,
-      correctionResult: 0,
-      resultTotal: 0,
-      carbRatio: new CarbRatio(1, 7),
-      carbUnit: new CarbUnit("g", 1),
-      BGUnit: new BGUnit("mmol/L", 1),
-      target: 6.7,
-      correctionFactor: 2
+      carbRatio: this.$store.state.settings.carbRatio,
+      target: this.$store.state.settings.target
     };
   },
   methods: {
-    getResult: function() {
-      var carbsum = this.$data.carbs / this.$data.carbRatio.value;
-      var correctionsum =
-        (this.$data.glucose - this.$data.target) / this.$data.correctionFactor;
-      // Calculate Carb Insulin
-      this.$data.ratioResult = Number(carbsum.toFixed(1));
-
-      // Calculate Correctional Insulin
-      this.$data.correctionResult = Number(correctionsum.toFixed(1));
-
-      if (
-        Number.isNaN(this.$data.correctionResult) ||
-        this.$data.correctionResult < 0
-      ) {
-        this.$data.correctionResult = 0;
-      }
-      if (Number.isNaN(this.$data.ratioResult) || this.$data.ratioResult < 0) {
-        this.$data.ratioResult = 0;
-      }
-
-      var total = this.$data.correctionResult + this.$data.ratioResult;
-
-      // Calculate Total Insulin
-      this.$data.resultTotal = Number(total.toFixed(1));
-    }
+    ...mapActions(["updateNumberInput"])
   }
 };
 </script>

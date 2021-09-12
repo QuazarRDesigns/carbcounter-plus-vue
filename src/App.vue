@@ -41,11 +41,18 @@ button {
   }
 }
 
-label {
+label,
+legend {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: left;
+  margin: 0;
+}
+
+fieldset {
+  padding: 0;
+  border: none;
   margin: 0;
 }
 

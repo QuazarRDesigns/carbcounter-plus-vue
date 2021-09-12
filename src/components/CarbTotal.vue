@@ -2,7 +2,7 @@
   <div class="container">
     <span class="stat">
       <span class="number">{{ total.toFixed(1) }}</span>
-      <span class="unit">g</span>
+      <span class="unit">{{ carbUnit.name }}</span>
     </span>
     <router-link class="button bg-green" to="dosecalc"
       >Calculate Dosage</router-link
@@ -13,15 +13,12 @@
 <script>
 export default {
   name: "CarbTotal",
+  props: {
+    total: Number
+  },
   computed: {
-    total: function() {
-      const reducer = (accumulator, currentValue) => currentValue + accumulator;
-      return this.items
-        .map(item => item.carbs * item.amountMultiplier)
-        .reduce(reducer, 0);
-    },
-    items: function() {
-      return this.$store.state.carbcalc.selectedItems;
+    carbUnit: function() {
+      return this.$store.getters["settings/carbUnit"];
     }
   }
 };

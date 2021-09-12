@@ -56,7 +56,7 @@
       />
     </div>
     <button class="bg-blue" @click="add">Add to list</button>
-    <CarbTotal />
+    <CarbTotal :total="total" />
     <CarbList />
   </div>
 </template>
@@ -85,6 +85,9 @@ export default {
     };
   },
   computed: {
+    carbUnit: function() {
+      return this.$store.getters["settings/carbUnit"];
+    },
     subCategories: function() {
       return carbs.filter(
         carb => carb.category === this.$data.selectedCategory
@@ -111,14 +114,19 @@ export default {
 
       return [];
     },
+    total: function() {
+      return this.$store.getters["carbcalc/total"];
+    },
     items: function() {
       return this.$store.state.carbcalc.selectedItems;
     }
   },
   methods: {
     add: function() {
-      let amount = this.$data.customCarb ? this.$data.customCarb + "g" : "",
-        amountMultiplier = 1,
+      let amount = this.$data.customCarb
+          ? this.$data.customCarb + this.carbUnit.name
+          : "",
+        amountMultiplier = this.carbUnit.value,
         carbs = this.$data.customCarb,
         subcategory = "",
         name = this.$data.customCarbName
@@ -139,7 +147,7 @@ export default {
       };
 
       if (amount) {
-        this.$store.commit("add", item);
+        this.$store.commit("carbcalc/add", item);
       }
     },
     selectedCategoryChange: function() {

@@ -1,0 +1,24 @@
+<template>
+  <div>
+    <button ref="button" class="bg-green" @click="click">{{ title }}</button>
+    <p v-if="saved">Your settings have been saved!</p>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "SubmitButton",
+  props: {
+    title: String,
+    saved: Boolean
+  },
+  methods: {
+    click: function() {
+      this.$emit("click");
+      this.$refs.button.blur();
+    }
+  }
+};
+</script>
+
+<style></style>
