@@ -38,6 +38,7 @@
       :value="correctionFactor"
       @input="updateNumberInput"
     />
+    <SubmitButton title="Save Settings" :saved="saved" @click="saveSettings" />
   </div>
 </template>
 
@@ -45,6 +46,7 @@
 import RatioInput from "../components/RatioInput.vue";
 import NumberInput from "../components/NumberInput.vue";
 import SelectInput from "../components/SelectInput.vue";
+import SubmitButton from "../components/SubmitButton.vue";
 import { createNamespacedHelpers } from "vuex";
 
 const { mapState, mapGetters, mapActions } = createNamespacedHelpers(
@@ -56,7 +58,8 @@ export default {
   components: {
     RatioInput,
     SelectInput,
-    NumberInput
+    NumberInput,
+    SubmitButton
   },
   computed: {
     ...mapState([
@@ -67,7 +70,8 @@ export default {
       "BGUnitOptions",
       "target",
       "correctionFactor",
-      "correctionNumber"
+      "correctionNumber",
+      "saved"
     ]),
     ...mapGetters(["BGUnit"])
   },
@@ -75,7 +79,8 @@ export default {
     ...mapActions([
       "updateRatioInput",
       "updateNumberInput",
-      "updateSelectInput"
+      "updateSelectInput",
+      "saveSettings"
     ])
   }
 };

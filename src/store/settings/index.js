@@ -1,6 +1,7 @@
 import CarbRatio from "../../classes/CarbRatio";
 import CarbUnit from "../../classes/CarbUnit";
 import BGUnit from "../../classes/BGUnit";
+import carbRatio from "../../classes/CarbRatio";
 
 export default {
   namespaced: true,
@@ -16,7 +17,8 @@ export default {
     BGUnitOptions: [new BGUnit("mmol/L", 1), new BGUnit("mg/dL", 18.0182)],
     target: 6.5,
     correctionFactor: 2,
-    correctionNumber: 100
+    correctionNumber: 100,
+    saved: false
   }),
   mutations: {
     update(state, payload) {
@@ -110,6 +112,23 @@ export default {
         property: payload.id + "Index",
         index: Number(payload.value)
       });
+    },
+    saveSettings: function(context) {
+      context.state.saved = false;
+      const {
+        BGUnitOptions,
+        carbUnitOptions,
+        saving,
+        ...saveState
+      } = context.state;
+      if (typeof Storage !== "undefined") {
+        localStorage.setItem("settings", JSON.stringify({ ...saveState }));
+        context.state.saved = true;
+      }
+
+      setTimeout(function() {
+        context.state.saved = false;
+      }, 3000);
     }
   },
   getters: {
