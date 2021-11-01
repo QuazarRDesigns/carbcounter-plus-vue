@@ -1,9 +1,21 @@
 <template>
   <div class="view-container home">
     <div class="menu">
-      <MenuButton title="CarbCalc" color="blue" />
-      <MenuButton title="DoseCalc" color="green" />
-      <MenuButton title="Settings" color="pink" />
+      <MenuButton
+        title="CarbCalc"
+        color="blue"
+        :svg="require('@/assets/svgs/carbcalc.svg')"
+      />
+      <MenuButton
+        title="DoseCalc"
+        color="green"
+        :svg="require('@/assets/svgs/dosecalc.svg')"
+      />
+      <MenuButton
+        title="Settings"
+        color="pink"
+        :svg="require('@/assets/svgs/settings.svg')"
+      />
     </div>
   </div>
 </template>
