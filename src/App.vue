@@ -1,14 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home&nbsp;</router-link>|
-      <router-link to="/carbcalc">CarbCalc&nbsp;</router-link>|
-      <router-link to="/dosecalc">DoseCalc&nbsp;</router-link>|
-      <router-link to="/settings">Settings&nbsp;</router-link>
-    </div>
+    <Header />
     <router-view />
   </div>
 </template>
+
+<script>
+import Header from "@/components/Header.vue";
+export default {
+  components: {
+    Header
+  }
+};
+</script>
 
 <style lang="scss">
 @import "@/scss/variables.scss";
@@ -76,17 +80,6 @@ input {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-#nav {
-  background-color: #fff;
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
 }
 
 .view-container {
