@@ -1,5 +1,6 @@
 <template>
   <div class="view-container">
+    <h1>Settings</h1>
     <RatioInput
       title="Insulin to Carb Ratio"
       id="carbRatio"

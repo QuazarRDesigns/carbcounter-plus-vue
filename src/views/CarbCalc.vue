@@ -1,5 +1,6 @@
 <template>
   <div class="view-container">
+    <h1>Carb Calculator</h1>
     <div class="selectgroup">
       <select
         v-if="!customCarb"
