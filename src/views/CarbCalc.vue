@@ -2,8 +2,14 @@
   <div class="view-container">
     <h1>Carb Calculator</h1>
     <div class="selectgroup">
-      <select
+      <input
+        id="searchTerm"
+        type="text"
+        placeholder="Enter a search term"
         v-if="!customCarb"
+        :value="searchTerm"
+        @input="search"
+      />
       <DropdownInput
         id="selectedCategoryName"
         v-if="!customCarb"
@@ -69,6 +75,9 @@ export default {
     };
   },
   computed: {
+    searchTerm: function() {
+      return this.$store.getters["carbcalc/searchTerm"];
+    },
     categoriesList: function() {
       return this.$store.getters["carbcalc/categoriesList"];
     },
@@ -94,7 +103,7 @@ export default {
     selectedCarb: function() {
       return this.carbsList.find(
         carb => carb.name === this.$data.selectedCarbName
-        );
+      );
     },
     amountsList: function() {
       const selectedCarb = this.selectedCarb;
@@ -164,6 +173,9 @@ export default {
     selectedAmountNameChange: function(value) {
       this.$data.selectedAmountName = value;
     },
+    search: function($event) {
+      this.$store.commit("carbcalc/search", $event.target.value);
+      this.selectedCategoryNameChange("");
     }
   }
 };

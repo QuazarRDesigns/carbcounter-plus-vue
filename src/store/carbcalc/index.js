@@ -21,11 +21,22 @@ function initCarbCategories() {
   return categoriesList;
 }
 
+function filterListBySearchTerm(list, searchTerm) {
+  const filteredList = list.flatMap(item => {
+    if (item instanceof CarbCategory) {
+      return item.filterBySearchTerm(searchTerm);
+    }
+  });
+
+  return filteredList;
+}
+
 const CarbCategories = initCarbCategories();
 
 export default {
   namespaced: true,
   state: () => ({
+    searchTerm: "",
     selectedItems: []
   }),
   mutations: {
@@ -34,12 +45,19 @@ export default {
     },
     removeItem(state, payload) {
       state.selectedItems.splice(state.selectedItems.indexOf(payload), 1);
+    },
+    search(state, payload) {
+      state.searchTerm = payload;
     }
   },
   actions: {},
   getters: {
+    searchTerm: function(state) {
+      return state.searchTerm;
+    },
     categoriesList: function(state) {
       return CarbCategories;
+      return filterListBySearchTerm(CarbCategories, state.searchTerm);
     },
     total: function(state, getters, rootState, rootGetters) {
       const reducer = (accumulator, currentValue) => currentValue + accumulator;
