@@ -56,7 +56,6 @@ export default {
       return state.searchTerm;
     },
     categoriesList: function(state) {
-      return CarbCategories;
       return filterListBySearchTerm(CarbCategories, state.searchTerm);
     },
     total: function(state, getters, rootState, rootGetters) {
