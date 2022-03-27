@@ -149,7 +149,7 @@ export default {
       };
 
       if (amount) {
-        this.$store.commit("carbcalc/add", item);
+        this.$store.commit("carbcalc/addItem", item);
       }
     },
     selectedCategoryNameChange: function(value) {

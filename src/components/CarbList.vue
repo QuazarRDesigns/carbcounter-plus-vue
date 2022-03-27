@@ -1,18 +1,19 @@
 <template>
   <div class="container">
     <span class="amount">{{ items.length }} items in list</span>
-    <button
-      class="item"
-      @click="remove($event, item)"
-      v-for="item in items"
-      :key="item.index"
-    >
-      <span class="item-title">
-        <b class="item-subcategory">{{ item.subcategory }}</b>
-        <span class="item-name">{{ item.name }}</span>
-      </span>
-      <span class="item-amount">{{ item.amount }}</span>
-    </button>
+    <div class="item" v-for="item in items" :key="item.index">
+      <div class="item-info">
+        <p>
+          <b class="item-subcategory">{{ item.subcategory }}</b>
+          <br />
+          <span class="item-name">{{ item.name }}</span>
+        </p>
+        <span class="item-amount">{{ item.amount }}</span>
+      </div>
+      <button @click="remove($event, item)">
+        X
+      </button>
+    </div>
   </div>
 </template>
 
@@ -29,7 +30,7 @@ export default {
   },
   methods: {
     remove: function(event, item) {
-      this.$store.commit("carbcalc/remove", item);
+      this.$store.commit("carbcalc/removeItem", item);
     }
   }
 };
@@ -48,15 +49,17 @@ export default {
   display: flex;
   flex: 0;
   align-items: center;
-  justify-content: center;
   margin: 0.25rem 0;
   padding: 1rem;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
+  background-color: #fff;
 }
 
-.item-title {
+.item-info {
   display: flex;
-  flex-flow: row wrap;
+  flex: 1;
+  flex-flow: wrap;
+  align-items: center;
 }
 
 .item-subcategory {
@@ -68,12 +71,12 @@ export default {
   color: $green;
   font-weight: bold;
   flex: 0 1 auto;
-  text-align: center;
   padding: 0 1rem;
 }
 
 .item-amount {
   color: $green;
   flex: 0 1 auto;
+  margin: 0 auto;
 }
 </style>

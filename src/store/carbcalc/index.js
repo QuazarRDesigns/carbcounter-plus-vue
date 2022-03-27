@@ -29,10 +29,10 @@ export default {
     selectedItems: []
   }),
   mutations: {
-    add(state, payload) {
+    addItem(state, payload) {
       state.selectedItems.push(payload);
     },
-    remove(state, payload) {
+    removeItem(state, payload) {
       state.selectedItems.splice(state.selectedItems.indexOf(payload), 1);
     }
   },
