@@ -2,47 +2,38 @@
   <div class="view-container">
     <h1>Carb Calculator</h1>
     <div class="selectgroup">
-      <select
+      <input
+        id="searchTerm"
+        type="text"
+        placeholder="Enter a search term"
         v-if="!customCarb"
-        v-model="selectedCategory"
-        @change="selectedCategoryChange"
-      >
-        <option value="" selected>Select a Category</option>
-        <option
-          v-for="category in categories"
-          :key="category.index"
-          :value="category"
-          >{{ category }}</option
-        >
-      </select>
-      <select
-        v-if="selectedCategory"
-        v-model="selectedCarb"
-        @change="selectedCarbChange"
-      >
-        <option value="" selected>Select a Carb</option>
-        <optgroup
-          v-for="subcategory in subCategories"
-          :key="subcategory.index"
-          :label="subcategory.name"
-        >
-          <option
-            v-for="carb in subcategory.carbs"
-            :key="carb.index"
-            :value="subcategory.name + ':' + carb.name + ':' + carb.carb"
-            >{{ carb.name }}</option
-          >
-        </optgroup>
-      </select>
-      <select v-if="selectedCarb" v-model="selectedAmount">
-        <option value="" selected>Select an Amount</option>
-        <option
-          v-for="amount in amounts"
-          :key="amount.index"
-          :value="amount.key + ':' + amount.value"
-          >{{ amount.key }}</option
-        >
-      </select>
+        :value="searchTerm"
+        @input="search"
+      />
+      <DropdownInput
+        id="selectedCategoryName"
+        v-if="!customCarb"
+        :value="selectedCategoryName"
+        emptyString="Select a Category"
+        :list="categoriesList"
+        @change="selectedCategoryNameChange"
+      />
+      <DropdownInput
+        id="selectedCarbName"
+        v-if="selectedCategoryName"
+        :value="selectedCarbName"
+        emptyString="Select a Carb"
+        :list="carbsList"
+        @change="selectedCarbNameChange"
+      />
+      <DropdownInput
+        id="selectedAmountName"
+        v-if="selectedCarbName"
+        :value="selectedAmountName"
+        emptyString="Select an Amount"
+        :list="amountsList"
+        @change="selectedAmountNameChange"
+      />
       <input
         v-if="customCarb"
         type="text"
@@ -50,7 +41,7 @@
         v-model="customCarbName"
       />
       <input
-        v-if="!selectedCategory"
+        v-if="!selectedCategoryName"
         type="number"
         placeholder="Or enter custom value"
         v-model="customCarb"
@@ -63,57 +54,73 @@
 </template>
 
 <script>
-import carbs from "../carbs";
+import DropdownInput from "@/components/DropdownInput";
 import CarbTotal from "@/components/CarbTotal";
 import CarbList from "@/components/CarbList";
 
 export default {
   name: "carbcalc",
   components: {
+    DropdownInput,
     CarbTotal,
     CarbList
   },
   data: function() {
-    const categories = new Set(carbs.map(carb => carb.category));
-
     return {
-      categories: Array.from(categories),
-      selectedAmount: "",
-      selectedCarb: "",
-      selectedCategory: "",
+      selectedAmountName: "",
+      selectedCarbName: "",
+      selectedCategoryName: "",
       customCarb: "",
       customCarbName: ""
     };
   },
   computed: {
-    carbUnit: function() {
-      return this.$store.getters["settings/carbUnit"];
+    searchTerm: function() {
+      return this.$store.getters["carbcalc/searchTerm"];
     },
-    subCategories: function() {
-      return carbs.filter(
-        carb => carb.category === this.$data.selectedCategory
-      );
+    categoriesList: function() {
+      return this.$store.getters["carbcalc/categoriesList"];
     },
-    amounts: function() {
-      const [
-        selectedSubcategory,
-        selectedCarbName,
-        ,
-      ] = this.$data.selectedCarb.split(":");
-
-      const carbItems = this.subCategories.filter(
-        subCategory => subCategory.name === selectedSubcategory
+    selectedCategory: function() {
+      const subCategories = this.categoriesList.reduce(
+        (accumulator, current) => accumulator.concat(current.subcategories),
+        []
       );
 
-      if (carbItems.length) {
-        const carbItem = carbItems[0].carbs.filter(
-          carbItem => carbItem.name === selectedCarbName
-        );
+      return subCategories.find(
+        category => category.name === this.$data.selectedCategoryName
+      );
+    },
+    carbsList: function() {
+      const selectedCategory = this.selectedCategory;
 
-        return carbItem[0].amounts;
+      if (selectedCategory) {
+        return selectedCategory.carbs;
       }
 
       return [];
+    },
+    selectedCarb: function() {
+      return this.carbsList.find(
+        carb => carb.name === this.$data.selectedCarbName
+      );
+    },
+    amountsList: function() {
+      const selectedCarb = this.selectedCarb;
+
+      if (selectedCarb) {
+        return selectedCarb.amounts;
+      }
+
+      return [];
+    },
+    selectedAmount: function() {
+      return this.amountsList.find(
+        amount => amount.name === this.$data.selectedAmountName
+      );
+    },
+    carbUnit: function() {
+      return this.$store.getters["settings/carbUnit"];
     },
     total: function() {
       return this.$store.getters["carbcalc/total"];
@@ -134,9 +141,12 @@ export default {
           ? this.$data.customCarbName
           : "Custom Entry";
 
-      if (this.$data.selectedAmount) {
-        [amount, amountMultiplier] = this.$data.selectedAmount.split(":");
-        [subcategory, name, carbs] = this.$data.selectedCarb.split(":");
+      if (this.selectedAmount) {
+        amount = this.selectedAmount.name;
+        amountMultiplier = this.selectedAmount.value;
+        subcategory = this.selectedCategory.name;
+        name = this.selectedCarb.name;
+        carbs = this.selectedCarb.carb;
       }
 
       const item = {
@@ -148,15 +158,24 @@ export default {
       };
 
       if (amount) {
-        this.$store.commit("carbcalc/add", item);
+        this.$store.commit("carbcalc/addItem", item);
       }
     },
-    selectedCategoryChange: function() {
-      this.$data.selectedCarb = "";
-      this.selectedCarbChange();
+    selectedCategoryNameChange: function(value) {
+      this.selectedCategoryName = value;
+      this.$data.selectedCarbName = "";
+      this.selectedCarbNameChange("");
     },
-    selectedCarbChange: function() {
-      this.$data.selectedAmount = "";
+    selectedCarbNameChange: function(value) {
+      this.$data.selectedCarbName = value;
+      this.selectedAmountNameChange("");
+    },
+    selectedAmountNameChange: function(value) {
+      this.$data.selectedAmountName = value;
+    },
+    search: function($event) {
+      this.$store.commit("carbcalc/search", $event.target.value);
+      this.selectedCategoryNameChange("");
     }
   }
 };
