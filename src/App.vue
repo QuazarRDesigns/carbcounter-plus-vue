@@ -17,6 +17,10 @@ export default {
 <style lang="scss">
 @import "@/scss/variables.scss";
 
+:root {
+  font-size: #{"clamp(1rem, 1.6vw, 1.5rem)"};
+}
+
 * {
   box-sizing: border-box;
 }
@@ -64,8 +68,8 @@ select,
 input {
   background: #ddd;
   border: none;
-  font-size: 1rem;
-  height: 1.3rem;
+  font-size: 1.125rem;
+  height: 1.5rem;
   margin-top: 0.5rem;
   outline: none;
   width: 100%;
@@ -86,6 +90,7 @@ input {
   width: $container-width;
   min-width: 320px;
   margin: 0 auto;
+  padding: 0 1rem 1rem;
 }
 
 .bg-blue {

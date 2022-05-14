@@ -191,16 +191,5 @@ button {
   background: #fff;
   padding: 0 0.5rem 0.5rem;
   margin: 1rem auto;
-
-  select,
-  input {
-    background: #ddd;
-    border: none;
-    font-size: 1rem;
-    height: 1.3rem;
-    margin-top: 0.5rem;
-    outline: none;
-    width: 100%;
-  }
 }
 </style>

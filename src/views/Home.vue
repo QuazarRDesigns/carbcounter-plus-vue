@@ -35,22 +35,32 @@ export default {
 
 <style lang="scss" scoped>
 .home {
-  flex: 1 1 auto;
-  height: 100%;
   display: flex;
   flex-flow: column nowrap;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 1rem;
 }
 
 .menu {
   display: flex;
-  flex-flow: column nowrap;
-  flex: 1;
-  background-color: #fff;
-  margin: 1.25rem;
+  flex-flow: row wrap;
+  width: 100%;
   padding: 0.625rem;
+  margin: auto;
+  background-color: #fff;
 }
 
 .version {
+  align-self: flex-end;
+  flex: none;
+  width: 100%;
   font-size: 0.875rem;
+}
+
+@media screen and (min-width: 600px) {
+  .menu {
+    flex: none;
+  }
 }
 </style>

@@ -35,13 +35,13 @@ export default {
   display: flex;
   flex-flow: column nowrap;
   flex: 1 0 auto;
-  padding: 10px;
+  padding: 1.25rem;
   justify-content: center;
   align-items: center;
   margin: 0.625rem;
   color: #fff;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   gap: 0.5em;
 
   &:hover,

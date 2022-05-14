@@ -107,7 +107,7 @@ nav {
 }
 
 .logo__img {
-  height: 5vh;
+  height: #{"max(5vh, 3rem)"};
 }
 
 .menu {
@@ -168,8 +168,7 @@ nav {
 
   .menu {
     flex: 1;
-    height: 45px;
-    max-width: 750px;
+    max-width: #{"max(30%, 45rem)"};
   }
 }
 </style>
