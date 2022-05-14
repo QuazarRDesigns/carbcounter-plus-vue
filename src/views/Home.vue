@@ -16,6 +16,7 @@
         color="pink"
         :svg="require('@/assets/svgs/settings.svg')"
       />
+      <span class="version">Carb Counter+: v0.5.0</span>
     </div>
   </div>
 </template>
@@ -47,5 +48,9 @@ export default {
   background-color: #fff;
   margin: 1.25rem;
   padding: 0.625rem;
+}
+
+.version {
+  font-size: 0.875rem;
 }
 </style>
