@@ -4,9 +4,9 @@
       <span class="number">{{ total.toFixed(1) }}</span>
       <span class="unit">{{ carbUnit.name }}</span>
     </span>
-    <router-link class="button bg-green" to="dosecalc"
-      >Calculate Dosage</router-link
-    >
+    <a href="#/dosecalc/" class="button bg-green" @click="calculateDosage">
+      Calculate Dosage
+    </a>
   </div>
 </template>
 
@@ -19,6 +19,18 @@ export default {
   computed: {
     carbUnit: function() {
       return this.$store.getters["settings/carbUnit"];
+    }
+  },
+  methods: {
+    calculateDosage($event) {
+      $event.preventDefault();
+
+      this.$store.commit("dosecalc/update", {
+        property: "carbs",
+        index: this.total
+      });
+
+      this.$router.push("dosecalc");
     }
   }
 };
