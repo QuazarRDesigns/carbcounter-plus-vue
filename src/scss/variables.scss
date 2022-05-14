@@ -1,6 +1,8 @@
+@use 'sass:math';
+
 $blue: #05baf0;
 $green: #3d994a;
 $pink: #e33663;
 $yellow: #fcc90a;
 
-$container-width: 100% / (12 / 9);
+$container-width: math.div(100%, math.div(12, 9));
