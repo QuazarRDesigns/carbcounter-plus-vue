@@ -1,16 +1,17 @@
 <template>
   <div class="container">
-    <label :class="this.color ? 'text-' + this.color : ''" for="this.id">{{
-      this.title
+    <label :class="color ? 'text-' + color : ''" for="this.id">{{
+      title
     }}</label>
     <div class="input-wrapper">
-      <select id="this.id" @change="change" :value="value">
+      <select id="this.id" :value="value" @change="change">
         <option
+          v-for="(option, index) in options"
           :key="option.name"
           :value="index"
-          v-for="(option, index) in options"
-          >{{ option.name }}</option
         >
+          {{ option.name }}
+        </option>
       </select>
     </div>
   </div>
@@ -21,31 +22,32 @@ export default {
   name: "SelectInput",
   model: {
     prop: "value",
-    event: "change"
+    event: "change",
   },
   props: {
-    title: String,
+    title: { type: String, default: "Label" },
     color: {
-      validator: function(value) {
-        return ["blue", "green", "pink"].indexOf(value) !== -1;
-      }
+      default: "",
+      validator: function (value) {
+        return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
+      },
     },
-    id: String,
-    options: Array
+    id: { type: String, default: "" },
+    options: { type: Array, default: () => [] },
   },
-  data: function() {
+  data: function () {
     return {
-      value: this.$attrs.value
+      value: this.$attrs.value,
     };
   },
   methods: {
-    change: function($event) {
+    change: function ($event) {
       this.$emit("change", {
         id: this.id,
-        value: $event.target.value
+        value: $event.target.value,
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

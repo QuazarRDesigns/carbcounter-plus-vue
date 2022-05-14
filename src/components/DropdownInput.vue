@@ -1,5 +1,5 @@
 <template>
-  <select @change="input" v-if="list.length !== 0">
+  <select v-if="list.length !== 0" @change="input">
     <option selected>{{ emptyString }}</option>
     <template v-if="list[0].class === 'CarbCategory'">
       <optgroup
@@ -11,24 +11,27 @@
           v-for="subcategory in category.subcategories"
           :key="subcategory.uuid"
           :value="subcategory.name"
-          >{{ subcategory.name }}</option
         >
+          {{ subcategory.name }}
+        </option>
       </optgroup>
     </template>
     <option
+      v-for="item in list"
       v-else-if="list[0].class === 'Carb'"
-      v-for="item in list"
       :key="item.uuid"
       :value="item.name"
-      >{{ (item.variant ? item.variant + ", " : "") + item.name }}</option
     >
+      {{ (item.variant ? item.variant + ", " : "") + item.name }}
+    </option>
     <option
-      v-else-if="list[0].class === 'CarbAmount'"
       v-for="item in list"
+      v-else-if="list[0].class === 'CarbAmount'"
       :key="item.uuid"
       :value="item.name"
-      >{{ item.name }}</option
     >
+      {{ item.name }}
+    </option>
   </select>
 </template>
 
@@ -36,17 +39,23 @@
 export default {
   name: "DropdownInput",
   props: {
-    value: [String],
-    emptyString: String,
-    list: Array
+    value: {
+      type: [String],
+      default: "",
+    },
+    emptyString: { type: String, default: "Select an option" },
+    list: {
+      type: Array,
+      default: () => [],
+    },
   },
   methods: {
-    input: function($event) {
+    input: function ($event) {
       const value =
         $event.target.value !== this.emptyString ? $event.target.value : "";
       this.$emit("change", value);
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -14,12 +14,15 @@
 export default {
   name: "CarbTotal",
   props: {
-    total: Number
+    total: {
+      type: Number,
+      default: 0,
+    },
   },
   computed: {
-    carbUnit: function() {
+    carbUnit: function () {
       return this.$store.getters["settings/carbUnit"];
-    }
+    },
   },
   methods: {
     calculateDosage($event) {
@@ -27,12 +30,12 @@ export default {
 
       this.$store.commit("dosecalc/update", {
         property: "carbs",
-        index: this.total
+        index: this.total,
       });
 
       this.$router.push("dosecalc");
-    }
-  }
+    },
+  },
 };
 </script>
 

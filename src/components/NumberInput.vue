@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-    <label :class="'text-' + this.color" for="this.id">{{ this.title }}</label>
+    <label :class="'text-' + color" for="this.id">{{ title }}</label>
     <div class="input-wrapper">
       <input
         id="this.id"
         type="number"
         :step="step"
-        @input="input"
         :value="computedValue"
+        @input="input"
       />
-      <p class="unit" v-html="unit"></p>
+      <p class="unit">{{ unit }}</p>
     </div>
   </div>
 </template>
@@ -18,33 +18,49 @@
 export default {
   name: "NumberInput",
   props: {
-    title: String,
-    color: {
-      validator: function(value) {
-        return ["blue", "green", "pink"].indexOf(value) !== -1;
-      }
+    title: {
+      type: String,
+      default: "Label",
     },
-    id: String,
-    value: Number,
-    unit: String,
-    step: Number
+    color: {
+      default: "",
+      validator: function (value) {
+        return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
+      },
+    },
+    id: {
+      type: String,
+      default: "",
+    },
+    value: {
+      type: Number,
+      default: 0,
+    },
+    unit: {
+      type: String,
+      default: "",
+    },
+    step: {
+      type: Number,
+      default: 0,
+    },
   },
   computed: {
-    computedValue: function() {
+    computedValue: function () {
       return Number(this.value.toFixed(1));
-    }
+    },
   },
   methods: {
-    input: function($event) {
+    input: function ($event) {
       this.$emit("input", {
         id: this.id,
-        value: $event.target.value
+        value: $event.target.value,
       });
     },
-    clamp: function(value, min, max) {
+    clamp: function (value, min, max) {
       return Math.min(Math.max(min, value), max);
-    }
-  }
+    },
+  },
 };
 </script>
 

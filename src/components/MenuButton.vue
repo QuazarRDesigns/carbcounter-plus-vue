@@ -13,20 +13,27 @@
 export default {
   name: "MenuButton",
   props: {
-    title: String,
+    title: {
+      type: String,
+      default: "Menu Item",
+    },
     color: {
-      validator: function(value) {
+      default: "blue",
+      validator: function (value) {
         // The value must match one of these strings
         return ["blue", "green", "pink"].indexOf(value) !== -1;
-      }
+      },
     },
-    svg: String
+    svg: {
+      type: String,
+      default: "",
+    },
   },
   computed: {
-    colorClass: function() {
+    colorClass: function () {
       return "bg-" + this.color;
-    }
-  }
+    },
+  },
 };
 </script>
 

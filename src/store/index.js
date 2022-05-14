@@ -23,17 +23,17 @@ const store = new Vuex.Store({
           this.replaceState({
             carbcalc: state.carbcalc,
             dosecalc: state.dosecalc,
-            settings: Object.assign(state.settings, savedSettings)
+            settings: Object.assign(state.settings, savedSettings),
           });
         }
       }
-    }
+    },
   },
   modules: {
     carbcalc,
     dosecalc,
-    settings
-  }
+    settings,
+  },
 });
 
 export default store;

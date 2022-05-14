@@ -9,15 +9,18 @@
 export default {
   name: "SubmitButton",
   props: {
-    title: String,
-    saved: Boolean
+    title: {
+      type: String,
+      default: "Submit",
+    },
+    saved: Boolean,
   },
   methods: {
-    click: function() {
+    click: function () {
       this.$emit("click");
       this.$refs.button.blur();
-    }
-  }
+    },
+  },
 };
 </script>
 

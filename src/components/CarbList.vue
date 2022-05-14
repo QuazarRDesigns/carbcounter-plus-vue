@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <span class="amount">{{ items.length }} items in list</span>
-    <div class="item" v-for="item in items" :key="item.index">
+    <div v-for="item in items" :key="item.index" class="item">
       <div class="item-info">
         <p>
           <b class="item-subcategory">{{ item.subcategory }}</b>
@@ -10,9 +10,7 @@
         </p>
         <span class="item-amount">{{ item.amount }}</span>
       </div>
-      <button @click="remove($event, item)">
-        X
-      </button>
+      <button @click="remove($event, item)">X</button>
     </div>
   </div>
 </template>
@@ -21,18 +19,18 @@
 export default {
   name: "CarbList",
   computed: {
-    items: function() {
+    items: function () {
       return this.$store.state.carbcalc.selectedItems;
     },
-    carbUnit: function() {
+    carbUnit: function () {
       return this.$store.getters["settings/carbUnit"];
-    }
+    },
   },
   methods: {
-    remove: function(event, item) {
+    remove: function (event, item) {
       this.$store.commit("carbcalc/removeItem", item);
-    }
-  }
+    },
+  },
 };
 </script>
 

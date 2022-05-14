@@ -24,17 +24,26 @@ import DosageResult from "../components/DosageResult";
 import CarbRatio from "../classes/CarbRatio.js";
 
 export default {
-  name: "Results",
+  name: "DosageResults",
   components: {
-    DosageResult
+    DosageResult,
   },
   props: {
     carbRatio: CarbRatio,
-    target: Number,
-    correctionResult: Number,
-    ratioResult: Number,
-    resultTotal: Number
-  }
+    target: {
+      type: Number,
+      default: 0,
+    },
+    correctionResult: { type: Number, default: 0 },
+    ratioResult: {
+      type: Number,
+      default: 0,
+    },
+    resultTotal: {
+      type: Number,
+      default: 0,
+    },
+  },
 };
 </script>
 

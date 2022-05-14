@@ -26,10 +26,10 @@
 import MenuButton from "@/components/MenuButton.vue";
 
 export default {
-  name: "home",
+  name: "AppHome",
   components: {
-    MenuButton
-  }
+    MenuButton,
+  },
 };
 </script>
 

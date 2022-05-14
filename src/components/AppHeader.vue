@@ -2,19 +2,19 @@
   <nav>
     <div class="top">
       <img
+        v-if="$route.name !== 'Home'"
         class="menu-toggle"
         src="@/assets/svgs/hamburger.svg"
         alt="Toggle Menu"
         height="40"
         width="40"
         @click="toggleMenu"
-        v-if="this.$route.name !== 'Home'"
       />
       <router-link to="/" class="logo"
         ><img class="logo__img" src="@/assets/svgs/logo.svg" alt="Home"
       /></router-link>
     </div>
-    <div ref="menu" class="menu hide" v-if="this.$route.name !== 'Home'">
+    <div v-if="$route.name !== 'Home'" ref="menu" class="menu hide">
       <router-link class="bg-blue" to="/carbcalc">CarbCalc</router-link>
       <router-link class="bg-green" to="/dosecalc">DoseCalc</router-link>
       <router-link class="bg-pink" to="/settings">Settings</router-link>
@@ -24,16 +24,16 @@
 
 <script>
 export default {
-  name: "Header",
+  name: "AppHeader",
   methods: {
-    toggleMenu: function() {
+    toggleMenu: function () {
       if (this.$refs.menu.classList.contains("hide")) {
         this.$refs.menu.classList.remove("hide");
       } else {
         this.$refs.menu.classList.add("hide");
       }
-    }
-  }
+    },
+  },
 };
 </script>
 

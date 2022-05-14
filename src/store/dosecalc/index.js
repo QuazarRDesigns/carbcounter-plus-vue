@@ -2,7 +2,7 @@ export default {
   namespaced: true,
   state: () => ({
     glucose: 0,
-    carbs: 0
+    carbs: 0,
   }),
   mutations: {
     update(state, payload) {
@@ -23,24 +23,24 @@ export default {
       }
 
       state.carbs = carbs;
-    }
+    },
   },
   actions: {
-    updateNumberInput: function(context, payload) {
+    updateNumberInput: function (context, payload) {
       context.commit("update", {
         property: payload.id,
-        index: Number(payload.value)
+        index: Number(payload.value),
       });
-    }
+    },
   },
   getters: {
-    glucose: state => {
+    glucose: (state) => {
       return state.glucose;
     },
-    carbs: state => {
+    carbs: (state) => {
       return state.carbs;
     },
-    ratioResult: function(state, getters, rootState, rootGetters) {
+    ratioResult: function (state, getters, rootState, rootGetters) {
       let carbs = state.carbs;
       let carbRatio = rootGetters["settings/carbRatio"].value;
 
@@ -54,7 +54,7 @@ export default {
 
       return ratioResult;
     },
-    correctionResult: function(state, getters, rootState, rootGetters) {
+    correctionResult: function (state, getters, rootState, rootGetters) {
       const glucoseDiff = state.glucose - rootGetters["settings/target"];
       const correctionFactor = rootGetters["settings/correctionFactor"];
 
@@ -68,11 +68,11 @@ export default {
 
       return correctionResult;
     },
-    resultTotal: function(state, getters, rootState, rootGetters) {
+    resultTotal: function (state, getters) {
       const total = getters.correctionResult + getters.ratioResult;
 
       // Calculate Total Insulin
       return Number(total.toFixed(1));
-    }
-  }
+    },
+  },
 };

@@ -1,17 +1,15 @@
 <template>
   <div class="wrapper">
-    <p :class="'title ' + 'text-' + this.color">
-      {{ this.title }}
-      <span v-if="ratio">(Ratio {{ this.ratio }})</span>
-      <span v-if="target">(Target {{ this.target }})</span>
+    <p :class="'title ' + 'text-' + color">
+      {{ title }}
+      <span v-if="ratio">(Ratio {{ ratio }})</span>
+      <span v-if="target">(Target {{ target }})</span>
     </p>
     <p class="result">
-      <span :class="'stat ' + 'text-' + this.color">{{
-        this.returnValue
-      }}</span>
-      <span class="unit">{{ this.unit }}</span>
+      <span :class="'stat ' + 'text-' + color">{{ returnValue }}</span>
+      <span class="unit">{{ unit }}</span>
     </p>
-    <small>{{ this.rounded }} (rounded)</small>
+    <small>{{ rounded }} (rounded)</small>
   </div>
 </template>
 
@@ -19,29 +17,43 @@
 export default {
   name: "DosageResult",
   props: {
-    title: String,
+    title: {
+      type: String,
+      default: "Total",
+    },
     color: {
-      validator: function(value) {
+      default: "blue",
+      validator: function (value) {
         return ["blue", "green", "pink"].indexOf(value) !== -1;
-      }
+      },
     },
-    value: Number,
-    unit: String,
+    value: {
+      type: Number,
+      default: 0,
+    },
+    unit: {
+      type: String,
+      default: "IU",
+    },
     ratio: {
-      validator: function(value) {
-        return /\d:\d/.test(value);
-      }
+      default: "",
+      validator: function (value) {
+        return value === "" || /\d:\d/.test(value);
+      },
     },
-    target: Number
+    target: {
+      type: Number,
+      default: 0,
+    },
   },
   computed: {
-    returnValue: function() {
+    returnValue: function () {
       return Math.max(0, this.value);
     },
-    rounded: function() {
+    rounded: function () {
       return Math.round(this.value);
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -1,7 +1,6 @@
 import CarbRatio from "../../classes/CarbRatio";
 import CarbUnit from "../../classes/CarbUnit";
 import BGUnit from "../../classes/BGUnit";
-import carbRatio from "../../classes/CarbRatio";
 
 export default {
   namespaced: true,
@@ -11,14 +10,14 @@ export default {
     carbUnitOptions: [
       new CarbUnit("BU", 12),
       new CarbUnit("CU", 15),
-      new CarbUnit("g", 1)
+      new CarbUnit("g", 1),
     ],
     BGUnitIndex: 0,
     BGUnitOptions: [new BGUnit("mmol/L", 1), new BGUnit("mg/dL", 18.0182)],
     target: 6.5,
     correctionFactor: 2,
     correctionNumber: 100,
-    saved: false
+    saved: false,
   }),
   mutations: {
     update(state, payload) {
@@ -56,22 +55,22 @@ export default {
       );
 
       state.CarbRatio = carbRatio;
-    }
+    },
   },
   actions: {
-    updateRatioInput: function(context, payload) {
+    updateRatioInput: function (context, payload) {
       context.commit("update", {
         property: payload.id,
-        index: payload.value
+        index: payload.value,
       });
     },
-    updateNumberInput: function(context, payload) {
+    updateNumberInput: function (context, payload) {
       context.commit("update", {
         property: payload.id,
-        index: Number(payload.value)
+        index: Number(payload.value),
       });
     },
-    updateSelectInput: function(context, payload) {
+    updateSelectInput: function (context, payload) {
       if (payload.id === "BGUnit") {
         context.commit("convertTarget", payload.value);
         context.commit(
@@ -82,10 +81,10 @@ export default {
             ),
             newBGUnitValue: Number(
               context.state.BGUnitOptions[payload.value].value
-            )
+            ),
           },
           {
-            root: true
+            root: true,
           }
         );
       }
@@ -100,52 +99,47 @@ export default {
             ),
             newCarbUnitValue: Number(
               context.state.carbUnitOptions[payload.value].value
-            )
+            ),
           },
           {
-            root: true
+            root: true,
           }
         );
       }
 
       context.commit("update", {
         property: payload.id + "Index",
-        index: Number(payload.value)
+        index: Number(payload.value),
       });
     },
-    saveSettings: function(context) {
+    saveSettings: function (context) {
       context.state.saved = false;
-      const {
-        BGUnitOptions,
-        carbUnitOptions,
-        saving,
-        ...saveState
-      } = context.state;
+      const { ...saveState } = context.state;
       if (typeof Storage !== "undefined") {
         localStorage.setItem("settings", JSON.stringify({ ...saveState }));
         context.state.saved = true;
       }
 
-      setTimeout(function() {
+      setTimeout(function () {
         context.state.saved = false;
       }, 3000);
-    }
+    },
   },
   getters: {
-    carbUnit: state => {
+    carbUnit: (state) => {
       return state.carbUnitOptions[state.carbUnitIndex];
     },
-    BGUnit: state => {
+    BGUnit: (state) => {
       return state.BGUnitOptions[state.BGUnitIndex];
     },
-    carbRatio: state => {
+    carbRatio: (state) => {
       return state.carbRatio;
     },
-    target: state => {
+    target: (state) => {
       return state.target;
     },
-    correctionFactor: state => {
+    correctionFactor: (state) => {
       return state.correctionFactor;
-    }
-  }
+    },
+  },
 };

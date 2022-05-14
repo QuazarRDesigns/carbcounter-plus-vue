@@ -1,6 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
-import Home from "./views/Home.vue";
+import AppHome from "./views/AppHome.vue";
 import CarbCalc from "./views/CarbCalc.vue";
 import DoseCalc from "./views/DoseCalc.vue";
 import Settings from "./views/Settings.vue";
@@ -12,23 +12,23 @@ export default new Router({
     {
       path: "/",
       name: "Home",
-      component: Home
+      component: AppHome,
     },
     {
       path: "/carbcalc",
       name: "CarbCalc",
-      component: CarbCalc
+      component: CarbCalc,
     },
     {
       path: "/dosecalc",
       name: "DoseCalc",
-      component: DoseCalc
+      component: DoseCalc,
     },
     {
       path: "/settings",
       name: "Settings",
-      component: Settings
-    }
+      component: Settings,
+    },
     // {
     //   path: "/about",
     //   name: "about",
@@ -38,5 +38,5 @@ export default new Router({
     //   component: () =>
     //     import(/* webpackChunkName: "about" */ "./views/About.vue")
     // }
-  ]
+  ],
 });

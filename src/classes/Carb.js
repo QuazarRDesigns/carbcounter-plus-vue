@@ -17,6 +17,6 @@ export default class Carb {
     this.name = name;
     this.carb = carb;
     this.variant = variant;
-    this.amounts = amounts.map(e => new CarbAmount(e.name, e.value));
+    this.amounts = amounts.map((e) => new CarbAmount(e.name, e.value));
   }
 }

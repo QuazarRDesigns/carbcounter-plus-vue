@@ -1,30 +1,30 @@
 <template>
   <div class="container">
     <fieldset>
-      <legend :class="'text-' + this.color">
-        {{ this.title }}
+      <legend :class="'text-' + color">
+        {{ title }}
       </legend>
       <div class="input-wrapper">
         <input
-          ref="leftInput"
           id="leftInput"
+          ref="leftInput"
           aria-label="Left Ratio"
           type="number"
           :step="step"
+          :value="left"
           @input="input"
           @blur="blur"
-          :value="left"
         />
         <span class="colon">&#58;</span>
         <input
-          ref="rightInput"
           id="rightInput"
+          ref="rightInput"
           aria-label="Right Ratio"
           type="number"
           :step="step"
+          :value="right"
           @input="input"
           @blur="blur"
-          :value="right"
         />
       </div>
     </fieldset>
@@ -36,26 +36,36 @@ import CarbRatio from "../classes/CarbRatio";
 export default {
   name: "RatioInput",
   props: {
-    title: String,
-    color: {
-      validator: function(value) {
-        return ["blue", "green", "pink"].indexOf(value) !== -1;
-      }
+    title: {
+      type: String,
+      default: "Label",
     },
-    id: String,
-    step: Number,
-    value: CarbRatio
+    color: {
+      default: "",
+      validator: function (value) {
+        return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
+      },
+    },
+    id: {
+      type: String,
+      default: "",
+    },
+    step: {
+      type: Number,
+      default: 1,
+    },
+    value: CarbRatio,
   },
   computed: {
-    left: function() {
+    left: function () {
       return this.value.insulin;
     },
-    right: function() {
+    right: function () {
       return this.value.carbs;
-    }
+    },
   },
   methods: {
-    input: function() {
+    input: function () {
       const leftValue = this.$refs.leftInput.value,
         rightValue = this.$refs.rightInput.value;
 
@@ -63,13 +73,13 @@ export default {
 
       this.$emit("input", {
         id: this.id,
-        value: ratio
+        value: ratio,
       });
     },
-    blur: function() {
+    blur: function () {
       this.$emit("blur");
-    }
-  }
+    },
+  },
 };
 </script>
 

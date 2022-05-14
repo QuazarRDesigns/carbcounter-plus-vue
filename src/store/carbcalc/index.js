@@ -4,11 +4,11 @@ import CarbCategory from "../../classes/CarbCategory";
 function initCarbCategories() {
   const categoriesList = [];
 
-  carbs.forEach(carb => {
+  carbs.forEach((carb) => {
     const subCategory = new CarbCategory(carb.name, [], carb.carbs);
 
     const categoryIndex = categoriesList.findIndex(
-      e => e.name === carb.category
+      (e) => e.name === carb.category
     );
 
     if (categoryIndex !== -1) {
@@ -22,7 +22,7 @@ function initCarbCategories() {
 }
 
 function filterListBySearchTerm(list, searchTerm) {
-  const filteredList = list.flatMap(item => {
+  const filteredList = list.flatMap((item) => {
     if (item instanceof CarbCategory) {
       return item.filterBySearchTerm(searchTerm);
     }
@@ -37,7 +37,7 @@ export default {
   namespaced: true,
   state: () => ({
     searchTerm: "",
-    selectedItems: []
+    selectedItems: [],
   }),
   mutations: {
     addItem(state, payload) {
@@ -48,25 +48,25 @@ export default {
     },
     search(state, payload) {
       state.searchTerm = payload;
-    }
+    },
   },
   actions: {},
   getters: {
-    searchTerm: function(state) {
+    searchTerm: function (state) {
       return state.searchTerm;
     },
-    categoriesList: function(state) {
+    categoriesList: function (state) {
       return filterListBySearchTerm(CarbCategories, state.searchTerm);
     },
-    total: function(state, getters, rootState, rootGetters) {
+    total: function (state, getters, rootState, rootGetters) {
       const reducer = (accumulator, currentValue) => currentValue + accumulator;
       return state.selectedItems
         .map(
-          item =>
+          (item) =>
             (item.carbs * item.amountMultiplier) /
             rootGetters["settings/carbUnit"].value
         )
         .reduce(reducer, 0);
-    }
-  }
+    },
+  },
 };

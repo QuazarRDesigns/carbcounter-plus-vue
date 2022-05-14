@@ -16,7 +16,9 @@ export default class CarbCategory {
     this.uuid = uuidv4();
     this.name = name;
     this.subcategories = subcategories;
-    this.carbs = carbs.map(e => new Carb(e.name, e.carb, e.variant, e.amounts));
+    this.carbs = carbs.map(
+      (e) => new Carb(e.name, e.carb, e.variant, e.amounts)
+    );
   }
   /**
    * Get this CarbCategory filtered by the provided search term.
@@ -52,7 +54,7 @@ export default class CarbCategory {
 
     const list = this.subcategories;
 
-    return list.flatMap(item => item.filterBySearchTerm(searchTerm));
+    return list.flatMap((item) => item.filterBySearchTerm(searchTerm));
   }
 
   /**
@@ -67,7 +69,7 @@ export default class CarbCategory {
 
     const list = this.carbs;
 
-    return list.filter(item => {
+    return list.filter((item) => {
       return (
         item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         item.variant.toLowerCase().includes(searchTerm.toLowerCase())

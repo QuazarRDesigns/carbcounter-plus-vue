@@ -2,38 +2,38 @@
   <div class="view-container settings">
     <h1>Settings</h1>
     <RatioInput
-      title="Insulin to Carb Ratio"
       id="carbRatio"
+      title="Insulin to Carb Ratio"
       :step="1"
       :value="carbRatio"
       @input="updateRatioInput"
       @blur="carbRatio.simplify()"
     />
     <SelectInput
-      title="Carbohydrate Unit"
       id="carbUnit"
+      title="Carbohydrate Unit"
       :options="carbUnitOptions"
       :value="carbUnitIndex"
       @change="updateSelectInput"
     />
     <SelectInput
-      title="Blood Glucose Unit"
       id="BGUnit"
+      title="Blood Glucose Unit"
       :options="BGUnitOptions"
       :value="BGUnitIndex"
       @change="updateSelectInput"
     />
     <NumberInput
-      title="Target Value"
       id="target"
+      title="Target Value"
       :unit="BGUnit.name"
       :step="0.1"
       :value="target"
       @input="updateNumberInput"
     />
     <NumberInput
-      title="Correction Factor"
       id="correctionFactor"
+      title="Correction Factor"
       :unit="correctionNumber + ' &#247; TDI'"
       :step="1"
       :value="correctionFactor"
@@ -50,17 +50,16 @@ import SelectInput from "../components/SelectInput.vue";
 import SubmitButton from "../components/SubmitButton.vue";
 import { createNamespacedHelpers } from "vuex";
 
-const { mapState, mapGetters, mapActions } = createNamespacedHelpers(
-  "settings"
-);
+const { mapState, mapGetters, mapActions } =
+  createNamespacedHelpers("settings");
 
 export default {
-  name: "settings",
+  name: "AppSettings",
   components: {
     RatioInput,
     SelectInput,
     NumberInput,
-    SubmitButton
+    SubmitButton,
   },
   computed: {
     ...mapState([
@@ -72,18 +71,18 @@ export default {
       "target",
       "correctionFactor",
       "correctionNumber",
-      "saved"
+      "saved",
     ]),
-    ...mapGetters(["BGUnit"])
+    ...mapGetters(["BGUnit"]),
   },
   methods: {
     ...mapActions([
       "updateRatioInput",
       "updateNumberInput",
       "updateSelectInput",
-      "saveSettings"
-    ])
-  }
+      "saveSettings",
+    ]),
+  },
 };
 </script>
 

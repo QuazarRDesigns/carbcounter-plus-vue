@@ -9,10 +9,10 @@ export default [
         carb: 49.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 bagel (3.3 x 9.6cm diameter)", value: 0.889 }
-        ]
-      }
-    ]
+          { name: "1 bagel (3.3 x 9.6cm diameter)", value: 0.889 },
+        ],
+      },
+    ],
   },
   {
     name: "Biscuits",
@@ -24,8 +24,8 @@ export default [
         carb: 64.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (1.3 x 5.5cm diameter)", value: 0.176 }
-        ]
+          { name: "1 biscuit (1.3 x 5.5cm diameter)", value: 0.176 },
+        ],
       },
       {
         name: "Arrowroot",
@@ -33,8 +33,8 @@ export default [
         carb: 76.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit", value: 0.08 }
-        ]
+          { name: "1 biscuit", value: 0.08 },
+        ],
       },
       {
         name: "Chocolate Chip Fudge, Farmbake",
@@ -42,8 +42,8 @@ export default [
         carb: 68.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (1.0 x 5.8cm diameter)", value: 0.127 }
-        ]
+          { name: "1 biscuit (1.0 x 5.8cm diameter)", value: 0.127 },
+        ],
       },
       {
         name: "Chocolate Chip",
@@ -51,8 +51,8 @@ export default [
         carb: 61.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (1.7 x 11.0cm diameter)", value: 0.961 }
-        ]
+          { name: "1 biscuit (1.7 x 11.0cm diameter)", value: 0.961 },
+        ],
       },
       {
         name: "Classic Dark, Tim Tam",
@@ -60,8 +60,8 @@ export default [
         carb: 63.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (6.2 x 3.2 x 1.3cm)", value: 0.19 }
-        ]
+          { name: "1 biscuit (6.2 x 3.2 x 1.3cm)", value: 0.19 },
+        ],
       },
       {
         name: "Dark Chocolate, Digestive",
@@ -69,8 +69,8 @@ export default [
         carb: 61.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.7 x 7.5cm diameter)", value: 0.18 }
-        ]
+          { name: "1 biscuit (0.7 x 7.5cm diameter)", value: 0.18 },
+        ],
       },
       {
         name: "Dark Chocolate, Wheaten",
@@ -78,8 +78,8 @@ export default [
         carb: 55.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.5 x 5.4cm diameter)", value: 0.103 }
-        ]
+          { name: "1 biscuit (0.5 x 5.4cm diameter)", value: 0.103 },
+        ],
       },
       {
         name: "Double Deck Dark Chocolate Delight, Chit Chat",
@@ -87,8 +87,8 @@ export default [
         carb: 65,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (6.5 x 2.9 x 1.3cm)", value: 0.191 }
-        ]
+          { name: "1 biscuit (6.5 x 2.9 x 1.3cm)", value: 0.191 },
+        ],
       },
       {
         name: "Gingernuts",
@@ -97,8 +97,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 biscuit (0.8 x 5.2cm diameter)", value: 0.09 },
-          { name: "1 biscuit (0.9 x 5.4cm diameter)", value: 0.13 }
-        ]
+          { name: "1 biscuit (0.9 x 5.4cm diameter)", value: 0.13 },
+        ],
       },
       {
         name: "MallowPuffs",
@@ -106,8 +106,8 @@ export default [
         carb: 63.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (2.7 x 4.5cm diameter)", value: 0.215 }
-        ]
+          { name: "1 biscuit (2.7 x 4.5cm diameter)", value: 0.215 },
+        ],
       },
       {
         name: "Malt",
@@ -115,8 +115,8 @@ export default [
         carb: 71.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (6.6 x 4.4 x 0.6cm)", value: 0.075 }
-        ]
+          { name: "1 biscuit (6.6 x 4.4 x 0.6cm)", value: 0.075 },
+        ],
       },
       {
         name: "Milk Chocolate, Digestive",
@@ -124,8 +124,8 @@ export default [
         carb: 65.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.7 x 7.5cm diameter)", value: 0.176 }
-        ]
+          { name: "1 biscuit (0.7 x 7.5cm diameter)", value: 0.176 },
+        ],
       },
       {
         name: "White & Dark Chocolate, Farmbake",
@@ -133,8 +133,8 @@ export default [
         variant: "Arnott's",
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (1.0 x 5.2cm diameter)", value: 0.126 }
-        ]
+          { name: "1 biscuit (1.0 x 5.2cm diameter)", value: 0.126 },
+        ],
       },
       {
         name: "Milk Chocolate, Double Chocolate, Cookies",
@@ -142,8 +142,8 @@ export default [
         carb: 66.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (1.3 x 5.3cm diameter)", value: 13.3 }
-        ]
+          { name: "1 biscuit (1.3 x 5.3cm diameter)", value: 13.3 },
+        ],
       },
       {
         name: "Milk Chocolate, Double Coat, Tim Tam",
@@ -151,8 +151,8 @@ export default [
         carb: 68.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (6.2 x 3.3 x 1.5cm)", value: 0.228 }
-        ]
+          { name: "1 biscuit (6.2 x 3.3 x 1.5cm)", value: 0.228 },
+        ],
       },
       {
         name: "Milk Chocolate, Original, Tim Tam",
@@ -160,8 +160,8 @@ export default [
         carb: 68.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (6.2 x 3.2 x 1.3cm)", value: 0.185 }
-        ]
+          { name: "1 biscuit (6.2 x 3.2 x 1.3cm)", value: 0.185 },
+        ],
       },
       {
         name: "Milk Chocolate, Wheaten",
@@ -169,8 +169,8 @@ export default [
         carb: 60,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.8 x 5.5cm diameter)", value: 0.108 }
-        ]
+          { name: "1 biscuit (0.8 x 5.5cm diameter)", value: 0.108 },
+        ],
       },
       {
         name: "Peanut Brownie",
@@ -179,8 +179,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 biscuit (1.2 x 5.4cm diameter)", value: 0.12 },
-          { name: "1 biscuit (1.6 x 5.5cm diameter)", value: 0.22 }
-        ]
+          { name: "1 biscuit (1.6 x 5.5cm diameter)", value: 0.22 },
+        ],
       },
       {
         name: "Shortbread",
@@ -189,8 +189,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 biscuit (1.1 x 5.0cm diameter)", value: 0.125 },
-          { name: "1 biscuit (1.6 x 5.3cm diameter)", value: 0.205 }
-        ]
+          { name: "1 biscuit (1.6 x 5.3cm diameter)", value: 0.205 },
+        ],
       },
       {
         name: "Wafer, Raspberry, Cream Filled",
@@ -198,8 +198,8 @@ export default [
         carb: 71,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (2.6 x 8.0 x 1.0cm)", value: 0.09 }
-        ]
+          { name: "1 biscuit (2.6 x 8.0 x 1.0cm)", value: 0.09 },
+        ],
       },
       {
         name: "With coconut, Krispie",
@@ -207,8 +207,8 @@ export default [
         carb: 65.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.6 x 6.0cm diameter)", value: 0.088 }
-        ]
+          { name: "1 biscuit (0.6 x 6.0cm diameter)", value: 0.088 },
+        ],
       },
       {
         name: "With cream filling",
@@ -216,10 +216,10 @@ export default [
         carb: 66,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit", value: 0.15 }
-        ]
-      }
-    ]
+          { name: "1 biscuit", value: 0.15 },
+        ],
+      },
+    ],
   },
   {
     name: "Bread Rolls or buns",
@@ -233,8 +233,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 bun medium (8.1cm diameter)", value: 0.515 },
           { name: "1 bun large (11.6cm diameter)", value: 0.624 },
-          { name: "1 long roll (14.1 x 5.5cm diameter)", value: 0.665 }
-        ]
+          { name: "1 long roll (14.1 x 5.5cm diameter)", value: 0.665 },
+        ],
       },
       {
         name: "Wholemeal, Fortified",
@@ -244,8 +244,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 bun medium (8.2cm diameter)", value: 0.544 },
           { name: "1 bun large (10.4cm diameter)", value: 0.777 },
-          { name: "1 long roll (9.1 x 7.6cm diameter)", value: 0.628 }
-        ]
+          { name: "1 long roll (9.1 x 7.6cm diameter)", value: 0.628 },
+        ],
       },
       {
         name: "Currant, Commercial",
@@ -253,10 +253,10 @@ export default [
         carb: 57.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (11.6 x 9.2 x 1.0cm)", value: 0.27 }
-        ]
-      }
-    ]
+          { name: "1 slice (11.6 x 9.2 x 1.0cm)", value: 0.27 },
+        ],
+      },
+    ],
   },
   {
     name: "Bread",
@@ -268,8 +268,8 @@ export default [
         carb: 35,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (10.9 x 11.1 x 1.2cm)", value: 0.378 }
-        ]
+          { name: "1 slice (10.9 x 11.1 x 1.2cm)", value: 0.378 },
+        ],
       },
       {
         name: "Gluten Free Ancient Grain & Seeds",
@@ -277,8 +277,8 @@ export default [
         carb: 33,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (8.7 x 8.6 x 1.1cm)", value: 0.448 }
-        ]
+          { name: "1 slice (8.7 x 8.6 x 1.1cm)", value: 0.448 },
+        ],
       },
       {
         name: "Gluten Free White,",
@@ -286,8 +286,8 @@ export default [
         carb: 44.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (8.9 x 8.6 x 1.1cm)", value: 0.411 }
-        ]
+          { name: "1 slice (8.9 x 8.6 x 1.1cm)", value: 0.411 },
+        ],
       },
       {
         name: "Gluten free 6 Seed",
@@ -295,8 +295,8 @@ export default [
         carb: 30.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (9.8 x 9.7 x 1.3cm)", value: 0.357 }
-        ]
+          { name: "1 slice (9.8 x 9.7 x 1.3cm)", value: 0.357 },
+        ],
       },
       {
         name: "Mixed Grain & Toasted Sesame Toast",
@@ -304,8 +304,8 @@ export default [
         carb: 30.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice toast (9.5 x 10.3 x 1.2cm)", value: 0.425 }
-        ]
+          { name: "1 slice toast (9.5 x 10.3 x 1.2cm)", value: 0.425 },
+        ],
       },
       {
         name: "Nature's Grain, fortified",
@@ -313,8 +313,8 @@ export default [
         carb: 41.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (10.5 x 11.9 x 1.2cm)", value: 0.333 }
-        ]
+          { name: "1 slice (10.5 x 11.9 x 1.2cm)", value: 0.333 },
+        ],
       },
       {
         name: "Salba Traditional European Rye,",
@@ -322,8 +322,8 @@ export default [
         carb: 32,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (10.7 x 11.5 x 1.6cm)", value: 0.465 }
-        ]
+          { name: "1 slice (10.7 x 11.5 x 1.6cm)", value: 0.465 },
+        ],
       },
       {
         name: "Salba Traditional Wholegrain,",
@@ -331,8 +331,8 @@ export default [
         carb: 32.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (10.7 x 11.7 x 1.6cm)", value: 0.149 }
-        ]
+          { name: "1 slice (10.7 x 11.7 x 1.6cm)", value: 0.149 },
+        ],
       },
       {
         name: "Soy & Linseed",
@@ -340,8 +340,8 @@ export default [
         carb: 30.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (9.4 x 9.4 x 1.1cm)", value: 0.37 }
-        ]
+          { name: "1 slice (9.4 x 9.4 x 1.1cm)", value: 0.37 },
+        ],
       },
       {
         name: "Soy & Linseed",
@@ -349,8 +349,8 @@ export default [
         carb: 30.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (9.4 x 9.4 x 1.1cm)", value: 0.37 }
-        ]
+          { name: "1 slice (9.4 x 9.4 x 1.1cm)", value: 0.37 },
+        ],
       },
       {
         name: "Station Seed & Grain,",
@@ -358,8 +358,8 @@ export default [
         carb: 31,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (9.2 x 14.8 x 1.8cm)", value: 18.2 }
-        ]
+          { name: "1 slice (9.2 x 14.8 x 1.8cm)", value: 18.2 },
+        ],
       },
       {
         name: "Swiss Bake Grains Plus",
@@ -367,8 +367,8 @@ export default [
         carb: 35.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice toast (10.5 x 11.3 x 1.2cm)", value: 0.377 }
-        ]
+          { name: "1 slice toast (10.5 x 11.3 x 1.2cm)", value: 0.377 },
+        ],
       },
       {
         name: "Swiss Bake Grains Plus",
@@ -376,8 +376,8 @@ export default [
         carb: 35.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice toast (10.5 x 11.3 x 1.2cm)", value: 0.377 }
-        ]
+          { name: "1 slice toast (10.5 x 11.3 x 1.2cm)", value: 0.377 },
+        ],
       },
       {
         name: "Tuscan Mixed Grain",
@@ -385,8 +385,8 @@ export default [
         carb: 39.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (9.2 x 12.3 x 1.3cm)", value: 0.408 }
-        ]
+          { name: "1 slice (9.2 x 12.3 x 1.3cm)", value: 0.408 },
+        ],
       },
       {
         name: "Chapatti or Roti, Wholemeal",
@@ -394,8 +394,8 @@ export default [
         carb: 42.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 chapatti or roti (0.4 x 20cm diameter)", value: 0.988 }
-        ]
+          { name: "1 chapatti or roti (0.4 x 20cm diameter)", value: 0.988 },
+        ],
       },
       {
         name: "Gluten free, Mixed Grain, Sliced, Prepacked",
@@ -403,8 +403,8 @@ export default [
         carb: 39.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (8.6 x 7.8 x 1.1cm)", value: 0.425 }
-        ]
+          { name: "1 slice (8.6 x 7.8 x 1.1cm)", value: 0.425 },
+        ],
       },
       {
         name: "Gluten free, White, Sliced & Unsliced, Prepacked",
@@ -412,8 +412,8 @@ export default [
         carb: 43.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (8.8 x 7.7 x 1.0cm)", value: 0.348 }
-        ]
+          { name: "1 slice (8.8 x 7.7 x 1.0cm)", value: 0.348 },
+        ],
       },
       {
         name: "Mixed Grain, Ancient Grains",
@@ -422,8 +422,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice sandwich (10 x 8.7 x 0.8cm)", value: 0.347 },
-          { name: "1 slice toast (10.0 x 9.0 x 1.0cm)", value: 0.436 }
-        ]
+          { name: "1 slice toast (10.0 x 9.0 x 1.0cm)", value: 0.436 },
+        ],
       },
       {
         name: "Mixed grain, Heavy, Sliced, Prepacked",
@@ -432,8 +432,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice sandwich (10.1 x 8.6 x 0.9cm)", value: 0.373 },
-          { name: "1 slice toast (10 x 8.9 x 0.9cm)", value: 0.417 }
-        ]
+          { name: "1 slice toast (10 x 8.9 x 0.9cm)", value: 0.417 },
+        ],
       },
       {
         name: "Mixed Grain, Light, Sliced, prepacked",
@@ -442,8 +442,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice sandwich (11.4 x 10.3 x 1.1cm)", value: 0.317 },
-          { name: "1 slice toast (11.1 x 10.5 x 1.3cm)", value: 0.383 }
-        ]
+          { name: "1 slice toast (11.1 x 10.5 x 1.3cm)", value: 0.383 },
+        ],
       },
       {
         name: "Naan, White, Plain",
@@ -451,8 +451,8 @@ export default [
         carb: 44.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 naan bread triangle (29 x 20 x 1cm)", value: 1.45 }
-        ]
+          { name: "1 naan bread triangle (29 x 20 x 1cm)", value: 1.45 },
+        ],
       },
       {
         name: "Pita, White",
@@ -461,8 +461,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small pocket (11cm diameter)", value: 0.48 },
-          { name: "1 large pocket (15cm diameter)", value: 0.82 }
-        ]
+          { name: "1 large pocket (15cm diameter)", value: 0.82 },
+        ],
       },
       {
         name: "Plain, Panini, prepacked",
@@ -470,8 +470,8 @@ export default [
         carb: 46.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 panini (2.1 x 9.9 x 17.1)", value: 0.92 }
-        ]
+          { name: "1 panini (2.1 x 9.9 x 17.1)", value: 0.92 },
+        ],
       },
       {
         name: "Wheatmeal, Sliced, Prepacked",
@@ -480,8 +480,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice sandwich (11.5 x 10.3 x 1.0cm)", value: 0.305 },
-          { name: "1 slice toast (11.4 x 10.0 x 1.2cm)", value: 0.375 }
-        ]
+          { name: "1 slice toast (11.4 x 10.0 x 1.2cm)", value: 0.375 },
+        ],
       },
       {
         name: "White, Sliced, Prepacked",
@@ -491,8 +491,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 slice sandwich (11.2 x 10.8 x 1.0cm)", value: 0.32 },
           { name: "1 slice toast (11.1 x 10.8 x 1.4cm)", value: 0.385 },
-          { name: "1 slice thick toast (11.1 x 11.2 x 1.6cm)", value: 0.465 }
-        ]
+          { name: "1 slice thick toast (11.1 x 11.2 x 1.6cm)", value: 0.465 },
+        ],
       },
       {
         name: "Wholemeal, Pita",
@@ -500,10 +500,10 @@ export default [
         carb: 41.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pita (1.1 x 15.7cm diameter)", value: 0.85 }
-        ]
-      }
-    ]
+          { name: "1 pita (1.1 x 15.7cm diameter)", value: 0.85 },
+        ],
+      },
+    ],
   },
   {
     name: "Buns",
@@ -513,15 +513,21 @@ export default [
         name: "Currant",
         variant: "",
         carb: 49.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bun", value: 0.8 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bun", value: 0.8 },
+        ],
       },
       {
         name: "Iced",
         variant: "",
         carb: 63.2,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bun", value: 0.8 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bun", value: 0.8 },
+        ],
+      },
+    ],
   },
   {
     name: "Cake",
@@ -533,10 +539,10 @@ export default [
         carb: 55.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (7.5 x 5.0 x 1.5cm)", value: 0.4 }
-        ]
-      }
-    ]
+          { name: "1 slice (7.5 x 5.0 x 1.5cm)", value: 0.4 },
+        ],
+      },
+    ],
   },
   {
     name: "Crackers",
@@ -548,8 +554,8 @@ export default [
         carb: 73.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (12 x 5.6 x 0.5cm)", value: 0.064 }
-        ]
+          { name: "1 biscuit (12 x 5.6 x 0.5cm)", value: 0.064 },
+        ],
       },
       {
         name: "Mixed grain, Cruskits, Light",
@@ -557,8 +563,8 @@ export default [
         carb: 65.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (11.8 x 5.7 x 0.4cm)", value: 0.06 }
-        ]
+          { name: "1 biscuit (11.8 x 5.7 x 0.4cm)", value: 0.06 },
+        ],
       },
       {
         name: "Mixed grain, Litebread, Original Crispbread,",
@@ -566,8 +572,8 @@ export default [
         carb: 66.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (12 x 5.9 x 0.4cm)", value: 0.067 }
-        ]
+          { name: "1 biscuit (12 x 5.9 x 0.4cm)", value: 0.067 },
+        ],
       },
       {
         name: "Rice, Barbecue flavoured",
@@ -575,8 +581,8 @@ export default [
         carb: 80.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (4.7cm diameter)", value: 0.019 }
-        ]
+          { name: "1 biscuit (4.7cm diameter)", value: 0.019 },
+        ],
       },
       {
         name: "Rice, Plain",
@@ -584,8 +590,8 @@ export default [
         carb: 75.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (4.7cm diameter)", value: 0.021 }
-        ]
+          { name: "1 biscuit (4.7cm diameter)", value: 0.021 },
+        ],
       },
       {
         name: "Rice, Seaweed flavoured",
@@ -593,14 +599,17 @@ export default [
         carb: 72.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (5.0cm diameter)", value: 0.02 }
-        ]
+          { name: "1 biscuit (5.0cm diameter)", value: 0.02 },
+        ],
       },
       {
         name: "Rye, Crispbread",
         variant: "Ryvita",
         carb: 67.4,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 cracker", value: 0.1 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 cracker", value: 0.1 },
+        ],
       },
       {
         name: "Wheat, Cream Crackers, Reduced Fat",
@@ -608,8 +617,8 @@ export default [
         carb: 66.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (6.4 x 6.0 x 0.3cm)", value: 0.79 }
-        ]
+          { name: "1 biscuit (6.4 x 6.0 x 0.3cm)", value: 0.79 },
+        ],
       },
       {
         name: "Wheat, Meal Mates",
@@ -617,8 +626,8 @@ export default [
         carb: 49.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.4 x 6.3cm diameter)", value: 0.58 }
-        ]
+          { name: "1 biscuit (0.4 x 6.3cm diameter)", value: 0.58 },
+        ],
       },
       {
         name: "Wheat, Salada, Light, Original",
@@ -626,8 +635,8 @@ export default [
         carb: 66.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (10 x 8.7 x 0.4cm)", value: 0.148 }
-        ]
+          { name: "1 biscuit (10 x 8.7 x 0.4cm)", value: 0.148 },
+        ],
       },
       {
         name: "Wheat, Snax",
@@ -635,8 +644,8 @@ export default [
         carb: 54.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.5 x 5.0cm diameter)", value: 2 }
-        ]
+          { name: "1 biscuit (0.5 x 5.0cm diameter)", value: 2 },
+        ],
       },
       {
         name: "Wheat, Water Cracker",
@@ -644,8 +653,8 @@ export default [
         carb: 73.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit (0.4 x 5.5cm diameter)", value: 0.032 }
-        ]
+          { name: "1 biscuit (0.4 x 5.5cm diameter)", value: 0.032 },
+        ],
       },
       {
         name: "Wheat, Cheese flavoured",
@@ -654,8 +663,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 biscuit Cheddar (4.4 x 2.6 x 0.4cm)", value: 0.023 },
-          { name: "1 biscuit Cheds (6.9 x 5.3 x 0.5cm)", value: 0.083 }
-        ]
+          { name: "1 biscuit Cheds (6.9 x 5.3 x 0.5cm)", value: 0.083 },
+        ],
       },
       {
         name: "Wheat, Sesame",
@@ -663,10 +672,10 @@ export default [
         carb: 54.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 biscuit Sesame Wheat (6.0 x 5.9 x 0.5cm)", value: 0.067 }
-        ]
-      }
-    ]
+          { name: "1 biscuit Sesame Wheat (6.0 x 5.9 x 0.5cm)", value: 0.067 },
+        ],
+      },
+    ],
   },
   {
     name: "Garlic Bread",
@@ -679,8 +688,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice", value: 0.25 },
-          { name: "1 loaf (25.4 x 6 x 4.5cm)", value: 2.228 }
-        ]
+          { name: "1 loaf (25.4 x 6 x 4.5cm)", value: 2.228 },
+        ],
       },
       {
         name: "Garlic bread, made with margarine,",
@@ -689,10 +698,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice", value: 0.25 },
-          { name: "1 loaf (25.6 x 5.7 x 5.5cm)", value: 2.18 }
-        ]
-      }
-    ]
+          { name: "1 loaf (25.6 x 5.7 x 5.5cm)", value: 2.18 },
+        ],
+      },
+    ],
   },
   {
     name: "Muffins",
@@ -704,8 +713,8 @@ export default [
         carb: 45.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 muffin (6.0cm top diameter x 4.0cm height)", value: 0.6 }
-        ]
+          { name: "1 muffin (6.0cm top diameter x 4.0cm height)", value: 0.6 },
+        ],
       },
       {
         name: "bran",
@@ -715,9 +724,9 @@ export default [
           { name: "100g", value: 1 },
           {
             name: "1 medium muffin (7.5cm top diameter x 6.0cm height)",
-            value: 1.05
-          }
-        ]
+            value: 1.05,
+          },
+        ],
       },
       {
         name: "chocolate",
@@ -725,10 +734,10 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 muffin (6.0cm top diameter x 4.0cm height)", value: 53.1 }
-        ]
-      }
-    ]
+          { name: "1 muffin (6.0cm top diameter x 4.0cm height)", value: 53.1 },
+        ],
+      },
+    ],
   },
   {
     name: "Scones",
@@ -740,8 +749,8 @@ export default [
         carb: 45.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 scone (10.4 x 9.5 x 4.8cm)", value: 1.261 }
-        ]
+          { name: "1 scone (10.4 x 9.5 x 4.8cm)", value: 1.261 },
+        ],
       },
       {
         name: "Scone, white, with cheese",
@@ -749,8 +758,8 @@ export default [
         carb: 34.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 scone (9.5 x 8.3 x 5.0cm)", value: 1.393 }
-        ]
+          { name: "1 scone (9.5 x 8.3 x 5.0cm)", value: 1.393 },
+        ],
       },
       {
         name: "Scone, white, with dates",
@@ -758,10 +767,10 @@ export default [
         carb: 47.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 scone (8.8 x 7.1 x 5.0cm)", value: 0.343 }
-        ]
-      }
-    ]
+          { name: "1 scone (8.8 x 7.1 x 5.0cm)", value: 0.343 },
+        ],
+      },
+    ],
   },
   {
     name: "Other",
@@ -774,8 +783,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small (7-12cm long)", value: 0.5 },
-          { name: "1 large ( >15cm long)", value: 0.75 }
-        ]
+          { name: "1 large ( >15cm long)", value: 0.75 },
+        ],
       },
       {
         name: "Crumpet, White, Toasted",
@@ -784,8 +793,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 crumpet round (1.4 x 9.2cm diameter)", value: 0.485 },
-          { name: "1 crumpet square (10.9 x 10.5 x 1.5cm)", value: 0.698 }
-        ]
+          { name: "1 crumpet square (10.9 x 10.5 x 1.5cm)", value: 0.698 },
+        ],
       },
       {
         name: "Doughnut, Sugar & Cinnamon",
@@ -793,14 +802,17 @@ export default [
         carb: 43.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 doughnut (2.5 x 8.5cm diameter)", value: 0.42 }
-        ]
+          { name: "1 doughnut (2.5 x 8.5cm diameter)", value: 0.42 },
+        ],
       },
       {
         name: "English muffin, Bread-like, Assorted flavours, Toasted",
         variant: "",
         carb: 40.6,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 muffin", value: 0.8 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 muffin", value: 0.8 },
+        ],
       },
       {
         name: "Pizza base, no topping",
@@ -808,8 +820,8 @@ export default [
         carb: 48.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 piece (1/8 of 22.0cm diameter)", value: 2.01 }
-        ]
+          { name: "1 piece (1/8 of 22.0cm diameter)", value: 2.01 },
+        ],
       },
       {
         name: "Stuffing, from chicken, deli cooked",
@@ -818,10 +830,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.077 },
-          { name: "1 cup (250mL)", value: 0.376 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 0.376 },
+        ],
+      },
+    ],
   },
   /** Beverages, Alcoholic */
   {
@@ -837,12 +849,12 @@ export default [
           { name: "1 small glass (280mL, 1.0 standard drink)", value: 2.814 },
           {
             name: "1 regular bottle or can (330mL, 1.2 standard drink)",
-            value: 3.317
+            value: 3.317,
           },
           { name: "1 large can (440mL, 1.6 standard drink)", value: 4.422 },
           { name: "1 large glass (450mL, 1.7 standard drinks)", value: 4.523 },
-          { name: "1 large bottle (500mL, 1.8 standard drink)", value: 5.025 }
-        ]
+          { name: "1 large bottle (500mL, 1.8 standard drink)", value: 5.025 },
+        ],
       },
       {
         name: "high-strength (>5% alcohol by volume)",
@@ -853,12 +865,12 @@ export default [
           { name: "1 small glass (280mL, 1.3 standard drink)", value: 2.825 },
           {
             name: "1 regular bottle or can (330mL, 1.5 standard drink)",
-            value: 3.33
+            value: 3.33,
           },
           { name: "1 large can (440mL, 2.0 standard drink)", value: 4.44 },
           { name: "1 large glass (450mL, 2.1 standard drinks)", value: 4.541 },
-          { name: "1 large bottle (500mL, 2.3 standard drink)", value: 5.045 }
-        ]
+          { name: "1 large bottle (500mL, 2.3 standard drink)", value: 5.045 },
+        ],
       },
       {
         name: "low alcohol",
@@ -869,12 +881,12 @@ export default [
           { name: "1 small glass (280mL, 0.3 standard drinks)", value: 2.688 },
           {
             name: "1 regular bottle or can (330mL, 0.3 standard drinks)",
-            value: 3.168
+            value: 3.168,
           },
           { name: "1 large can (440mL, 0.4 standard drinks)", value: 4.224 },
           { name: "1 large glass (450mL, 0.4 standard drinks)", value: 4.32 },
-          { name: "1 large bottle (500mL, 0.5 standard drinks)", value: 4.8 }
-        ]
+          { name: "1 large bottle (500mL, 0.5 standard drinks)", value: 4.8 },
+        ],
       },
       {
         name: "low-strength (2.5% alcohol by volume)",
@@ -885,12 +897,12 @@ export default [
           { name: "1 small glass (280mL, 0.6 standard drink)", value: 2.822 },
           {
             name: "1 regular bottle or can (330mL, 0.7 standard drink)",
-            value: 3.326
+            value: 3.326,
           },
           { name: "1 large can (440mL, 0.9 standard drink)", value: 4.435 },
           { name: "1 large glass (450mL, 0.9 standard drinks)", value: 4.536 },
-          { name: "1 large bottle (500mL, 1.0 standard drink)", value: 5.04 }
-        ]
+          { name: "1 large bottle (500mL, 1.0 standard drink)", value: 5.04 },
+        ],
       },
       {
         name: "mid-strength (4% alcohol by volume)",
@@ -901,14 +913,14 @@ export default [
           { name: "1 small glass (280mL, 0.9 standard drink)", value: 2.827 },
           {
             name: "1 regular bottle or can (330mL, 1.0 standard drink)",
-            value: 3.32
+            value: 3.32,
           },
           { name: "1 large can (440mL, 1.3 standard drink)", value: 4.426 },
           { name: "1 large glass (450mL, 1.4 standard drinks)", value: 4.527 },
-          { name: "1 large bottle (500mL, 1.5 standard drink)", value: 5.03 }
-        ]
-      }
-    ]
+          { name: "1 large bottle (500mL, 1.5 standard drink)", value: 5.03 },
+        ],
+      },
+    ],
   },
   {
     name: "Cider",
@@ -923,11 +935,11 @@ export default [
           { name: "1 small glass (280mL, 1.1 standard drinks)", value: 2.836 },
           {
             name: "1 regular bottle (330mL, 1.3 standard drinks)",
-            value: 3.343
+            value: 3.343,
           },
           { name: "1 large glass (450mL, 1.8 standard drinks)", value: 4.559 },
-          { name: "1 large bottle (500mL, 2.0 standard drinks)", value: 5.065 }
-        ]
+          { name: "1 large bottle (500mL, 2.0 standard drinks)", value: 5.065 },
+        ],
       },
       {
         name: "sweet",
@@ -938,13 +950,13 @@ export default [
           { name: "1 small glass (280mL, 1.0 standard drinks)", value: 2.828 },
           {
             name: "1 regular bottle (330mL, 1.2 standard drinks)",
-            value: 3.333
+            value: 3.333,
           },
           { name: "1 large glass (450mL, 1.7 standard drinks)", value: 4.545 },
-          { name: "1 large bottle (500mL, 1.9 standard drinks)", value: 5.05 }
-        ]
-      }
-    ]
+          { name: "1 large bottle (500mL, 1.9 standard drinks)", value: 5.05 },
+        ],
+      },
+    ],
   },
   {
     name: "Wine",
@@ -957,8 +969,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.6 standard drinks)", value: 1.03 },
-          { name: "1 average glass (150mL, 2.5 standard drinks)", value: 1.545 }
-        ]
+          {
+            name: "1 average glass (150mL, 2.5 standard drinks)",
+            value: 1.545,
+          },
+        ],
       },
       {
         name: "Sherry, dry",
@@ -967,8 +982,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.6 standard drinks)", value: 0.99 },
-          { name: "1 average glass (150mL, 2.3 standard drinks)", value: 1.485 }
-        ]
+          {
+            name: "1 average glass (150mL, 2.3 standard drinks)",
+            value: 1.485,
+          },
+        ],
       },
       {
         name: "Sherry, sweet",
@@ -977,8 +995,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.6 standard drinks)", value: 10.4 },
-          { name: "1 average glass (150mL, 2.4 standard drinks)", value: 1.515 }
-        ]
+          {
+            name: "1 average glass (150mL, 2.4 standard drinks)",
+            value: 1.515,
+          },
+        ],
       },
       {
         name: "Pinot Noir (13.5% alcohol by volume)",
@@ -987,8 +1008,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.1 standard drinks)", value: 0.994 },
-          { name: "1 average glass (150mL, 1.6 standard drinks)", value: 1.491 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.6 standard drinks)",
+            value: 1.491,
+          },
+        ],
       },
       {
         name: "Cabernet Sauvignon (14% alcohol by volume)",
@@ -997,8 +1021,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.1 standard drinks)", value: 0.995 },
-          { name: "1 average glass (150mL, 1.7 standard drinks)", value: 1.493 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.7 standard drinks)",
+            value: 1.493,
+          },
+        ],
       },
       {
         name: "Merlot (14% alcohol by volume)",
@@ -1007,8 +1034,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.1 standard drinks)", value: 0.995 },
-          { name: "1 average glass (150mL, 1.6 standard drinks)", value: 1.493 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.6 standard drinks)",
+            value: 1.493,
+          },
+        ],
       },
       {
         name: "Shiraz (14% alcohol by volume)",
@@ -1017,8 +1047,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.1 standard drinks)", value: 0.994 },
-          { name: "1 average glass (150mL, 1.7 standard drinks)", value: 1.491 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.7 standard drinks)",
+            value: 1.491,
+          },
+        ],
       },
       {
         name: "rose (12% alcohol by volume)",
@@ -1027,8 +1060,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 0.9 standard drinks)", value: 0.995 },
-          { name: "1 average glass (150mL, 1.4 standard drinks)", value: 1.493 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.4 standard drinks)",
+            value: 1.493,
+          },
+        ],
       },
       {
         name: "Semillon (11% alcohol by volume)",
@@ -1037,8 +1073,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 0.9 standard drinks)", value: 0.993 },
-          { name: "1 average glass (150mL, 1.4 standard drinks)", value: 1.493 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.4 standard drinks)",
+            value: 1.493,
+          },
+        ],
       },
       {
         name: "Sauvignon Blanc (12% alcohol by volume)",
@@ -1047,8 +1086,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.0 standard drinks)", value: 0.992 },
-          { name: "1 average glass (150mL, 1.5 standard drinks)", value: 1.488 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.5 standard drinks)",
+            value: 1.488,
+          },
+        ],
       },
       {
         name: "Chardonnay (13% alcohol by volume)",
@@ -1057,8 +1099,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.0 standard drinks)", value: 0.992 },
-          { name: "1 average glass (150mL, 1.5 standard drinks)", value: 1.488 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.5 standard drinks)",
+            value: 1.488,
+          },
+        ],
       },
       {
         name: "Riesling (12% alcohol by volume)",
@@ -1067,8 +1112,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.0 standard drinks)", value: 0.993 },
-          { name: "1 average glass (150mL, 1.4 standard drinks)", value: 1.49 }
-        ]
+          { name: "1 average glass (150mL, 1.4 standard drinks)", value: 1.49 },
+        ],
       },
       {
         name: "Sparkling (12% alcohol by volume)",
@@ -1077,8 +1122,11 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 1.0 standard drinks)", value: 0.995 },
-          { name: "1 average glass (150mL, 1.5 standard drinks)", value: 1.493 }
-        ]
+          {
+            name: "1 average glass (150mL, 1.5 standard drinks)",
+            value: 1.493,
+          },
+        ],
       },
       {
         name: "sweet, dessert (11.5% alcohol by volume)",
@@ -1087,10 +1135,13 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small glass (100mL, 0.9 standard drinks)", value: 1.066 },
-          { name: "1 average glass (150mL, 1.4 standard drinks)", value: 1.599 }
-        ]
-      }
-    ]
+          {
+            name: "1 average glass (150mL, 1.4 standard drinks)",
+            value: 1.599,
+          },
+        ],
+      },
+    ],
   },
   {
     name: "Spirit",
@@ -1103,8 +1154,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 shot (30mL, 0.9 standard drinks)", value: 0.285 },
-          { name: "Double shot (60mL, 1.8 standard drinks)", value: 0.57 }
-        ]
+          { name: "Double shot (60mL, 1.8 standard drinks)", value: 0.57 },
+        ],
       },
       {
         name: "gin, 90 proof",
@@ -1113,8 +1164,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 shot (30mL, 1.1 standard drinks)", value: 0.282 },
-          { name: "Double shot (60mL, 2.1 standard drinks)", value: 0.564 }
-        ]
+          { name: "Double shot (60mL, 2.1 standard drinks)", value: 0.564 },
+        ],
       },
       {
         name: "rum, 80 proof",
@@ -1123,8 +1174,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 shot (30mL, 0.9 standard drinks)", value: 0.282 },
-          { name: "Double shot (60mL, 1.9 standard drinks)", value: 0.564 }
-        ]
+          { name: "Double shot (60mL, 1.9 standard drinks)", value: 0.564 },
+        ],
       },
       {
         name: "vodka, 80 proof",
@@ -1133,8 +1184,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 shot (30mL, 0.9 standard drinks)", value: 0.282 },
-          { name: "Double shot (60mL, 1.9 standard drinks)", value: 0.564 }
-        ]
+          { name: "Double shot (60mL, 1.9 standard drinks)", value: 0.564 },
+        ],
       },
       {
         name: "whiskey, 86 proof",
@@ -1143,10 +1194,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 shot (30mL, 0.9 standard drinks)", value: 0.282 },
-          { name: "Double shot (60mL, 1.9 standard drinks)", value: 0.564 }
-        ]
-      }
-    ]
+          { name: "Double shot (60mL, 1.9 standard drinks)", value: 0.564 },
+        ],
+      },
+    ],
   },
   /** Beverages Non-Alcoholic */
   {
@@ -1159,8 +1210,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.55 }
-        ]
+          { name: "1 cup (250mL)", value: 2.55 },
+        ],
       },
       {
         name: "brewed from grounds, plunger prepared",
@@ -1168,8 +1219,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.55 }
-        ]
+          { name: "1 cup (250mL)", value: 2.55 },
+        ],
       },
       {
         name: "espresso",
@@ -1180,8 +1231,8 @@ export default [
           { name: "1 shot (30mL)", value: 0.3 },
           { name: "2 shot (55mL)", value: 0.55 },
           { name: "1 cup short black cafe size (70mL)", value: 0.7 },
-          { name: "1 cup short black takeaway size (90mL)", value: 0.9 }
-        ]
+          { name: "1 cup short black takeaway size (90mL)", value: 0.9 },
+        ],
       },
       {
         name: "flat white, double shot & milk standard 3.3% fat",
@@ -1189,8 +1240,8 @@ export default [
         carb: 3.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup regular takeaway size (285mL)", value: 2.449 }
-        ]
+          { name: "1 cup regular takeaway size (285mL)", value: 2.449 },
+        ],
       },
       {
         name: "dry powder with water",
@@ -1198,8 +1249,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "dry powder with water & milk standard 3.3% fat",
@@ -1207,8 +1258,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "dry powder with water & milk standard 0.5% fat",
@@ -1216,8 +1267,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "double shot & milk standard 3.3% fat",
@@ -1225,8 +1276,8 @@ export default [
         carb: 3.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup large cafe size (300mL)", value: 2.194 }
-        ]
+          { name: "1 cup large cafe size (300mL)", value: 2.194 },
+        ],
       },
       {
         name: "double shot & milk standard 0.5% fat",
@@ -1234,8 +1285,8 @@ export default [
         carb: 3.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup large cafe size (300mL)", value: 2.194 }
-        ]
+          { name: "1 cup large cafe size (300mL)", value: 2.194 },
+        ],
       },
       {
         name: "long black, double shot",
@@ -1244,8 +1295,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup small cafe size (150mL)", value: 1.5 },
-          { name: "1 cup regular takeaway size (285mL)", value: 2.85 }
-        ]
+          { name: "1 cup regular takeaway size (285mL)", value: 2.85 },
+        ],
       },
       {
         name: "mochaccino, double shot & milk standard 3.3% fat",
@@ -1253,8 +1304,8 @@ export default [
         carb: 3.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup large cafe size (300mL)", value: 2.239 }
-        ]
+          { name: "1 cup large cafe size (300mL)", value: 2.239 },
+        ],
       },
       {
         name: "mochaccino, double shot & milk standard 0.5% fat",
@@ -1262,8 +1313,8 @@ export default [
         carb: 3.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup large cafe size (300mL)", value: 2.239 }
-        ]
+          { name: "1 cup large cafe size (300mL)", value: 2.239 },
+        ],
       },
       {
         name: "dry powder, Cafe Menu Cappuccino",
@@ -1271,8 +1322,8 @@ export default [
         carb: 35,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 2.3 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 2.3 },
+        ],
       },
       {
         name: "dry powder, decaffeinated",
@@ -1280,8 +1331,8 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.017 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.017 },
+        ],
       },
       {
         name: "dry powder",
@@ -1289,10 +1340,10 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.018 }
-        ]
-      }
-    ]
+          { name: "1 teaspoon (5mL)", value: 0.018 },
+        ],
+      },
+    ],
   },
   {
     name: "Drinking Chocolate",
@@ -1304,8 +1355,8 @@ export default [
         carb: 12.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.019 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.019 },
+        ],
       },
       {
         name: "Nesquik, Chocolate",
@@ -1313,8 +1364,8 @@ export default [
         carb: 88.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.027 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.027 },
+        ],
       },
       {
         name: "Chocolatte Frothy Classic & Extreme Choc",
@@ -1322,8 +1373,8 @@ export default [
         carb: 42.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.02 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.02 },
+        ],
       },
       {
         name: "Drinking Chocolate",
@@ -1331,8 +1382,8 @@ export default [
         carb: 85.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.031 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.031 },
+        ],
       },
       {
         name: "Milo",
@@ -1340,10 +1391,10 @@ export default [
         carb: 87.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.022 }
-        ]
-      }
-    ]
+          { name: "1 teaspoon (5mL)", value: 0.022 },
+        ],
+      },
+    ],
   },
   {
     name: "Energy Drinks",
@@ -1355,8 +1406,8 @@ export default [
         carb: 10.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.582 }
-        ]
+          { name: "1 cup (250mL)", value: 2.582 },
+        ],
       },
       {
         name: "V, sugar free",
@@ -1364,10 +1415,10 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.65 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.65 },
+        ],
+      },
+    ],
   },
   {
     name: "Flavored Drink",
@@ -1379,8 +1430,8 @@ export default [
         carb: 92.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.2 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.2 },
+        ],
       },
       {
         name: "Raro, assorted flavours",
@@ -1388,8 +1439,8 @@ export default [
         carb: 92.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.135 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.135 },
+        ],
       },
       {
         name: "lemon & barley",
@@ -1397,8 +1448,8 @@ export default [
         carb: 9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.59 }
-        ]
+          { name: "1 cup (250mL)", value: 2.59 },
+        ],
       },
       {
         name: "orange",
@@ -1406,10 +1457,10 @@ export default [
         carb: 9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.59 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.59 },
+        ],
+      },
+    ],
   },
   {
     name: "Fruit Drink",
@@ -1421,8 +1472,8 @@ export default [
         carb: 6.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.574 }
-        ]
+          { name: "1 cup (250mL)", value: 2.574 },
+        ],
       },
       {
         name: "blackcurrant, sweetened, fortified vitamin C",
@@ -1430,8 +1481,8 @@ export default [
         carb: 8.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.574 }
-        ]
+          { name: "1 cup (250mL)", value: 2.574 },
+        ],
       },
       {
         name: "cranberry, sweetened, fortified vitamin C",
@@ -1439,8 +1490,8 @@ export default [
         carb: 9.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.577 }
-        ]
+          { name: "1 cup (250mL)", value: 2.577 },
+        ],
       },
       {
         name: "cranberry, unsweetened, fortified vitamin C",
@@ -1448,8 +1499,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.48 }
-        ]
+          { name: "1 cup (250mL)", value: 2.48 },
+        ],
       },
       {
         name: "orange, unsweetened, fortified vitamin C",
@@ -1457,10 +1508,10 @@ export default [
         carb: 3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.539 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.539 },
+        ],
+      },
+    ],
   },
   {
     name: "Juice Concentrate",
@@ -1470,27 +1521,39 @@ export default [
         name: "Blackcurrant",
         variant: "Baker Halls",
         carb: 56.8,
-        amounts: [{ name: "100g", value: 1 }, { name: "100mL", value: 1.12 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "100mL", value: 1.12 },
+        ],
       },
       {
         name: "Lemon & Barley",
         variant: "Baker Halls",
         carb: 43.6,
-        amounts: [{ name: "100g", value: 1 }, { name: "100mL", value: 1.12 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "100mL", value: 1.12 },
+        ],
       },
       {
         name: "Blackcurrant, frozen",
         variant: "",
         carb: 33,
-        amounts: [{ name: "100g", value: 1 }, { name: "100mL", value: 1.28 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "100mL", value: 1.28 },
+        ],
       },
       {
         name: "orange",
         variant: "",
         carb: 34.1,
-        amounts: [{ name: "100g", value: 1 }, { name: "100mL", value: 1.124 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "100mL", value: 1.124 },
+        ],
+      },
+    ],
   },
   {
     name: "Juice",
@@ -1502,8 +1565,8 @@ export default [
         carb: 9.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.61 }
-        ]
+          { name: "1 cup (250mL)", value: 2.61 },
+        ],
       },
       {
         name: "grape",
@@ -1511,8 +1574,8 @@ export default [
         carb: 11.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.66 }
-        ]
+          { name: "1 cup (250mL)", value: 2.66 },
+        ],
       },
       {
         name: "grapefruit, unsweetened",
@@ -1520,8 +1583,8 @@ export default [
         carb: 7.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.56 }
-        ]
+          { name: "1 cup (250mL)", value: 2.56 },
+        ],
       },
       {
         name: "orange with apple base",
@@ -1529,8 +1592,8 @@ export default [
         carb: 10.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.62 }
-        ]
+          { name: "1 cup (250mL)", value: 2.62 },
+        ],
       },
       {
         name: "orange, sweetened, ready to drink",
@@ -1538,8 +1601,8 @@ export default [
         carb: 7.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.577 }
-        ]
+          { name: "1 cup (250mL)", value: 2.577 },
+        ],
       },
       {
         name: "orange, unsweetened",
@@ -1547,8 +1610,8 @@ export default [
         carb: 7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.553 }
-        ]
+          { name: "1 cup (250mL)", value: 2.553 },
+        ],
       },
       {
         name: "orange, unsweetened, shelf stable or refrigerated",
@@ -1556,8 +1619,8 @@ export default [
         carb: 5.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.567 }
-        ]
+          { name: "1 cup (250mL)", value: 2.567 },
+        ],
       },
       {
         name: "tomato",
@@ -1565,10 +1628,10 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.57 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.57 },
+        ],
+      },
+    ],
   },
   {
     name: "Liquid Breakfast",
@@ -1580,8 +1643,8 @@ export default [
         carb: 14,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.68 }
-        ]
+          { name: "1 cup (250mL)", value: 2.68 },
+        ],
       },
       {
         name: "Up&Go, assorted flavours",
@@ -1589,10 +1652,10 @@ export default [
         carb: 11.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.669 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.669 },
+        ],
+      },
+    ],
   },
   {
     name: "Rice Milk",
@@ -1604,8 +1667,8 @@ export default [
         carb: 4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.75 }
-        ]
+          { name: "1 cup (250mL)", value: 2.75 },
+        ],
       },
       {
         name: "Organic Rice Lactose Free Drink Original",
@@ -1613,8 +1676,8 @@ export default [
         carb: 6.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.675 }
-        ]
+          { name: "1 cup (250mL)", value: 2.675 },
+        ],
       },
       {
         name: "Original Calcium Enriched",
@@ -1622,8 +1685,8 @@ export default [
         carb: 8.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.7 }
-        ]
+          { name: "1 cup (250mL)", value: 2.7 },
+        ],
       },
       {
         name: "Original Lactose Free Beverage Low Fat & Natural",
@@ -1631,8 +1694,8 @@ export default [
         carb: 5.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.62 }
-        ]
+          { name: "1 cup (250mL)", value: 2.62 },
+        ],
       },
       {
         name: "Protein and Calcium Enriched",
@@ -1640,8 +1703,8 @@ export default [
         carb: 6.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.675 }
-        ]
+          { name: "1 cup (250mL)", value: 2.675 },
+        ],
       },
       {
         name: "Rice Drink Original",
@@ -1649,8 +1712,8 @@ export default [
         carb: 5.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.7 }
-        ]
+          { name: "1 cup (250mL)", value: 2.7 },
+        ],
       },
       {
         name: "Rice Drink Vanilla",
@@ -1658,10 +1721,10 @@ export default [
         carb: 5.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.7 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.7 },
+        ],
+      },
+    ],
   },
   {
     name: "Smoothie",
@@ -1673,8 +1736,8 @@ export default [
         carb: 11.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.725 }
-        ]
+          { name: "1 cup (250mL)", value: 2.725 },
+        ],
       },
       {
         name: "Berry",
@@ -1682,10 +1745,10 @@ export default [
         carb: 10.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.75 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.75 },
+        ],
+      },
+    ],
   },
   {
     name: "Soft Drink",
@@ -1697,8 +1760,8 @@ export default [
         carb: 6.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.588 }
-        ]
+          { name: "1 cup (250mL)", value: 2.588 },
+        ],
       },
       {
         name: "assorted tea flavours, artificially-sweetened",
@@ -1706,8 +1769,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.518 }
-        ]
+          { name: "1 cup (250mL)", value: 2.518 },
+        ],
       },
       {
         name: "assorted tea flavours, reduced sugar",
@@ -1715,8 +1778,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.528 }
-        ]
+          { name: "1 cup (250mL)", value: 2.528 },
+        ],
       },
       {
         name: "assorted tea flavours, sugar-sweetened",
@@ -1724,8 +1787,8 @@ export default [
         carb: 7.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.57 }
-        ]
+          { name: "1 cup (250mL)", value: 2.57 },
+        ],
       },
       {
         name: "assorted fruit flavours, sugar-sweetened",
@@ -1733,8 +1796,8 @@ export default [
         carb: 9.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.588 }
-        ]
+          { name: "1 cup (250mL)", value: 2.588 },
+        ],
       },
       {
         name: "cola flavoured, artificially-sweetened, caffeinated",
@@ -1742,8 +1805,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.518 }
-        ]
+          { name: "1 cup (250mL)", value: 2.518 },
+        ],
       },
       {
         name: "cola flavour, artificially-sweetened, non-caffeinated",
@@ -1751,8 +1814,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.503 }
-        ]
+          { name: "1 cup (250mL)", value: 2.503 },
+        ],
       },
       {
         name: "lemon flavour, artificially-sweetened",
@@ -1760,8 +1823,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.515 }
-        ]
+          { name: "1 cup (250mL)", value: 2.515 },
+        ],
       },
       {
         name: "lemon flavour, sugarsweetened",
@@ -1770,8 +1833,8 @@ export default [
         carb: 9.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.568 }
-        ]
+          { name: "1 cup (250mL)", value: 2.568 },
+        ],
       },
       {
         name: "cola flavour, reduced sugar, caffeinated",
@@ -1779,8 +1842,8 @@ export default [
         carb: 6.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.573 }
-        ]
+          { name: "1 cup (250mL)", value: 2.573 },
+        ],
       },
       {
         name: "cola flavour, sugar-sweetened, caffeinated",
@@ -1788,8 +1851,8 @@ export default [
         carb: 7.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.535 }
-        ]
+          { name: "1 cup (250mL)", value: 2.535 },
+        ],
       },
       {
         name: "lemon flavour, reduced sugar",
@@ -1797,8 +1860,8 @@ export default [
         carb: 7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.56 }
-        ]
+          { name: "1 cup (250mL)", value: 2.56 },
+        ],
       },
       {
         name: "soda water",
@@ -1806,8 +1869,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "tonic water",
@@ -1815,10 +1878,10 @@ export default [
         carb: 8.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.58 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.58 },
+        ],
+      },
+    ],
   },
   {
     name: "Soy Milk",
@@ -1830,8 +1893,8 @@ export default [
         carb: 4.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
       },
       {
         name: "So Good Lite Soy Milk",
@@ -1839,8 +1902,8 @@ export default [
         carb: 3.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
       },
       {
         name: "So Good Regular Soy Milk",
@@ -1848,8 +1911,8 @@ export default [
         carb: 4.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.55 }
-        ]
+          { name: "1 cup (250mL)", value: 2.55 },
+        ],
       },
       {
         name: "So Good, Vanilla Flavoured",
@@ -1857,10 +1920,10 @@ export default [
         carb: 6.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.55 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.55 },
+        ],
+      },
+    ],
   },
   {
     name: "Sports Drink",
@@ -1872,8 +1935,8 @@ export default [
         carb: 3.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.55 }
-        ]
+          { name: "1 cup (250mL)", value: 2.55 },
+        ],
       },
       {
         name: "assorted flavours, Isopower",
@@ -1881,8 +1944,8 @@ export default [
         carb: 6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.566 }
-        ]
+          { name: "1 cup (250mL)", value: 2.566 },
+        ],
       },
       {
         name: "Lucozade",
@@ -1890,8 +1953,8 @@ export default [
         carb: 14,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.65 }
-        ]
+          { name: "1 cup (250mL)", value: 2.65 },
+        ],
       },
       {
         name: "Gatorade",
@@ -1899,8 +1962,8 @@ export default [
         carb: 6.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.56 }
-        ]
+          { name: "1 cup (250mL)", value: 2.56 },
+        ],
       },
       {
         name: "Powerade",
@@ -1908,8 +1971,8 @@ export default [
         carb: 8.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.554 }
-        ]
+          { name: "1 cup (250mL)", value: 2.554 },
+        ],
       },
       {
         name: "assorted flavours",
@@ -1917,10 +1980,10 @@ export default [
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
+      },
+    ],
   },
   {
     name: "Other",
@@ -1932,10 +1995,10 @@ export default [
         carb: 0.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.443 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.443 },
+        ],
+      },
+    ],
   },
   /** Breakfast Cereals */
   {
@@ -1948,8 +2011,8 @@ export default [
         carb: 62.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.789 }
-        ]
+          { name: "1 cup (250mL)", value: 0.789 },
+        ],
       },
       {
         name: "rice puffed, cocoa coated",
@@ -1957,8 +2020,8 @@ export default [
         carb: 80.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.629 }
-        ]
+          { name: "1 cup (250mL)", value: 0.629 },
+        ],
       },
       {
         name: "Cluster Crisp, Manuka Honey with Roasted Cashew",
@@ -1966,8 +2029,8 @@ export default [
         carb: 56.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.926 }
-        ]
+          { name: "1 cup (250mL)", value: 0.926 },
+        ],
       },
       {
         name: "Cluster Crisp",
@@ -1975,8 +2038,8 @@ export default [
         carb: 56.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.928 }
-        ]
+          { name: "1 cup (250mL)", value: 0.928 },
+        ],
       },
       {
         name: "Cluster Crisp, Vanilla Almond",
@@ -1984,8 +2047,8 @@ export default [
         carb: 56.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.929 }
-        ]
+          { name: "1 cup (250mL)", value: 0.929 },
+        ],
       },
       {
         name: "Coco Pops",
@@ -1993,8 +2056,8 @@ export default [
         carb: 84.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.524 }
-        ]
+          { name: "1 cup (250mL)", value: 0.524 },
+        ],
       },
       {
         name: "Crunchy Nut Corn Flakes",
@@ -2002,8 +2065,8 @@ export default [
         carb: 79.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.44 }
-        ]
+          { name: "1 cup (250mL)", value: 0.44 },
+        ],
       },
       {
         name: "Fruitful Breakfast",
@@ -2011,8 +2074,8 @@ export default [
         carb: 59.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.475 }
-        ]
+          { name: "1 cup (250mL)", value: 1.475 },
+        ],
       },
       {
         name: "Just Right",
@@ -2020,8 +2083,8 @@ export default [
         carb: 76.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.531 }
-        ]
+          { name: "1 cup (250mL)", value: 0.531 },
+        ],
       },
       {
         name: "Light 'n' Tasty, Apricot",
@@ -2029,8 +2092,8 @@ export default [
         carb: 69.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.775 }
-        ]
+          { name: "1 cup (250mL)", value: 0.775 },
+        ],
       },
       {
         name: "Light 'n' Tasty, Berry",
@@ -2038,8 +2101,8 @@ export default [
         carb: 69.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.824 }
-        ]
+          { name: "1 cup (250mL)", value: 0.824 },
+        ],
       },
       {
         name: "Light 'n' Tasty, Peach & Raspberry",
@@ -2047,8 +2110,8 @@ export default [
         carb: 67.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.747 }
-        ]
+          { name: "1 cup (250mL)", value: 0.747 },
+        ],
       },
       {
         name: "Nutri-Grain",
@@ -2056,8 +2119,8 @@ export default [
         carb: 67.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.368 }
-        ]
+          { name: "1 cup (250mL)", value: 0.368 },
+        ],
       },
       {
         name: "Porridge, prepared with water, salt added",
@@ -2065,8 +2128,8 @@ export default [
         carb: 8.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.26 }
-        ]
+          { name: "1 cup (250mL)", value: 0.26 },
+        ],
       },
       {
         name: "Puffed Wheat",
@@ -2074,8 +2137,8 @@ export default [
         carb: 77.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.3 }
-        ]
+          { name: "1 cup (250mL)", value: 0.3 },
+        ],
       },
       {
         name: "Rice Bubbles",
@@ -2083,8 +2146,8 @@ export default [
         carb: 82.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.3 }
-        ]
+          { name: "1 cup (250mL)", value: 0.3 },
+        ],
       },
       {
         name: "Ricies",
@@ -2092,14 +2155,14 @@ export default [
         carb: 77.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.32 }
-        ]
+          { name: "1 cup (250mL)", value: 0.32 },
+        ],
       },
       {
         name: "San Bran",
         variant: "Sanitarium",
         carb: 41.4,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Simply Toasted Muesli Apricot",
@@ -2107,8 +2170,8 @@ export default [
         carb: 58.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.427 }
-        ]
+          { name: "1 cup (250mL)", value: 1.427 },
+        ],
       },
       {
         name: "Skippy Cornflakes",
@@ -2116,8 +2179,8 @@ export default [
         carb: 76.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.334 }
-        ]
+          { name: "1 cup (250mL)", value: 0.334 },
+        ],
       },
       {
         name: "Special K, Forest Berries",
@@ -2125,8 +2188,8 @@ export default [
         carb: 70.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.4 }
-        ]
+          { name: "1 cup (250mL)", value: 0.4 },
+        ],
       },
       {
         name: "Special K, Original",
@@ -2134,8 +2197,8 @@ export default [
         carb: 64.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.415 }
-        ]
+          { name: "1 cup (250mL)", value: 0.415 },
+        ],
       },
       {
         name: "Sultana Bran",
@@ -2143,8 +2206,8 @@ export default [
         carb: 63.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.45 }
-        ]
+          { name: "1 cup (250mL)", value: 0.45 },
+        ],
       },
       {
         name: "Sustain",
@@ -2152,8 +2215,8 @@ export default [
         carb: 68.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.6 }
-        ]
+          { name: "1 cup (250mL)", value: 0.6 },
+        ],
       },
       {
         name: "Toasted Muesli Golden Oats & Fruit",
@@ -2161,8 +2224,8 @@ export default [
         carb: 60,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.288 }
-        ]
+          { name: "1 cup (250mL)", value: 1.288 },
+        ],
       },
       {
         name: "Toasted Muesli Super Fruity",
@@ -2170,8 +2233,8 @@ export default [
         carb: 64.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.334 }
-        ]
+          { name: "1 cup (250mL)", value: 1.334 },
+        ],
       },
       {
         name: "Toasted Strawberry and Rhubarb",
@@ -2179,8 +2242,8 @@ export default [
         carb: 55.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.258 }
-        ]
+          { name: "1 cup (250mL)", value: 1.258 },
+        ],
       },
       {
         name: "Weet-Bix Oat Bran",
@@ -2188,8 +2251,8 @@ export default [
         carb: 72.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.222 }
-        ]
+          { name: "1 cup (250mL)", value: 0.222 },
+        ],
       },
       {
         name: "Weet-Bix",
@@ -2197,8 +2260,8 @@ export default [
         carb: 58.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.168 }
-        ]
+          { name: "1 cup (250mL)", value: 0.168 },
+        ],
       },
       {
         name: "Weeties",
@@ -2206,10 +2269,10 @@ export default [
         carb: 61.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.515 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 0.515 },
+        ],
+      },
+    ],
   },
   /** Cereals and Pseudo-Cereals */
   {
@@ -2222,8 +2285,8 @@ export default [
         carb: 25.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.65 }
-        ]
+          { name: "1 cup (250mL)", value: 1.65 },
+        ],
       },
       {
         name: "Bulgur, boiled",
@@ -2231,8 +2294,8 @@ export default [
         carb: 17.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.923 }
-        ]
+          { name: "1 cup (250mL)", value: 1.923 },
+        ],
       },
       {
         name: "Cornmeal, wholegrain, yellow",
@@ -2240,8 +2303,8 @@ export default [
         carb: 63.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.22 }
-        ]
+          { name: "1 cup (250mL)", value: 1.22 },
+        ],
       },
       {
         name: "Couscous, cooked in water, not drained",
@@ -2249,8 +2312,8 @@ export default [
         carb: 32.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.432 }
-        ]
+          { name: "1 cup (250mL)", value: 1.432 },
+        ],
       },
       {
         name: "Couscous, dry",
@@ -2258,8 +2321,8 @@ export default [
         carb: 67.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.112 }
-        ]
+          { name: "1 cup (250mL)", value: 2.112 },
+        ],
       },
       {
         name: "Custard, dry powder",
@@ -2267,8 +2330,8 @@ export default [
         carb: 83.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.086 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.086 },
+        ],
       },
       {
         name: "Semolina, cooked",
@@ -2276,8 +2339,8 @@ export default [
         carb: 6.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.45 }
-        ]
+          { name: "1 cup (250mL)", value: 2.45 },
+        ],
       },
       {
         name: "Wheat bran",
@@ -2285,8 +2348,8 @@ export default [
         carb: 23.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.63 }
-        ]
+          { name: "1 cup (250mL)", value: 0.63 },
+        ],
       },
       {
         name: "Wheat germ",
@@ -2294,10 +2357,10 @@ export default [
         carb: 36.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.98 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 0.98 },
+        ],
+      },
+    ],
   },
   {
     name: "Flour",
@@ -2309,8 +2372,8 @@ export default [
         carb: 46.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.958 }
-        ]
+          { name: "1 cup (250mL)", value: 0.958 },
+        ],
       },
       {
         name: "corn",
@@ -2318,8 +2381,8 @@ export default [
         carb: 83.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.075 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.075 },
+        ],
       },
       {
         name: "soy, full fat",
@@ -2327,8 +2390,8 @@ export default [
         carb: 24.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.68 }
-        ]
+          { name: "1 cup (250mL)", value: 0.68 },
+        ],
       },
       {
         name: "wheat, white",
@@ -2337,8 +2400,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.082 },
-          { name: "1 cup (250mL)", value: 1.373 }
-        ]
+          { name: "1 cup (250mL)", value: 1.373 },
+        ],
       },
       {
         name: "wheat, wholemeal",
@@ -2346,10 +2409,10 @@ export default [
         carb: 60.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.243 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.243 },
+        ],
+      },
+    ],
   },
   {
     name: "Frozen Meal",
@@ -2361,8 +2424,8 @@ export default [
         carb: 14.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "macaroni chese, baked",
@@ -2370,8 +2433,8 @@ export default [
         carb: 14.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.325 }
-        ]
+          { name: "1 cup (250mL)", value: 1.325 },
+        ],
       },
       {
         name: "spaghetti bolognaise, baked",
@@ -2379,10 +2442,10 @@ export default [
         carb: 13.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.225 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.225 },
+        ],
+      },
+    ],
   },
   {
     name: "Noodle",
@@ -2394,8 +2457,8 @@ export default [
         carb: 24.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "rice flour, dry, boiled, drained",
@@ -2403,8 +2466,8 @@ export default [
         carb: 23.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.224 }
-        ]
+          { name: "1 cup (250mL)", value: 2.224 },
+        ],
       },
       {
         name: "Japanese udon noodles, shelf-fresh, boiled, drained",
@@ -2412,8 +2475,8 @@ export default [
         carb: 20.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.864 }
-        ]
+          { name: "1 cup (250mL)", value: 1.864 },
+        ],
       },
       {
         name: "Japanese udon noodles, shelf-fresh, stir fried",
@@ -2421,8 +2484,8 @@ export default [
         carb: 28.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.918 }
-        ]
+          { name: "1 cup (250mL)", value: 1.918 },
+        ],
       },
       {
         name: "wheat flour with egg, boiled, drained",
@@ -2430,8 +2493,8 @@ export default [
         carb: 11.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.69 }
-        ]
+          { name: "1 cup (250mL)", value: 1.69 },
+        ],
       },
       {
         name: "wheat flour with egg, fried",
@@ -2439,8 +2502,8 @@ export default [
         carb: 10.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.69 }
-        ]
+          { name: "1 cup (250mL)", value: 1.69 },
+        ],
       },
       {
         name: "2 Minutes, wheat flour, assorted flavours, boiled, undrained",
@@ -2449,8 +2512,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup (250mL)", value: 2.85 },
-          { name: "1 cake (11.5 x 8.0 x 2.6cm)", value: 3.963 }
-        ]
+          { name: "1 cake (11.5 x 8.0 x 2.6cm)", value: 3.963 },
+        ],
       },
       {
         name: "wheat, Shin Ramyun noodle soup Hot & Spicy, boiled, undrained",
@@ -2459,10 +2522,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup (250mL)", value: 2.84 },
-          { name: "1 cake (11.5 x 8.0 x 2.6cm)", value: 7.32 }
-        ]
-      }
-    ]
+          { name: "1 cake (11.5 x 8.0 x 2.6cm)", value: 7.32 },
+        ],
+      },
+    ],
   },
   {
     name: "Oats",
@@ -2474,8 +2537,8 @@ export default [
         carb: 54.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.2 }
-        ]
+          { name: "1 cup (250mL)", value: 1.2 },
+        ],
       },
       {
         name: "Oatmeal",
@@ -2483,8 +2546,8 @@ export default [
         carb: 66.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 90 }
-        ]
+          { name: "1 cup (250mL)", value: 90 },
+        ],
       },
       {
         name: "Traditional Wholegrain Oats",
@@ -2492,8 +2555,8 @@ export default [
         carb: 58.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.125 }
-        ]
+          { name: "1 cup (250mL)", value: 1.125 },
+        ],
       },
       {
         name: "rolled, raw",
@@ -2501,8 +2564,8 @@ export default [
         carb: 56.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.9 }
-        ]
+          { name: "1 cup (250mL)", value: 0.9 },
+        ],
       },
       {
         name: "toasted, rolled oats",
@@ -2510,10 +2573,10 @@ export default [
         carb: 61.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.019 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.019 },
+        ],
+      },
+    ],
   },
   {
     name: "Other",
@@ -2527,8 +2590,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 shell small (13.2cm diameter)", value: 0.11 },
           { name: "1 shell standard", value: 0.14 },
-          { name: "1 shell jumbo", value: 0.19 }
-        ]
+          { name: "1 shell jumbo", value: 0.19 },
+        ],
       },
       {
         name: "Topper, lasagne, baked",
@@ -2536,24 +2599,23 @@ export default [
         carb: 20.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.025 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.025 },
+        ],
+      },
+    ],
   },
   {
     name: "Pasta",
     category: "Cereals and Pseudo-Cereals",
     carbs: [
       {
-        name:
-          "Pasta & sauce, dry mix, assorted flavours, prepared with water, milk & butter, boiled",
+        name: "Pasta & sauce, dry mix, assorted flavours, prepared with water, milk & butter, boiled",
         variant: "",
         carb: 19.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.812 }
-        ]
+          { name: "1 cup (250mL)", value: 1.812 },
+        ],
       },
       {
         name: "fresh, assorted type, cooked",
@@ -2561,8 +2623,8 @@ export default [
         carb: 24.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "fresh, fettuccine, herb & garlic, cooked",
@@ -2570,8 +2632,8 @@ export default [
         carb: 21.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.48 }
-        ]
+          { name: "1 cup (250mL)", value: 1.48 },
+        ],
       },
       {
         name: "fresh, ravioli, beef & pork, cooked",
@@ -2579,8 +2641,8 @@ export default [
         carb: 24,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "wheat flour with egg, boiled, drained",
@@ -2588,8 +2650,8 @@ export default [
         carb: 29,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.2 }
-        ]
+          { name: "1 cup (250mL)", value: 1.2 },
+        ],
       },
       {
         name: "wheat flour with vegetable flavours, boiled, drained",
@@ -2597,30 +2659,28 @@ export default [
         carb: 30.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.14 }
-        ]
+          { name: "1 cup (250mL)", value: 1.14 },
+        ],
       },
       {
-        name:
-          "white wheat flour, assorted shapes, regular, boiled, drained, no salt added",
+        name: "white wheat flour, assorted shapes, regular, boiled, drained, no salt added",
         variant: "",
         carb: 25.4,
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup spirals (250mL)", value: 1.098 },
           { name: "1 cup macaroni elbow (250mL)", value: 1.129 },
-          { name: "1 cup risoni (250mL)", value: 2.006 }
-        ]
+          { name: "1 cup risoni (250mL)", value: 2.006 },
+        ],
       },
       {
-        name:
-          "wholemeal wheat flour, assorted shapes, boiled, drained, no salt added",
+        name: "wholemeal wheat flour, assorted shapes, boiled, drained, no salt added",
         variant: "",
         carb: 21.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup spirals or penne (250mL)", value: 1.112 }
-        ]
+          { name: "1 cup spirals or penne (250mL)", value: 1.112 },
+        ],
       },
       {
         name: "Spaghetti, canned in tomato sauce",
@@ -2628,10 +2688,10 @@ export default [
         carb: 12.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.95 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.95 },
+        ],
+      },
+    ],
   },
   {
     name: "Psuedo-Cereals",
@@ -2643,8 +2703,8 @@ export default [
         carb: 17.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.463 }
-        ]
+          { name: "1 cup (250mL)", value: 1.463 },
+        ],
       },
       {
         name: "Tapioca, pearl, dry",
@@ -2652,10 +2712,10 @@ export default [
         carb: 86.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.6 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.6 },
+        ],
+      },
+    ],
   },
   {
     name: "Rice",
@@ -2667,8 +2727,8 @@ export default [
         carb: 29.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.06 }
-        ]
+          { name: "1 cup (250mL)", value: 2.06 },
+        ],
       },
       {
         name: "brown, creamed, canned",
@@ -2676,8 +2736,8 @@ export default [
         carb: 18.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.578 }
-        ]
+          { name: "1 cup (250mL)", value: 2.578 },
+        ],
       },
       {
         name: "Basmati, white, boiled, undrained",
@@ -2685,8 +2745,8 @@ export default [
         carb: 27.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.621 }
-        ]
+          { name: "1 cup (250mL)", value: 1.621 },
+        ],
       },
       {
         name: "Jasmine, white, boiled",
@@ -2694,8 +2754,8 @@ export default [
         carb: 21.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.965 }
-        ]
+          { name: "1 cup (250mL)", value: 1.965 },
+        ],
       },
       {
         name: "wild, cooked",
@@ -2703,8 +2763,8 @@ export default [
         carb: 19.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.733 }
-        ]
+          { name: "1 cup (250mL)", value: 1.733 },
+        ],
       },
       {
         name: "Whole grain rice wafer",
@@ -2713,10 +2773,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 thin wafer (0.6 x 9.9cm diameter)", value: 0.073 },
-          { name: "1 thick wafer (1.1 x 9.9cm diameter)", value: 0.131 }
-        ]
-      }
-    ]
+          { name: "1 thick wafer (1.1 x 9.9cm diameter)", value: 0.131 },
+        ],
+      },
+    ],
   },
   {
     name: "Soy products",
@@ -2728,8 +2788,8 @@ export default [
         carb: 7.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.625 }
-        ]
+          { name: "1 cup (250mL)", value: 2.625 },
+        ],
       },
       {
         name: "Tempeh fried in sunflower oil",
@@ -2737,16 +2797,16 @@ export default [
         carb: 12.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.754 }
-        ]
+          { name: "1 cup (250mL)", value: 1.754 },
+        ],
       },
       {
         name: "Yoghurt, soy",
         variant: "",
         carb: 3.8,
-        amounts: [{ name: "100g", value: 1 }]
-      }
-    ]
+        amounts: [{ name: "100g", value: 1 }],
+      },
+    ],
   },
   /** Dairy */
   {
@@ -2760,8 +2820,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.046 },
-          { name: "1 tablespoon (15mL)", value: 0.132 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.132 },
+        ],
       },
       {
         name: "semisoft",
@@ -2770,8 +2830,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.046 },
-          { name: "1 tablespoon (15mL)", value: 0.132 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.132 },
+        ],
       },
       {
         name: "unsalted",
@@ -2780,10 +2840,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.046 },
-          { name: "1 tablespoon (15mL)", value: 0.132 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.132 },
+        ],
+      },
+    ],
   },
   {
     name: "Cheese",
@@ -2795,8 +2855,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.186 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.186 },
+        ],
       },
       {
         name: "Cream Cheese, reduced fat 16%",
@@ -2804,8 +2864,8 @@ export default [
         carb: 15.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.54 }
-        ]
+          { name: "1 cup (250mL)", value: 2.54 },
+        ],
       },
       {
         name: "Blue vein",
@@ -2814,8 +2874,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2cm)", value: 0.035 },
-          { name: "1 wedge (9 x 5.5 x 1cm)", value: 0.22 }
-        ]
+          { name: "1 wedge (9 x 5.5 x 1cm)", value: 0.22 },
+        ],
       },
       {
         name: "Camembert",
@@ -2824,8 +2884,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2cm)", value: 0.035 },
-          { name: "1 round (9 x 5.5 x 1cm)", value: 0.2 }
-        ]
+          { name: "1 round (9 x 5.5 x 1cm)", value: 0.2 },
+        ],
       },
       {
         name: "Cheddar",
@@ -2834,8 +2894,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2cm)", value: 0.08 },
-          { name: "1 cup grated (250mL)", value: 1.18 }
-        ]
+          { name: "1 cup grated (250mL)", value: 1.18 },
+        ],
       },
       {
         name: "Cheddar, light",
@@ -2844,8 +2904,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2cm)", value: 0.08 },
-          { name: "1 cup grated (250mL)", value: 1.194 }
-        ]
+          { name: "1 cup grated (250mL)", value: 1.194 },
+        ],
       },
       {
         name: "Cheddar, colby",
@@ -2854,8 +2914,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2cm)", value: 0.08 },
-          { name: "1 cup grated (250mL)", value: 1.194 }
-        ]
+          { name: "1 cup grated (250mL)", value: 1.194 },
+        ],
       },
       {
         name: "Cottage",
@@ -2864,8 +2924,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespooon (15mL)", value: 0.167 },
-          { name: "1 cup (250mL)", value: 2.78 }
-        ]
+          { name: "1 cup (250mL)", value: 2.78 },
+        ],
       },
       {
         name: "Cottage, light, 1% fat",
@@ -2874,8 +2934,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespooon (15mL)", value: 0.161 },
-          { name: "1 cup (250mL)", value: 2.687 }
-        ]
+          { name: "1 cup (250mL)", value: 2.687 },
+        ],
       },
       {
         name: "Cream Cheese",
@@ -2883,8 +2943,8 @@ export default [
         carb: 6.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespooon (15mL)", value: 0.144 }
-        ]
+          { name: "1 tablespooon (15mL)", value: 0.144 },
+        ],
       },
       {
         name: "Edam",
@@ -2893,8 +2953,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2cm)", value: 0.08 },
-          { name: "1 cup grated (250mL)", value: 1.194 }
-        ]
+          { name: "1 cup grated (250mL)", value: 1.194 },
+        ],
       },
       {
         name: "Feta, from cow's milk, reduced fat",
@@ -2903,8 +2963,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2.5cm)", value: 0.178 },
-          { name: "1 block (9.8 x 7.0 x 2.5cm)", value: 2.002 }
-        ]
+          { name: "1 block (9.8 x 7.0 x 2.5cm)", value: 2.002 },
+        ],
       },
       {
         name: "Feta, from cow's milk, traditional",
@@ -2913,8 +2973,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2.5cm)", value: 0.178 },
-          { name: "1 block (9.3 x 7.2 x 2.7cm)", value: 2.047 }
-        ]
+          { name: "1 block (9.3 x 7.2 x 2.7cm)", value: 2.047 },
+        ],
       },
       {
         name: "Feta, from goat's milk",
@@ -2923,8 +2983,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2.5cm)", value: 0.176 },
-          { name: "1 cup (250mL)", value: 1.823 }
-        ]
+          { name: "1 cup (250mL)", value: 1.823 },
+        ],
       },
       {
         name: "Haloumi, from cow's milk",
@@ -2933,8 +2993,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2.5cm)", value: 0.17 },
-          { name: "1 cup (250mL)", value: 1.777 }
-        ]
+          { name: "1 cup (250mL)", value: 1.777 },
+        ],
       },
       {
         name: "Mozzarella",
@@ -2943,8 +3003,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cube (2cm)", value: 0.08 },
-          { name: "1 cup grated (250mL)", value: 1.014 }
-        ]
+          { name: "1 cup grated (250mL)", value: 1.014 },
+        ],
       },
       {
         name: "Parmesan, from cow's milk, ungrated",
@@ -2952,8 +3012,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup grated or shaved (250mL)", value: 0.824 }
-        ]
+          { name: "1 cup grated or shaved (250mL)", value: 0.824 },
+        ],
       },
       {
         name: "Parmesan, powder",
@@ -2962,8 +3022,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.06 },
-          { name: "1 cup (250mL)", value: 1.08 }
-        ]
+          { name: "1 cup (250mL)", value: 1.08 },
+        ],
       },
       {
         name: "Processed",
@@ -2971,8 +3031,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (8.4 x 8.4 x 0.25cm)", value: 0.207 }
-        ]
+          { name: "1 slice (8.4 x 8.4 x 0.25cm)", value: 0.207 },
+        ],
       },
       {
         name: "Processed, sliced, reduced fat",
@@ -2980,8 +3040,8 @@ export default [
         carb: 4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (8.4 x 8.4 x 0.25cm)", value: 0.207 }
-        ]
+          { name: "1 slice (8.4 x 8.4 x 0.25cm)", value: 0.207 },
+        ],
       },
       {
         name: "Ricotta, from cow's milk",
@@ -2990,22 +3050,28 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.16 },
-          { name: "100mL", value: 1.065 }
-        ]
+          { name: "100mL", value: 1.065 },
+        ],
       },
       {
         name: "Fromage frais, assorted fruits & flavours",
         variant: "Fruche",
         carb: 14.7,
-        amounts: [{ name: "100g", value: 1 }, { name: "100mL", value: 1.04 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "100mL", value: 1.04 },
+        ],
       },
       {
         name: "Fromage frais, vanilla",
         variant: "Fruche",
         carb: 14.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "100mL", value: 1.05 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "100mL", value: 1.05 },
+        ],
+      },
+    ],
   },
   {
     name: "Cream",
@@ -3017,8 +3083,8 @@ export default [
         carb: 3.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.15 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.15 },
+        ],
       },
       {
         name: "Sour",
@@ -3027,8 +3093,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.14 },
-          { name: "1 cup (250mL)", value: 2.325 }
-        ]
+          { name: "1 cup (250mL)", value: 2.325 },
+        ],
       },
       {
         name: "Standard",
@@ -3036,8 +3102,8 @@ export default [
         carb: 2.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.15 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.15 },
+        ],
       },
       {
         name: "Whipping, ultra-high-temperature processed",
@@ -3046,8 +3112,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.152 },
-          { name: "1 cup (250mL)", value: 2.533 }
-        ]
+          { name: "1 cup (250mL)", value: 2.533 },
+        ],
       },
       {
         name: "Creme fraiche",
@@ -3055,8 +3121,8 @@ export default [
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.144 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.144 },
+        ],
       },
       {
         name: "Creme fraiche, light",
@@ -3064,10 +3130,10 @@ export default [
         carb: 3.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.15 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.15 },
+        ],
+      },
+    ],
   },
   {
     name: "Dessert",
@@ -3079,10 +3145,10 @@ export default [
         carb: 18.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.38 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.38 },
+        ],
+      },
+    ],
   },
   {
     name: "Ice Cream",
@@ -3094,8 +3160,8 @@ export default [
         carb: 22.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.57 }
-        ]
+          { name: "1 cup (250mL)", value: 1.57 },
+        ],
       },
       {
         name: "Jelly Tip",
@@ -3103,8 +3169,8 @@ export default [
         carb: 25.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.006 }
-        ]
+          { name: "1 cup (250mL)", value: 2.006 },
+        ],
       },
       {
         name: "Chocolate",
@@ -3112,8 +3178,8 @@ export default [
         carb: 22.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 ice-block", value: 0.906 }
-        ]
+          { name: "1 ice-block", value: 0.906 },
+        ],
       },
       {
         name: "Assorted berry flavours, standard",
@@ -3122,8 +3188,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 scoop (22mL)", value: 0.216 },
-          { name: "1 scoop (64mL)", value: 0.563 }
-        ]
+          { name: "1 scoop (64mL)", value: 0.563 },
+        ],
       },
       {
         name: "Chocolate",
@@ -3131,8 +3197,8 @@ export default [
         carb: 21,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.52 }
-        ]
+          { name: "1 cup (250mL)", value: 1.52 },
+        ],
       },
       {
         name: "Fruit Ripple, creamy",
@@ -3140,8 +3206,8 @@ export default [
         carb: 22.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.69 }
-        ]
+          { name: "1 cup (250mL)", value: 1.69 },
+        ],
       },
       {
         name: "Soft serve",
@@ -3149,8 +3215,8 @@ export default [
         carb: 20,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.4 }
-        ]
+          { name: "1 cup (250mL)", value: 1.4 },
+        ],
       },
       {
         name: "Vanilla, low fat",
@@ -3158,8 +3224,8 @@ export default [
         carb: 20.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.33 }
-        ]
+          { name: "1 cup (250mL)", value: 1.33 },
+        ],
       },
       {
         name: "Vanilla, premium",
@@ -3167,8 +3233,8 @@ export default [
         carb: 17.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.41 }
-        ]
+          { name: "1 cup (250mL)", value: 1.41 },
+        ],
       },
       {
         name: "Vanilla, standard",
@@ -3176,10 +3242,10 @@ export default [
         carb: 19.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.43 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.43 },
+        ],
+      },
+    ],
   },
   {
     name: "Milk",
@@ -3191,8 +3257,8 @@ export default [
         carb: 57.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.2 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.2 },
+        ],
       },
       {
         name: "Condensed, sweetened, whole",
@@ -3200,8 +3266,8 @@ export default [
         carb: 54.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.19 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.19 },
+        ],
       },
       {
         name: "Cow, high calcium 0.1% fat, fluid",
@@ -3209,8 +3275,8 @@ export default [
         carb: 4.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.59 }
-        ]
+          { name: "1 cup (250mL)", value: 2.59 },
+        ],
       },
       {
         name: "Cow, lite 1.5% fat, fluid",
@@ -3218,8 +3284,8 @@ export default [
         carb: 4.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.59 }
-        ]
+          { name: "1 cup (250mL)", value: 2.59 },
+        ],
       },
       {
         name: "Cow, low fat 0.2% fat, fluid",
@@ -3227,8 +3293,8 @@ export default [
         carb: 3.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.58 }
-        ]
+          { name: "1 cup (250mL)", value: 2.58 },
+        ],
       },
       {
         name: "Cow, powder, instant, skim",
@@ -3236,8 +3302,8 @@ export default [
         carb: 45.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.076 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.076 },
+        ],
       },
       {
         name: "Cow, powder, instant, whole",
@@ -3245,8 +3311,8 @@ export default [
         carb: 33,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.081 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.081 },
+        ],
       },
       {
         name: "Cow, standard 3.3% fat, fluid",
@@ -3254,8 +3320,8 @@ export default [
         carb: 4.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.58 }
-        ]
+          { name: "1 cup (250mL)", value: 2.58 },
+        ],
       },
       {
         name: "Cow, standard, fluid, ultra-high-temperature processed",
@@ -3263,8 +3329,8 @@ export default [
         carb: 4.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.58 }
-        ]
+          { name: "1 cup (250mL)", value: 2.58 },
+        ],
       },
       {
         name: "Cow, trim 0.5% fat, fluid",
@@ -3272,8 +3338,8 @@ export default [
         carb: 5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.59 }
-        ]
+          { name: "1 cup (250mL)", value: 2.59 },
+        ],
       },
       {
         name: "Cow, whole 4% fat, fluid, non-homogenised",
@@ -3281,8 +3347,8 @@ export default [
         carb: 4.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.605 }
-        ]
+          { name: "1 cup (250mL)", value: 2.605 },
+        ],
       },
       {
         name: "Cow, whole, evaporated, fluid",
@@ -3290,8 +3356,8 @@ export default [
         carb: 9.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.66 }
-        ]
+          { name: "1 cup (250mL)", value: 2.66 },
+        ],
       },
       {
         name: "Goat, whole, fluid",
@@ -3299,8 +3365,8 @@ export default [
         carb: 4.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.58 }
-        ]
+          { name: "1 cup (250mL)", value: 2.58 },
+        ],
       },
       {
         name: "Human, transistional, fluid",
@@ -3308,10 +3374,10 @@ export default [
         carb: 6.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
+      },
+    ],
   },
   {
     name: "Protein powder",
@@ -3324,10 +3390,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.053 },
-          { name: "1 cup (250mL)", value: 0.875 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 0.875 },
+        ],
+      },
+    ],
   },
   {
     name: "Yoghurt",
@@ -3339,8 +3405,8 @@ export default [
         carb: 8.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.609 }
-        ]
+          { name: "1 cup (250mL)", value: 2.609 },
+        ],
       },
       {
         name: "Yoghurt smoothie, assorted fruits, sweetened",
@@ -3348,8 +3414,8 @@ export default [
         carb: 11.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.716 }
-        ]
+          { name: "1 cup (250mL)", value: 2.716 },
+        ],
       },
       {
         name: "Lite, assorted fruits, non-fat, sweetened, fortified",
@@ -3357,8 +3423,8 @@ export default [
         carb: 3.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.581 }
-        ]
+          { name: "1 cup (250mL)", value: 2.581 },
+        ],
       },
       {
         name: "Lite, assorted fruits, regular fat, sweetened, fortified",
@@ -3366,8 +3432,8 @@ export default [
         carb: 13,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.607 }
-        ]
+          { name: "1 cup (250mL)", value: 2.607 },
+        ],
       },
       {
         name: "Greek style, full-fat",
@@ -3375,8 +3441,8 @@ export default [
         carb: 3.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.625 }
-        ]
+          { name: "1 cup (250mL)", value: 2.625 },
+        ],
       },
       {
         name: "Greek style, low fat",
@@ -3384,8 +3450,8 @@ export default [
         carb: 4.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.733 }
-        ]
+          { name: "1 cup (250mL)", value: 2.733 },
+        ],
       },
       {
         name: "Greek style, low fat",
@@ -3393,8 +3459,8 @@ export default [
         carb: 3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.603 }
-        ]
+          { name: "1 cup (250mL)", value: 2.603 },
+        ],
       },
       {
         name: "Live lite, assorted fruits, non-fat",
@@ -3402,8 +3468,8 @@ export default [
         carb: 8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.595 }
-        ]
+          { name: "1 cup (250mL)", value: 2.595 },
+        ],
       },
       {
         name: "low fat, assorted fruits",
@@ -3411,8 +3477,8 @@ export default [
         carb: 12.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.596 }
-        ]
+          { name: "1 cup (250mL)", value: 2.596 },
+        ],
       },
       {
         name: "Symbio Probalance, assorted fruits, low fat",
@@ -3420,8 +3486,8 @@ export default [
         carb: 13,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.607 }
-        ]
+          { name: "1 cup (250mL)", value: 2.607 },
+        ],
       },
       {
         name: "Delite, assorted fruits, low fat",
@@ -3429,8 +3495,8 @@ export default [
         carb: 10.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.598 }
-        ]
+          { name: "1 cup (250mL)", value: 2.598 },
+        ],
       },
       {
         name: "assorted fruits, regular fat",
@@ -3438,8 +3504,8 @@ export default [
         carb: 10.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.61 }
-        ]
+          { name: "1 cup (250mL)", value: 2.61 },
+        ],
       },
       {
         name: "apricot, frozen",
@@ -3447,8 +3513,8 @@ export default [
         carb: 17.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.04 }
-        ]
+          { name: "1 cup (250mL)", value: 2.04 },
+        ],
       },
       {
         name: "plain, low fat, unsweetened",
@@ -3456,8 +3522,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.57 }
-        ]
+          { name: "1 cup (250mL)", value: 2.57 },
+        ],
       },
       {
         name: "plain, unsweetened",
@@ -3465,8 +3531,8 @@ export default [
         carb: 3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.41 }
-        ]
+          { name: "1 cup (250mL)", value: 2.41 },
+        ],
       },
       {
         name: "premium, assorted fruits",
@@ -3474,10 +3540,10 @@ export default [
         carb: 13.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.611 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.611 },
+        ],
+      },
+    ],
   },
   /** Eggs */
   {
@@ -3491,8 +3557,8 @@ export default [
         amounts: [
           { name: "1 egg (size 5, 51.3g)", value: 0.442 },
           { name: "1 egg (size 5, 59.7g)", value: 0.535 },
-          { name: "1 egg (size 7, 66.0g)", value: 0.583 }
-        ]
+          { name: "1 egg (size 7, 66.0g)", value: 0.583 },
+        ],
       },
       {
         name: "chicken, white & yolk, fried in butter",
@@ -3501,8 +3567,8 @@ export default [
         amounts: [
           { name: "1 egg (size 5, 51.3g)", value: 0.412 },
           { name: "1 egg (size 7, 66.0g)", value: 0.437 },
-          { name: "1 egg (size 6, 59.7g)", value: 0.442 }
-        ]
+          { name: "1 egg (size 6, 59.7g)", value: 0.442 },
+        ],
       },
       {
         name: "chicken, white & yolk, fried in vegetable oil",
@@ -3511,14 +3577,14 @@ export default [
         amounts: [
           { name: "1 egg (size 5, 51.3g)", value: 0.399 },
           { name: "1 egg (size 6, 59.7g)", value: 0.455 },
-          { name: "1 egg (size 7, 66.0g)", value: 0.525 }
-        ]
+          { name: "1 egg (size 7, 66.0g)", value: 0.525 },
+        ],
       },
       {
         name: "chicken, white & yolk, milk added, scrambled",
         variant: "",
         carb: 0.05,
-        amounts: [{ name: "1 cup (250mL)", value: 2.325 }]
+        amounts: [{ name: "1 cup (250mL)", value: 2.325 }],
       },
       {
         name: "chicken, white & yolk, poached",
@@ -3527,8 +3593,8 @@ export default [
         amounts: [
           { name: "1 egg (size 5, 51.3g)", value: 0.47 },
           { name: "1 egg (size 6, 59.7g)", value: 0.524 },
-          { name: "1 egg (size 7, 66.0g)", value: 0.595 }
-        ]
+          { name: "1 egg (size 7, 66.0g)", value: 0.595 },
+        ],
       },
       {
         name: "chicken, white & yolk, raw",
@@ -3537,8 +3603,8 @@ export default [
         amounts: [
           { name: "1 egg (size 5, 51.3g)", value: 0.45 },
           { name: "1 egg (size 6, 59.7g)", value: 0.513 },
-          { name: "1 egg (size 7, 66.0g)", value: 0.567 }
-        ]
+          { name: "1 egg (size 7, 66.0g)", value: 0.567 },
+        ],
       },
       {
         name: "chicken, white, raw",
@@ -3548,8 +3614,8 @@ export default [
           { name: "1 egg (size 5, 51.3g)", value: 0.315 },
           { name: "1 egg (size 6, 59.7g)", value: 0.343 },
           { name: "1 egg (size 7, 66.0g)", value: 0.402 },
-          { name: "1 cup (250mL)", value: 2.225 }
-        ]
+          { name: "1 cup (250mL)", value: 2.225 },
+        ],
       },
       {
         name: "chicken, yolk, raw",
@@ -3559,10 +3625,10 @@ export default [
           { name: "1 egg (size 5, 51.3g)", value: 0.128 },
           { name: "1 egg (size 6, 59.7g)", value: 0.15 },
           { name: "1 egg (size 7, 66.0g)", value: 0.161 },
-          { name: "1 cup (250mL)", value: 2.339 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.339 },
+        ],
+      },
+    ],
   },
   /** Fast Food */
   {
@@ -3573,9 +3639,12 @@ export default [
         name: "Fries, potato, Burger King",
         variant: "Fries",
         carb: 36,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 fries", value: 0.69 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 fries", value: 0.69 },
+        ],
+      },
+    ],
   },
   {
     name: "Burger King",
@@ -3585,9 +3654,12 @@ export default [
         name: "Fries, potato, Burger King",
         variant: "Fries",
         carb: 36,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 fries", value: 0.69 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 fries", value: 0.69 },
+        ],
+      },
+    ],
   },
   {
     name: "Chinese",
@@ -3599,8 +3671,8 @@ export default [
         carb: 2.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.47 }
-        ]
+          { name: "1 cup (250mL)", value: 2.47 },
+        ],
       },
       {
         name: "Chicken and cashew, stir fry",
@@ -3608,8 +3680,8 @@ export default [
         carb: 2.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.05 }
-        ]
+          { name: "1 cup (250mL)", value: 2.05 },
+        ],
       },
       {
         name: "Chop suey, chicken, lean & fat, stir fried",
@@ -3617,8 +3689,8 @@ export default [
         carb: 5.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.53 }
-        ]
+          { name: "1 cup (250mL)", value: 2.53 },
+        ],
       },
       {
         name: "Chop suey, pork",
@@ -3626,8 +3698,8 @@ export default [
         carb: 2.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.53 }
-        ]
+          { name: "1 cup (250mL)", value: 2.53 },
+        ],
       },
       {
         name: "Chow mein, beef, lean & fat, stir fried",
@@ -3635,8 +3707,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.53 }
-        ]
+          { name: "1 cup (250mL)", value: 2.53 },
+        ],
       },
       {
         name: "Chow mein, chicken",
@@ -3644,8 +3716,8 @@ export default [
         carb: 13.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.325 }
-        ]
+          { name: "1 cup (250mL)", value: 2.325 },
+        ],
       },
       {
         name: "Chow mein, prawn",
@@ -3653,8 +3725,8 @@ export default [
         carb: 6.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.53 }
-        ]
+          { name: "1 cup (250mL)", value: 2.53 },
+        ],
       },
       {
         name: "Egg foo young with chicken, omelette, takeaway",
@@ -3662,8 +3734,8 @@ export default [
         carb: 1.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.46 }
-        ]
+          { name: "1 cup (250mL)", value: 1.46 },
+        ],
       },
       {
         name: "Fried rice, combination, Chinese, takeaway",
@@ -3671,8 +3743,8 @@ export default [
         carb: 14.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.57 }
-        ]
+          { name: "1 cup (250mL)", value: 1.57 },
+        ],
       },
       {
         name: "Noodle, chow mein, combination, Chinese",
@@ -3680,8 +3752,8 @@ export default [
         carb: 1.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.94 }
-        ]
+          { name: "1 cup (250mL)", value: 1.94 },
+        ],
       },
       {
         name: "Pork, sweet & sour, Chinese, takeaway",
@@ -3689,8 +3761,8 @@ export default [
         carb: 20.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.95 }
-        ]
+          { name: "1 cup (250mL)", value: 1.95 },
+        ],
       },
       {
         name: "Soup, chicken and sweet corn, Chinese, takeaway",
@@ -3698,10 +3770,10 @@ export default [
         carb: 4.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.64 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.64 },
+        ],
+      },
+    ],
   },
   {
     name: "Fish",
@@ -3711,13 +3783,19 @@ export default [
         name: "Fish, battered, deep fried, Independent Shops",
         variant: "Battered",
         carb: 14.6,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 1.46 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 1.46 },
+        ],
       },
       {
         name: "Fish, cake, baked",
         variant: "Fish Cake",
         carb: 19.2,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 cake", value: 0.76 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 cake", value: 0.76 },
+        ],
       },
       {
         name: "Fish, cake, deep fried in peanut oil",
@@ -3725,8 +3803,8 @@ export default [
         carb: 14.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cake (1.5 x 7cm diameter)", value: 0.8 }
-        ]
+          { name: "1 cake (1.5 x 7cm diameter)", value: 0.8 },
+        ],
       },
       {
         name: "Fish, fingers, baked",
@@ -3734,8 +3812,8 @@ export default [
         carb: 20.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 finger (8.3 x 2.2 x 1.3cm)", value: 0.25 }
-        ]
+          { name: "1 finger (8.3 x 2.2 x 1.3cm)", value: 0.25 },
+        ],
       },
       {
         name: "Fish, fingers, deep fried in peanut oil",
@@ -3743,10 +3821,10 @@ export default [
         carb: 23.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 finger (8.3 x 2.2 x 1.3cm)", value: 0.25 }
-        ]
-      }
-    ]
+          { name: "1 finger (8.3 x 2.2 x 1.3cm)", value: 0.25 },
+        ],
+      },
+    ],
   },
   {
     name: "Frozen Foods",
@@ -3756,13 +3834,19 @@ export default [
         name: "Fish, fillet, crumbed, frozen, fried",
         variant: "Crumbed fish",
         carb: 12.2,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 fillet", value: 0.65 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 fillet", value: 0.65 },
+        ],
       },
       {
         name: "Fish, fillet, crumbed, frozen, baked",
         variant: "Crumbed fish",
         carb: 11.7,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 fillet", value: 0.7 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 fillet", value: 0.7 },
+        ],
       },
       {
         name: "Pizza, frozen, Hawaiian & Combination, individual size, baked",
@@ -3770,8 +3854,8 @@ export default [
         carb: 30.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pizza  (1.8 x 12.2cm diameter)", value: 1.16 }
-        ]
+          { name: "1 pizza  (1.8 x 12.2cm diameter)", value: 1.16 },
+        ],
       },
       {
         name: "Pizza, frozen, Hawaiian & House special, premium, baked",
@@ -3779,8 +3863,8 @@ export default [
         carb: 24.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pizza (2.5 x 24.6cm diameter)", value: 6.54 }
-        ]
+          { name: "1 pizza (2.5 x 24.6cm diameter)", value: 6.54 },
+        ],
       },
       {
         name: "Pizza, frozen, meat lovers, premium, baked",
@@ -3788,8 +3872,8 @@ export default [
         carb: 22.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pizza (2.5 x 24.6cm diameter)", value: 6.75 }
-        ]
+          { name: "1 pizza (2.5 x 24.6cm diameter)", value: 6.75 },
+        ],
       },
       {
         name: "Spring roll, traditional with meat, baked, Highmark",
@@ -3798,8 +3882,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 roll (8.5 x 3 x 2.5cm)", value: 0.429 },
-          { name: "1 roll (12.2 x 4.5 x 3cm)", value: 1.214 }
-        ]
+          { name: "1 roll (12.2 x 4.5 x 3cm)", value: 1.214 },
+        ],
       },
       {
         name: "Spring roll, traditional, with meat, deep fried, Highmark",
@@ -3808,8 +3892,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 roll (8.4 x 3.1 x 2.5cm)", value: 0.431 },
-          { name: "1 roll (12.2 x 4.5 x 3cm)", value: 1.21 }
-        ]
+          { name: "1 roll (12.2 x 4.5 x 3cm)", value: 1.21 },
+        ],
       },
       {
         name: "Spring roll, vegetarian, baked, Highmark",
@@ -3817,10 +3901,10 @@ export default [
         carb: 19.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 roll (11.8 x 6 x 2.8cm)", value: 1.084 }
-        ]
-      }
-    ]
+          { name: "1 roll (11.8 x 6 x 2.8cm)", value: 1.084 },
+        ],
+      },
+    ],
   },
   {
     name: "Indian",
@@ -3832,8 +3916,8 @@ export default [
         carb: 5.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.479 }
-        ]
+          { name: "1 cup (250mL)", value: 2.479 },
+        ],
       },
       {
         name: "Beef madras, takeaway",
@@ -3841,8 +3925,8 @@ export default [
         carb: 4.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.521 }
-        ]
+          { name: "1 cup (250mL)", value: 2.521 },
+        ],
       },
       {
         name: "Butter chicken, takeaway",
@@ -3850,8 +3934,8 @@ export default [
         carb: 5.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.582 }
-        ]
+          { name: "1 cup (250mL)", value: 2.582 },
+        ],
       },
       {
         name: "Chicken masala, takeaway",
@@ -3859,8 +3943,8 @@ export default [
         carb: 5.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.488 }
-        ]
+          { name: "1 cup (250mL)", value: 2.488 },
+        ],
       },
       {
         name: "Dhal makani, Indian, takeaway",
@@ -3868,8 +3952,8 @@ export default [
         carb: 8.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.596 }
-        ]
+          { name: "1 cup (250mL)", value: 2.596 },
+        ],
       },
       {
         name: "Rogan josh, Indian, takeaway",
@@ -3877,10 +3961,10 @@ export default [
         carb: 3.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.669 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.669 },
+        ],
+      },
+    ],
   },
   {
     name: "Kentucky Fried Chicken",
@@ -3890,25 +3974,37 @@ export default [
         name: "Chicken, crumbed, breast, deep fried",
         variant: "Chicken",
         carb: 6,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.89 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.89 },
+        ],
       },
       {
         name: "Chicken, crumbed, drumstick, deep fried",
         variant: "Chicken",
         carb: 8.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.775 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.775 },
+        ],
       },
       {
         name: "Chicken, crumbed, thigh, deep fried",
         variant: "Chicken",
         carb: 5.9,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.82 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.82 },
+        ],
       },
       {
         name: "Chicken, crumbed, wing, deep fried",
         variant: "Chicken",
         carb: 6.9,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.37 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.37 },
+        ],
       },
       {
         name: "Coleslaw, Kentucky Fried Chicken",
@@ -3916,22 +4012,25 @@ export default [
         carb: 13.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2 }
-        ]
+          { name: "1 cup (250mL)", value: 2 },
+        ],
       },
       {
         name: "Fries, potato, Kentucky Fried Chicken",
         variant: "Fries",
         carb: 32,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 fries", value: 0.69 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 fries", value: 0.69 },
+        ],
       },
       {
         name: "Potato & gravy, Kentucky Fried Chicken",
         variant: "name",
         carb: 12.1,
-        amounts: [{ name: "100g", value: 1 }]
-      }
-    ]
+        amounts: [{ name: "100g", value: 1 }],
+      },
+    ],
   },
   {
     name: "McDonald's",
@@ -3941,43 +4040,64 @@ export default [
         name: "Big Mac",
         variant: "Burger",
         carb: 19.2,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 burger", value: 2.04 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 burger", value: 2.04 },
+        ],
       },
       {
         name: "Filet-o-Fish",
         variant: "Burger",
         carb: 24.7,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 burger", value: 1.36 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 burger", value: 1.36 },
+        ],
       },
       {
         name: "Quarter Pounder with cheese",
         variant: "Burger",
         carb: 16.8,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 burger", value: 1.85 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 burger", value: 1.85 },
+        ],
       },
       {
         name: "cheeseburger",
         variant: "Burger",
         carb: 25.1,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 burger", value: 1.37 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 burger", value: 1.37 },
+        ],
       },
       {
         name: "hamburger",
         variant: "Burger",
         carb: 27.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 burger", value: 0.98 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 burger", value: 0.98 },
+        ],
       },
       {
         name: "Chicken, nugget, deep fried",
         variant: "Burger",
         carb: 6,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.89 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.89 },
+        ],
       },
       {
         name: "Fries, potato, McDonald's",
         variant: "Fries",
         carb: 37.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 fries", value: 0.69 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 fries", value: 0.69 },
+        ],
       },
       {
         name: "Pancake, McDonald's",
@@ -3985,20 +4105,26 @@ export default [
         carb: 28.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pancake", value: 0.49 }
-        ]
+          { name: "1 pancake", value: 0.49 },
+        ],
       },
       {
         name: "Pie, apple, McDonald's",
         variant: "Pie",
         carb: 28.4,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 pie", value: 0.85 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 pie", value: 0.85 },
+        ],
       },
       {
         name: "Potato, hash brown, McDonald's",
         variant: "Breakfast",
         carb: 25.2,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.68 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.68 },
+        ],
       },
       {
         name: "Sundae, ice cream, chocolate topping, McDonald's",
@@ -4006,10 +4132,10 @@ export default [
         carb: 30.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.75 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.75 },
+        ],
+      },
+    ],
   },
   {
     name: "Meat Pies",
@@ -4021,8 +4147,8 @@ export default [
         carb: 19.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pie (4 x 18.5cm diameter)", value: 6.35 }
-        ]
+          { name: "1 pie (4 x 18.5cm diameter)", value: 6.35 },
+        ],
       },
       {
         name: "Pie, savoury, chicken, individual size, ready to eat",
@@ -4032,9 +4158,9 @@ export default [
           { name: "100g", value: 1 },
           {
             name: "1 pie (3.7 x bottom 9.2 x top 11.3cm diameters)",
-            value: 2.29
-          }
-        ]
+            value: 2.29,
+          },
+        ],
       },
       {
         name: "Pie, savoury, egg & bacon, individual size, ready to eat",
@@ -4044,9 +4170,9 @@ export default [
           { name: "100g", value: 1 },
           {
             name: "1 pie (3.9 x bottom 8.9 x top 11.0cm diameters)",
-            value: 1.954
-          }
-        ]
+            value: 1.954,
+          },
+        ],
       },
       {
         name: "Pie, savoury, mince & cheese, individual size, ready to eat",
@@ -4056,11 +4182,11 @@ export default [
           { name: "100g", value: 1 },
           {
             name: "1 pie (3.6 x bottom 8.9 x top 11.1cm diameters)",
-            value: 2.208
-          }
-        ]
-      }
-    ]
+            value: 2.208,
+          },
+        ],
+      },
+    ],
   },
   {
     name: "Savouries",
@@ -4072,8 +4198,8 @@ export default [
         carb: 28.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage roll (9.5 x 4.5 x 2.9cm)", value: 1.096 }
-        ]
+          { name: "1 sausage roll (9.5 x 4.5 x 2.9cm)", value: 1.096 },
+        ],
       },
       {
         name: "Sausage roll, party size, baked",
@@ -4081,8 +4207,8 @@ export default [
         carb: 25.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage roll (5.2 x 3.9 x 3.3cm)", value: 0.408 }
-        ]
+          { name: "1 sausage roll (5.2 x 3.9 x 3.3cm)", value: 0.408 },
+        ],
       },
       {
         name: "Sausage roll, with cheese, baked",
@@ -4090,8 +4216,8 @@ export default [
         carb: 24.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage roll (5.1 x 4 x 3.6cm)", value: 0.368 }
-        ]
+          { name: "1 sausage roll (5.1 x 4 x 3.6cm)", value: 0.368 },
+        ],
       },
       {
         name: "Savoury, bacon & egg, baked",
@@ -4099,8 +4225,8 @@ export default [
         carb: 17.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 savoury (2.3 x 5.3cm diameter)", value: 0.449 }
-        ]
+          { name: "1 savoury (2.3 x 5.3cm diameter)", value: 0.449 },
+        ],
       },
       {
         name: "Savoury, mince & cheese, heated",
@@ -4108,8 +4234,8 @@ export default [
         carb: 23.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 savoury (2.7 x 5.1cm diameter)", value: 0.594 }
-        ]
+          { name: "1 savoury (2.7 x 5.1cm diameter)", value: 0.594 },
+        ],
       },
       {
         name: "Savoury, mince, heated",
@@ -4117,8 +4243,8 @@ export default [
         carb: 22.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 savoury (2.6 x 5.6cm diameter)", value: 0.532 }
-        ]
+          { name: "1 savoury (2.6 x 5.6cm diameter)", value: 0.532 },
+        ],
       },
       {
         name: "Savoury, potato top, heated",
@@ -4126,10 +4252,10 @@ export default [
         carb: 21.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 savoury (2.8 x 5.6cm diameter)", value: 0.592 }
-        ]
-      }
-    ]
+          { name: "1 savoury (2.8 x 5.6cm diameter)", value: 0.592 },
+        ],
+      },
+    ],
   },
   {
     name: "Pizza",
@@ -4141,8 +4267,8 @@ export default [
         carb: 33.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pizza (2.25 x 28.3cm diameter)", value: 7.42 }
-        ]
+          { name: "1 pizza (2.25 x 28.3cm diameter)", value: 7.42 },
+        ],
       },
       {
         name: "barbeque chicken, thick crust",
@@ -4150,8 +4276,8 @@ export default [
         carb: 33.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pizza (2.35 x 28.2cm diameter)", value: 7.15 }
-        ]
+          { name: "1 pizza (2.35 x 28.2cm diameter)", value: 7.15 },
+        ],
       },
       {
         name: "meat, thick crust",
@@ -4159,16 +4285,19 @@ export default [
         carb: 33.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pizza (2.35 x 27.8cm diameter)", value: 7 }
-        ]
+          { name: "1 pizza (2.35 x 27.8cm diameter)", value: 7 },
+        ],
       },
       {
         name: "supreme, thin crust, Pizza Hut",
         variant: "name",
         carb: 22.9,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 pizza", value: 3.84 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 pizza", value: 3.84 },
+        ],
+      },
+    ],
   },
   {
     name: "Thai",
@@ -4180,8 +4309,8 @@ export default [
         carb: 7.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.14 }
-        ]
+          { name: "1 cup (250mL)", value: 2.14 },
+        ],
       },
       {
         name: "Chicken, green, Thai, takeaway",
@@ -4189,8 +4318,8 @@ export default [
         carb: 5.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.49 }
-        ]
+          { name: "1 cup (250mL)", value: 2.49 },
+        ],
       },
       {
         name: "Noodle, pad thai with chicken & egg, Thai, takeaway",
@@ -4198,8 +4327,8 @@ export default [
         carb: 16,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.32 }
-        ]
+          { name: "1 cup (250mL)", value: 1.32 },
+        ],
       },
       {
         name: "Soup, tom yam gai, chicken, Thai, takeaway",
@@ -4207,10 +4336,10 @@ export default [
         carb: 1.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.35 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.35 },
+        ],
+      },
+    ],
   },
   {
     name: "Other",
@@ -4220,19 +4349,28 @@ export default [
         name: "cheeseburger",
         variant: "Burger",
         carb: 21.4,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 burger", value: 2.55 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 burger", value: 2.55 },
+        ],
       },
       {
         name: "hamburger",
         variant: "Burger",
         carb: 22.4,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 burger", value: 1.72 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 burger", value: 1.72 },
+        ],
       },
       {
         name: "Fries, potato, straight cut, Independent Shops",
         variant: "Fries",
         carb: 26.7,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 fries", value: 0.69 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 fries", value: 0.69 },
+        ],
       },
       {
         name: "Saveloy, battered, fried, Independent Shops",
@@ -4240,10 +4378,10 @@ export default [
         carb: 18.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage", value: 1.38 }
-        ]
-      }
-    ]
+          { name: "1 sausage", value: 1.38 },
+        ],
+      },
+    ],
   },
   /** Fats and Oils */
   {
@@ -4256,8 +4394,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.138 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.138 },
+        ],
       },
       {
         name: "Dripping, beef, Farmland",
@@ -4265,8 +4403,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.035 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.035 },
+        ],
       },
       {
         name: "Lard",
@@ -4274,8 +4412,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.12 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.12 },
+        ],
       },
       {
         name: "Margarine, canola, monounsaturated, 50% fat",
@@ -4283,8 +4421,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, canola, monounsaturated, 70% fat",
@@ -4292,8 +4430,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, catering, Choice",
@@ -4301,8 +4439,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, light, Logical",
@@ -4310,8 +4448,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.049 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.049 },
+        ],
       },
       {
         name: "Margarine, light, monounsaturated, 55% fat, Olivani",
@@ -4319,8 +4457,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.047 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.047 },
+        ],
       },
       {
         name: "Margarine, light, polyunsaturated, 50% fat, Flora, fortified",
@@ -4328,8 +4466,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, monounsaturated, 75% fat, Olivani",
@@ -4337,8 +4475,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.047 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.047 },
+        ],
       },
       {
         name: "Margarine, original, Flora, fortified",
@@ -4346,8 +4484,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.045 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.045 },
+        ],
       },
       {
         name: "Margarine, polyunsaturated, 60% fat, Sunrise",
@@ -4355,8 +4493,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, polyunsaturated, 70% fat, fortified",
@@ -4364,8 +4502,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, polyunsaturated, 70% fat, reduced salt, fortified",
@@ -4373,8 +4511,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, rice bran, Alfa One",
@@ -4382,8 +4520,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, rice bran, light, Alfa One",
@@ -4391,8 +4529,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Margarine, summer gold, canola, monounsaturated, 70% fat, Pams",
@@ -4400,18 +4538,17 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
-        name:
-          "Margarine, summer gold, lite, canola, monounsaturated, 50% fat, Pams",
+        name: "Margarine, summer gold, lite, canola, monounsaturated, 50% fat, Pams",
         variant: "Margarine",
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Oil, avocado",
@@ -4419,8 +4556,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.145 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.145 },
+        ],
       },
       {
         name: "Oil, canola",
@@ -4428,8 +4565,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.141 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.141 },
+        ],
       },
       {
         name: "Oil, corn",
@@ -4437,8 +4574,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "Oil, flaxseed",
@@ -4446,8 +4583,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "Oil, rice bran",
@@ -4455,8 +4592,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "Oil, safflower",
@@ -4464,8 +4601,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "Oil, sesame",
@@ -4473,8 +4610,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.143 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.143 },
+        ],
       },
       {
         name: "Oil, soya bean",
@@ -4482,8 +4619,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.142 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.142 },
+        ],
       },
       {
         name: "Oil, sunflower",
@@ -4491,8 +4628,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.139 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.139 },
+        ],
       },
       {
         name: "Oil, vegetable, blend",
@@ -4500,8 +4637,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "Shortening, Chefade",
@@ -4509,8 +4646,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.12 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.12 },
+        ],
       },
       {
         name: "Shortening, vegetable, Kremelta",
@@ -4518,10 +4655,10 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.042 }
-        ]
-      }
-    ]
+          { name: "1 teaspoon (5mL)", value: 0.042 },
+        ],
+      },
+    ],
   },
   {
     name: "Small amount of Carbs",
@@ -4533,8 +4670,8 @@ export default [
         carb: 0.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "Semi soft butter, butter & canola oil, spreadable",
@@ -4542,8 +4679,8 @@ export default [
         carb: 1.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.048 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.048 },
+        ],
       },
       {
         name: "Shortening, suet, Shreddo",
@@ -4551,10 +4688,10 @@ export default [
         carb: 11.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.026 }
-        ]
-      }
-    ]
+          { name: "1 teaspoon (5mL)", value: 0.026 },
+        ],
+      },
+    ],
   },
   /** Fin Fishes */
   {
@@ -4567,8 +4704,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fillet (19.6 x 8.2 x 1cm)", value: 1.593 }
-        ]
+          { name: "1 fillet (19.6 x 8.2 x 1cm)", value: 1.593 },
+        ],
       },
       {
         name: "Eel, smoked",
@@ -4576,8 +4713,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Hoki, fillet, frozen, flesh, pan-fried with oil, no salt added",
@@ -4585,8 +4722,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fillet (9.6 x 5.6 x 1.6cm)", value: 1.593 }
-        ]
+          { name: "1 fillet (9.6 x 5.6 x 1.6cm)", value: 1.593 },
+        ],
       },
       {
         name: "Salmon, king, fillet, flesh, cold or hot  smoked, New Zealand",
@@ -4596,48 +4733,44 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 cup pieces (250mL)", value: 1.704 },
           { name: "1 cup flaked (250mL)", value: 1.963 },
-          { name: "1 fillet (15.8 x 6.1 x 2.1cm)", value: 1.635 }
-        ]
+          { name: "1 fillet (15.8 x 6.1 x 2.1cm)", value: 1.635 },
+        ],
       },
       {
-        name:
-          "Salmon, king, fillet, skin & bones removed, fresh, baked without fat, no salt added, New Zealand",
+        name: "Salmon, king, fillet, skin & bones removed, fresh, baked without fat, no salt added, New Zealand",
         variant: "Salmon",
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fillet (14.7 x 6.6 x 2.8cm)", value: 1.992 }
-        ]
+          { name: "1 fillet (14.7 x 6.6 x 2.8cm)", value: 1.992 },
+        ],
       },
       {
-        name:
-          "Salmon, king, fillet, skin & bones removed, fresh, pan-fried with oil, New Zealand",
+        name: "Salmon, king, fillet, skin & bones removed, fresh, pan-fried with oil, New Zealand",
         variant: "Salmon",
         carb: 0.01,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fillet (15.1 x 5.0 x 2.7cm)", value: 1.722 }
-        ]
+          { name: "1 fillet (15.1 x 5.0 x 2.7cm)", value: 1.722 },
+        ],
       },
       {
-        name:
-          "Salmon, king, fillet, skin & bones removed, fresh, raw, New Zealand",
+        name: "Salmon, king, fillet, skin & bones removed, fresh, raw, New Zealand",
         variant: "Salmon",
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fillet (18.2 x 7.0 x 2.8cm)", value: 1.882 }
-        ]
+          { name: "1 fillet (18.2 x 7.0 x 2.8cm)", value: 1.882 },
+        ],
       },
       {
-        name:
-          "Salmon, king, fillet, skin & bones removed, fresh, steamed, New Zealand",
+        name: "Salmon, king, fillet, skin & bones removed, fresh, steamed, New Zealand",
         variant: "Salmon",
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fillet (15.2 x 5.1 x 2.9cm)", value: 1.447 }
-        ]
+          { name: "1 fillet (15.2 x 5.1 x 2.9cm)", value: 1.447 },
+        ],
       },
       {
         name: "Salmon, pink or red, flesh, canned in spring water, drained",
@@ -4645,8 +4778,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.506 }
-        ]
+          { name: "1 cup (250mL)", value: 2.506 },
+        ],
       },
       {
         name: "Tuna, canned in assorted oil, plain, undrained",
@@ -4654,8 +4787,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.284 }
-        ]
+          { name: "1 cup (250mL)", value: 2.284 },
+        ],
       },
       {
         name: "Tuna, canned in assorted oils, plain, drained",
@@ -4663,8 +4796,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.544 }
-        ]
+          { name: "1 cup (250mL)", value: 1.544 },
+        ],
       },
       {
         name: "Tuna, canned in brine, plain, drained",
@@ -4672,8 +4805,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.514 }
-        ]
+          { name: "1 cup (250mL)", value: 1.514 },
+        ],
       },
       {
         name: "Tuna, canned in spring water, plain, salt added, drained",
@@ -4681,8 +4814,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.549 }
-        ]
+          { name: "1 cup (250mL)", value: 1.549 },
+        ],
       },
       {
         name: "Tuna, canned in spring water, plain, salt added, undrained",
@@ -4690,8 +4823,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.495 }
-        ]
+          { name: "1 cup (250mL)", value: 2.495 },
+        ],
       },
       {
         name: "Tuna, in brine, plain, canned, undrained",
@@ -4699,10 +4832,10 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.508 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.508 },
+        ],
+      },
+    ],
   },
   {
     name: "Small amount of carbs",
@@ -4714,8 +4847,8 @@ export default [
         carb: 0.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Hoki, flesh, baked",
@@ -4723,8 +4856,8 @@ export default [
         carb: 0.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Hoki, flesh, deep fried",
@@ -4732,8 +4865,8 @@ export default [
         carb: 0.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Kahawai, flesh, baked",
@@ -4741,14 +4874,14 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Kahawai, flesh, deep fried",
         variant: "Kahawai",
         carb: 0.3,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Orange roughy, flesh, baked",
@@ -4756,8 +4889,8 @@ export default [
         carb: 0.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Orange roughy, flesh, deep fried",
@@ -4765,8 +4898,8 @@ export default [
         carb: 0.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Sardines, canned, drained",
@@ -4775,8 +4908,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sardine", value: 0.12 },
-          { name: "1 cup (250mL)", value: 2.012 }
-        ]
+          { name: "1 cup (250mL)", value: 2.012 },
+        ],
       },
       {
         name: "Snapper, flesh, baked",
@@ -4784,8 +4917,8 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Snapper, flesh, deep fried",
@@ -4793,8 +4926,8 @@ export default [
         carb: 0.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Snapper, flesh, microwaved",
@@ -4802,8 +4935,8 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Tarakihi, flesh, baked",
@@ -4811,8 +4944,8 @@ export default [
         carb: 0.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
       },
       {
         name: "Tarakihi, flesh, deep fried",
@@ -4820,10 +4953,10 @@ export default [
         carb: 0.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup flaked (250mL)", value: 1.44 }
-        ]
-      }
-    ]
+          { name: "1 cup flaked (250mL)", value: 1.44 },
+        ],
+      },
+    ],
   },
   {
     name: "Noticeable amount of carbs",
@@ -4835,8 +4968,8 @@ export default [
         carb: 2.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.542 }
-        ]
+          { name: "1 cup (250mL)", value: 2.542 },
+        ],
       },
       {
         name: "Tuna, canned in water, assorted flavours, undrained",
@@ -4844,8 +4977,8 @@ export default [
         carb: 4.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.532 }
-        ]
+          { name: "1 cup (250mL)", value: 2.532 },
+        ],
       },
       {
         name: "Salmon, assorted flavours, canned, undrained",
@@ -4853,10 +4986,10 @@ export default [
         carb: 1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.543 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.543 },
+        ],
+      },
+    ],
   },
   /** Fruits */
   {
@@ -4867,9 +5000,12 @@ export default [
         name: "Olive, in brine",
         variant: "Olive",
         carb: 1.8,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 olive", value: 0.028 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 olive", value: 0.028 },
+        ],
+      },
+    ],
   },
   {
     name: "Canned Fruit",
@@ -4881,8 +5017,8 @@ export default [
         carb: 9.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup halves (250mL)", value: 2.613 }
-        ]
+          { name: "1 cup halves (250mL)", value: 2.613 },
+        ],
       },
       {
         name: "Apricot, canned in syrup, drained",
@@ -4891,8 +5027,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 half", value: 0.123 },
-          { name: "1 cup halves (250mL)", value: 2.547 }
-        ]
+          { name: "1 cup halves (250mL)", value: 2.547 },
+        ],
       },
       {
         name: "Apricot, canned in syrup, undrained",
@@ -4900,8 +5036,8 @@ export default [
         carb: 14.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup halves (250mL)", value: 2.635 }
-        ]
+          { name: "1 cup halves (250mL)", value: 2.635 },
+        ],
       },
       {
         name: "Fruit salad, canned in syrup, undrained",
@@ -4909,8 +5045,8 @@ export default [
         carb: 16.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.707 }
-        ]
+          { name: "1 cup (250mL)", value: 2.707 },
+        ],
       },
       {
         name: "Lychee, canned in syrup, undrained",
@@ -4918,8 +5054,8 @@ export default [
         carb: 17.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.67 }
-        ]
+          { name: "1 cup (250mL)", value: 2.67 },
+        ],
       },
       {
         name: "Mango, canned in syrup, undrained",
@@ -4927,8 +5063,8 @@ export default [
         carb: 16.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
       },
       {
         name: "Peach, canned in juice, undrained",
@@ -4936,8 +5072,8 @@ export default [
         carb: 10.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 2.834 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 2.834 },
+        ],
       },
       {
         name: "Pear, canned in juice, undrained",
@@ -4945,8 +5081,8 @@ export default [
         carb: 8.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.58 }
-        ]
+          { name: "1 cup (250mL)", value: 2.58 },
+        ],
       },
       {
         name: "Pineapple, canned in juice, drained",
@@ -4955,8 +5091,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup chunk or pieces (250mL)", value: 2.176 },
-          { name: "1 cup crushed (250mL)", value: 2.514 }
-        ]
+          { name: "1 cup crushed (250mL)", value: 2.514 },
+        ],
       },
       {
         name: "Pineapple, canned in syrup, drained",
@@ -4966,8 +5102,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 cup chunk or pieces (250mL)", value: 2.176 },
           { name: "1 slice (0.8 x 7.4cm diameter)", value: 0.349 },
-          { name: "1 cup crushed (250mL)", value: 2.514 }
-        ]
+          { name: "1 cup crushed (250mL)", value: 2.514 },
+        ],
       },
       {
         name: "Pineapple, canned in syrup, undrained",
@@ -4975,8 +5111,8 @@ export default [
         carb: 16.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.767 }
-        ]
+          { name: "1 cup (250mL)", value: 2.767 },
+        ],
       },
       {
         name: "Plum, canned in syrup, drained",
@@ -4985,10 +5121,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 plum", value: 0.49 },
-          { name: "1 cup (250mL)", value: 1.69 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.69 },
+        ],
+      },
+    ],
   },
   {
     name: "Cooked Fruit",
@@ -5000,8 +5136,8 @@ export default [
         carb: 8.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.8 }
-        ]
+          { name: "1 cup (250mL)", value: 1.8 },
+        ],
       },
       {
         name: "Banana, cooking, boiled",
@@ -5009,8 +5145,8 @@ export default [
         carb: 26.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.01 }
-        ]
+          { name: "1 cup (250mL)", value: 2.01 },
+        ],
       },
       {
         name: "Plum, cooking, stewed",
@@ -5018,8 +5154,8 @@ export default [
         carb: 6.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.63 }
-        ]
+          { name: "1 cup (250mL)", value: 2.63 },
+        ],
       },
       {
         name: "Rhubarb, stewed with sugar",
@@ -5027,8 +5163,8 @@ export default [
         carb: 10.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.7 }
-        ]
+          { name: "1 cup (250mL)", value: 2.7 },
+        ],
       },
       {
         name: "Rhubarb, stewed without sugar",
@@ -5036,10 +5172,10 @@ export default [
         carb: 1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.65 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.65 },
+        ],
+      },
+    ],
   },
   {
     name: "Dried Fruit",
@@ -5052,8 +5188,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "5 halves", value: 0.383 },
-          { name: "1 cup halves (250mL)", value: 2.291 }
-        ]
+          { name: "1 cup halves (250mL)", value: 2.291 },
+        ],
       },
       {
         name: "Cranberry, dried, sweetened",
@@ -5061,8 +5197,8 @@ export default [
         carb: 65,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.281 }
-        ]
+          { name: "1 cup (250mL)", value: 1.281 },
+        ],
       },
       {
         name: "Currant, dried",
@@ -5070,8 +5206,8 @@ export default [
         carb: 66.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.54 }
-        ]
+          { name: "1 cup (250mL)", value: 1.54 },
+        ],
       },
       {
         name: "Date, dried",
@@ -5080,8 +5216,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "10 dates pitted", value: 0.83 },
-          { name: "1 cup (250mL)", value: 1.88 }
-        ]
+          { name: "1 cup (250mL)", value: 1.88 },
+        ],
       },
       {
         name: "Fig, dried",
@@ -5090,8 +5226,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 fig", value: 0.16 },
-          { name: "1 cup (250mL)", value: 2.1 }
-        ]
+          { name: "1 cup (250mL)", value: 2.1 },
+        ],
       },
       {
         name: "Prune, dried",
@@ -5099,8 +5235,8 @@ export default [
         carb: 32.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 prunes", value: 0.84 }
-        ]
+          { name: "10 prunes", value: 0.84 },
+        ],
       },
       {
         name: "Prune, dried, stewed",
@@ -5108,8 +5244,8 @@ export default [
         carb: 19.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.24 }
-        ]
+          { name: "1 cup (250mL)", value: 2.24 },
+        ],
       },
       {
         name: "Raisin, seedless",
@@ -5118,8 +5254,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "20 raisins", value: 0.087 },
-          { name: "1 cup (250mL)", value: 1.373 }
-        ]
+          { name: "1 cup (250mL)", value: 1.373 },
+        ],
       },
       {
         name: "Sultana",
@@ -5127,10 +5263,10 @@ export default [
         variant: "Sultana",
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.53 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.53 },
+        ],
+      },
+    ],
   },
   {
     name: "Frozen Berries",
@@ -5142,8 +5278,8 @@ export default [
         carb: 8.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.57 }
-        ]
+          { name: "1 cup (250mL)", value: 1.57 },
+        ],
       },
       {
         name: "Blackcurrant, puree, frozen",
@@ -5151,8 +5287,8 @@ export default [
         carb: 7.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.821 }
-        ]
+          { name: "1 cup (250mL)", value: 2.821 },
+        ],
       },
       {
         name: "Blueberry, frozen",
@@ -5160,8 +5296,8 @@ export default [
         carb: 9.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.593 }
-        ]
+          { name: "1 cup (250mL)", value: 1.593 },
+        ],
       },
       {
         name: "Boysenberry, frozen",
@@ -5169,8 +5305,8 @@ export default [
         carb: 6.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.72 }
-        ]
+          { name: "1 cup (250mL)", value: 1.72 },
+        ],
       },
       {
         name: "Fruit mix, dried",
@@ -5178,8 +5314,8 @@ export default [
         carb: 67.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.74 }
-        ]
+          { name: "1 cup (250mL)", value: 1.74 },
+        ],
       },
       {
         name: "Raspberry, Meeker, frozen",
@@ -5187,8 +5323,8 @@ export default [
         carb: 5.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.707 }
-        ]
+          { name: "1 cup (250mL)", value: 2.707 },
+        ],
       },
       {
         name: "Raspberry, Wakefield, frozen",
@@ -5196,10 +5332,10 @@ export default [
         carb: 5.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.664 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.664 },
+        ],
+      },
+    ],
   },
   {
     name: "Fruit",
@@ -5211,8 +5347,8 @@ export default [
         carb: 10.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit (7.0cm diameter)", value: 1.632 }
-        ]
+          { name: "1 fruit (7.0cm diameter)", value: 1.632 },
+        ],
       },
       {
         name: "Apple, flesh, raw, combined varieties",
@@ -5220,8 +5356,8 @@ export default [
         carb: 10.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit (7.0cm diameter)", value: 1.436 }
-        ]
+          { name: "1 fruit (7.0cm diameter)", value: 1.436 },
+        ],
       },
       {
         name: "Apricot, flesh & skin, raw",
@@ -5229,8 +5365,8 @@ export default [
         carb: 8.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 apricot", value: 0.54 }
-        ]
+          { name: "1 apricot", value: 0.54 },
+        ],
       },
       {
         name: "Apricot, flesh & skin, stewed",
@@ -5238,8 +5374,8 @@ export default [
         carb: 5.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
       },
       {
         name: "Avocado, Hass, New Zealand",
@@ -5249,8 +5385,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 fruit small (7.8 x 5.7cm diameter)", value: 1.22 },
           { name: "1 fruit large", value: 1.731 },
-          { name: "1 cup puree (250mL)", value: 2.477 }
-        ]
+          { name: "1 cup puree (250mL)", value: 2.477 },
+        ],
       },
       {
         name: "Banana, yellow, ripened, raw",
@@ -5258,8 +5394,8 @@ export default [
         carb: 20.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit medium (19-20cm long)", value: 1.108 }
-        ]
+          { name: "1 fruit medium (19-20cm long)", value: 1.108 },
+        ],
       },
       {
         name: "Blackberry, raw",
@@ -5267,8 +5403,8 @@ export default [
         carb: 10.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.23 }
-        ]
+          { name: "1 cup (250mL)", value: 1.23 },
+        ],
       },
       {
         name: "Blackcurrant, raw",
@@ -5276,8 +5412,8 @@ export default [
         carb: 14.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.18 }
-        ]
+          { name: "1 cup (250mL)", value: 1.18 },
+        ],
       },
       {
         name: "Blueberry, raw",
@@ -5285,8 +5421,8 @@ export default [
         carb: 9.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.569 }
-        ]
+          { name: "1 cup (250mL)", value: 1.569 },
+        ],
       },
       {
         name: "Boysenberry, puree, seedless, frozen",
@@ -5294,8 +5430,8 @@ export default [
         carb: 7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.647 }
-        ]
+          { name: "1 cup (250mL)", value: 2.647 },
+        ],
       },
       {
         name: "Boysenberry, raw",
@@ -5303,8 +5439,8 @@ export default [
         carb: 7.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.33 }
-        ]
+          { name: "1 cup (250mL)", value: 1.33 },
+        ],
       },
       {
         name: "Cherry, flesh & skin, raw",
@@ -5313,8 +5449,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "10 cherries", value: 0.67 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "Feijoa, flesh, raw",
@@ -5323,8 +5459,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 feijoa (7.0 x 4.4cm diameter)", value: 0.422 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
       },
       {
         name: "Gooseberry, flesh, skin & seeds, raw",
@@ -5332,8 +5468,8 @@ export default [
         carb: 9.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.58 }
-        ]
+          { name: "1 cup (250mL)", value: 1.58 },
+        ],
       },
       {
         name: "Grape, black, flesh, raw",
@@ -5342,8 +5478,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "10 grapes", value: 0.54 },
-          { name: "1 cup (250mL)", value: 1.72 }
-        ]
+          { name: "1 cup (250mL)", value: 1.72 },
+        ],
       },
       {
         name: "Grape, white, flesh & skin, raw",
@@ -5352,14 +5488,17 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "10 grapes", value: 0.764 },
-          { name: "1 cup (250mL)", value: 1.69 }
-        ]
+          { name: "1 cup (250mL)", value: 1.69 },
+        ],
       },
       {
         name: "Grape, red or green, seedless, raw, European type",
         variant: "Grape",
         carb: 15.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 grapes", value: 0.5 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 grapes", value: 0.5 },
+        ],
       },
       {
         name: "Grapefruit, flesh, raw",
@@ -5367,8 +5506,8 @@ export default [
         carb: 5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 grapefruit (6.8cm diameter)", value: 2.36 }
-        ]
+          { name: "1 grapefruit (6.8cm diameter)", value: 2.36 },
+        ],
       },
       {
         name: "Juice, lemon, raw",
@@ -5376,8 +5515,8 @@ export default [
         carb: 1.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.16 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.16 },
+        ],
       },
       {
         name: "Juice, orange, raw",
@@ -5385,8 +5524,8 @@ export default [
         carb: 9.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.58 }
-        ]
+          { name: "1 cup (250mL)", value: 2.58 },
+        ],
       },
       {
         name: "Kiwifruit, Zespri Gold (Hort16A) Kiwifruit, Zespri, raw",
@@ -5394,8 +5533,8 @@ export default [
         carb: 11.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.83 }
-        ]
+          { name: "1 fruit large", value: 0.83 },
+        ],
       },
       {
         name: "Kiwifruit, Zespri Green (Hayward) Kiwifruit, Zespri, raw",
@@ -5403,18 +5542,17 @@ export default [
         carb: 9.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.741 }
-        ]
+          { name: "1 fruit large", value: 0.741 },
+        ],
       },
       {
-        name:
-          "Kiwifruit, Zespri Organic Green (Hayward) Kiwifruit, Zespri, raw",
+        name: "Kiwifruit, Zespri Organic Green (Hayward) Kiwifruit, Zespri, raw",
         variant: "Kiwifruit",
         carb: 10.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 kiwifruit", value: 0.79 }
-        ]
+          { name: "1 kiwifruit", value: 0.79 },
+        ],
       },
       {
         name: "Kiwifruit, Zespri SunGold Kiwifruit (Gold3), Zespri, raw",
@@ -5422,8 +5560,8 @@ export default [
         carb: 12.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.808 }
-        ]
+          { name: "1 fruit large", value: 0.808 },
+        ],
       },
       {
         name: "Kiwifruit, Zespri Sweet Green Kiwifruit (Green14), Zespri, raw",
@@ -5431,8 +5569,8 @@ export default [
         carb: 12.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.809 }
-        ]
+          { name: "1 fruit large", value: 0.809 },
+        ],
       },
       {
         name: "Lemon, flesh, raw",
@@ -5440,8 +5578,8 @@ export default [
         carb: 2.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 lemon (4.7cm diameter)", value: 0.645 }
-        ]
+          { name: "1 lemon (4.7cm diameter)", value: 0.645 },
+        ],
       },
       {
         name: "Mandarin, flesh, raw",
@@ -5449,8 +5587,8 @@ export default [
         carb: 9.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 mandarin (5-6 cm diameter)", value: 0.86 }
-        ]
+          { name: "1 mandarin (5-6 cm diameter)", value: 0.86 },
+        ],
       },
       {
         name: "Mango, flesh, raw",
@@ -5459,8 +5597,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup sliced (250mL)", value: 1.76 },
-          { name: "1 mango", value: 2.867 }
-        ]
+          { name: "1 mango", value: 2.867 },
+        ],
       },
       {
         name: "Melon, Honeydew, flesh, raw",
@@ -5468,8 +5606,8 @@ export default [
         carb: 9.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup diced (250mL)", value: 1.72 }
-        ]
+          { name: "1 cup diced (250mL)", value: 1.72 },
+        ],
       },
       {
         name: "Melon, rock, flesh, raw",
@@ -5477,8 +5615,8 @@ export default [
         carb: 6.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup diced (250mL)", value: 1.68 }
-        ]
+          { name: "1 cup diced (250mL)", value: 1.68 },
+        ],
       },
       {
         name: "Nectarine, flesh & skin, raw",
@@ -5486,8 +5624,8 @@ export default [
         carb: 7.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 1.43 }
-        ]
+          { name: "1 fruit large", value: 1.43 },
+        ],
       },
       {
         name: "Orange, flesh, raw, USA",
@@ -5495,8 +5633,8 @@ export default [
         carb: 8.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit (7.3cm diameter)", value: 1.494 }
-        ]
+          { name: "1 fruit (7.3cm diameter)", value: 1.494 },
+        ],
       },
       {
         name: "Passion fruit, flesh & seed, raw",
@@ -5504,8 +5642,8 @@ export default [
         carb: 7.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 passionfruit", value: 0.18 }
-        ]
+          { name: "1 passionfruit", value: 0.18 },
+        ],
       },
       {
         name: "Peach, flesh & skin, raw",
@@ -5513,8 +5651,8 @@ export default [
         carb: 7.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 1.38 }
-        ]
+          { name: "1 fruit large", value: 1.38 },
+        ],
       },
       {
         name: "Pear, nashi, flesh, raw",
@@ -5522,8 +5660,8 @@ export default [
         carb: 9.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 nashi pear (7cm diameter)", value: 2.033 }
-        ]
+          { name: "1 nashi pear (7cm diameter)", value: 2.033 },
+        ],
       },
       {
         name: "Pear, flesh & skin, raw",
@@ -5531,8 +5669,8 @@ export default [
         carb: 10,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 1.22 }
-        ]
+          { name: "1 fruit large", value: 1.22 },
+        ],
       },
       {
         name: "Persimmon, flesh, raw",
@@ -5540,8 +5678,8 @@ export default [
         carb: 15.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 persimmon", value: 0.75 }
-        ]
+          { name: "1 persimmon", value: 0.75 },
+        ],
       },
       {
         name: "Pineapple, flesh, raw",
@@ -5550,8 +5688,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice (1.5 x 9.0cm diameter)", value: 1.1 },
-          { name: "1 cup chopped (250mL)", value: 1.64 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.64 },
+        ],
       },
       {
         name: "Plum, Royal Star, flesh, raw",
@@ -5559,8 +5697,8 @@ export default [
         carb: 10.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.951 }
-        ]
+          { name: "1 fruit large", value: 0.951 },
+        ],
       },
       {
         name: "Plum, flesh & skin, raw",
@@ -5568,8 +5706,8 @@ export default [
         carb: 13.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.74 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.74 },
+        ],
       },
       {
         name: "Strawberry, raw, New Zealand",
@@ -5578,8 +5716,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 fruit large", value: 0.12 },
-          { name: "1 cup (250mL)", value: 1.754 }
-        ]
+          { name: "1 cup (250mL)", value: 1.754 },
+        ],
       },
       {
         name: "Tamarillo, red, flesh & seed, raw",
@@ -5587,8 +5725,8 @@ export default [
         carb: 3.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.6 }
-        ]
+          { name: "1 fruit large", value: 0.6 },
+        ],
       },
       {
         name: "Tangelo, flesh, raw",
@@ -5596,8 +5734,8 @@ export default [
         carb: 7.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.9 }
-        ]
+          { name: "1 fruit large", value: 0.9 },
+        ],
       },
       {
         name: "Tangerine, flesh, raw",
@@ -5605,8 +5743,8 @@ export default [
         carb: 7.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit large", value: 0.84 }
-        ]
+          { name: "1 fruit large", value: 0.84 },
+        ],
       },
       {
         name: "Watermelon, flesh, raw",
@@ -5615,25 +5753,24 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup cubed (250mL)", value: 2.011 },
-          { name: "1 wedge (1/12 of fruit)", value: 2.668 }
-        ]
-      }
-    ]
+          { name: "1 wedge (1/12 of fruit)", value: 2.668 },
+        ],
+      },
+    ],
   },
   {
     name: "Bacon & Pork",
     category: "Meat Products",
     carbs: [
       {
-        name:
-          "Bacon rasher, rindless, pan fried with no added fat, assorted types",
+        name: "Bacon rasher, rindless, pan fried with no added fat, assorted types",
         variant: "Bacon rasher",
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 rasher (streaky bacon)", value: 0.085 },
-          { name: "1 rasher (middle or shoulder bacon)", value: 0.238 }
-        ]
+          { name: "1 rasher (middle or shoulder bacon)", value: 0.238 },
+        ],
       },
       {
         name: "Ham, sliced",
@@ -5641,10 +5778,10 @@ export default [
         carb: 1.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (10.0 x 10.0 x 0.3cm)", value: 0.29 }
-        ]
-      }
-    ]
+          { name: "1 slice (10.0 x 10.0 x 0.3cm)", value: 0.29 },
+        ],
+      },
+    ],
   },
   {
     name: "Beef",
@@ -5654,9 +5791,12 @@ export default [
         name: "Beef, pastrami",
         variant: "pastrami",
         carb: 0,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 slice", value: 0.28 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 slice", value: 0.28 },
+        ],
+      },
+    ],
   },
   {
     name: "Nugget",
@@ -5666,7 +5806,10 @@ export default [
         name: "Chicken, nugget, crumbed, baked",
         variant: "Chicken",
         carb: 16,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.206 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.206 },
+        ],
       },
       {
         name: "Chicken, nugget, crumbed, deep fried",
@@ -5674,24 +5817,23 @@ export default [
         carb: 14.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 nugget (5.5 x 3.6 x 1.5cm)", value: 0.175 }
-        ]
-      }
-    ]
+          { name: "1 nugget (5.5 x 3.6 x 1.5cm)", value: 0.175 },
+        ],
+      },
+    ],
   },
   {
     name: "Frozen Meal",
     category: "Meat Products",
     carbs: [
       {
-        name:
-          "roast beef with mashed potato & vegetables, microwaved, Wattie's",
+        name: "roast beef with mashed potato & vegetables, microwaved, Wattie's",
         variant: "Frozen meal",
         carb: 12.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 single meal", value: 4.253 }
-        ]
+          { name: "1 single meal", value: 4.253 },
+        ],
       },
       {
         name: "roast beef with roast potato & vegetables, microwaved",
@@ -5699,8 +5841,8 @@ export default [
         carb: 12.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 single meal", value: 3.953 }
-        ]
+          { name: "1 single meal", value: 3.953 },
+        ],
       },
       {
         name: "roast lamb with roast potato & vegetables, microwaved",
@@ -5708,20 +5850,19 @@ export default [
         carb: 8.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 single meal", value: 3.835 }
-        ]
+          { name: "1 single meal", value: 3.835 },
+        ],
       },
       {
-        name:
-          "roast pork with mashed potato & vegetables, microwaved, Wattie's",
+        name: "roast pork with mashed potato & vegetables, microwaved, Wattie's",
         variant: "Frozen meal",
         carb: 10.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 single meal", value: 4.402 }
-        ]
-      }
-    ]
+          { name: "1 single meal", value: 4.402 },
+        ],
+      },
+    ],
   },
   {
     name: "Pate",
@@ -5733,8 +5874,8 @@ export default [
         carb: 1.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "pork liver",
@@ -5742,10 +5883,10 @@ export default [
         carb: 0.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
+      },
+    ],
   },
   {
     name: "Pie",
@@ -5755,7 +5896,10 @@ export default [
         name: "Cornish pasty",
         variant: "Cornish pasty",
         carb: 28.4,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 pasty", value: 1.4 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 pasty", value: 1.4 },
+        ],
       },
       {
         name: "pork",
@@ -5763,10 +5907,10 @@ export default [
         carb: 22.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 pie (3 x 10cm diameter)", value: 1.9 }
-        ]
-      }
-    ]
+          { name: "1 pie (3 x 10cm diameter)", value: 1.9 },
+        ],
+      },
+    ],
   },
   {
     name: "Sausage",
@@ -5778,8 +5922,8 @@ export default [
         carb: 7.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (11.8 x 3.0cm)", value: 0.78 }
-        ]
+          { name: "1 sausage (11.8 x 3.0cm)", value: 0.78 },
+        ],
       },
       {
         name: "assorted meats & flavours, grilled",
@@ -5787,14 +5931,17 @@ export default [
         carb: 9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage", value: 0.78 }
-        ]
+          { name: "1 sausage", value: 0.78 },
+        ],
       },
       {
         name: "assorted meats & flavours, precooked, grilled",
         variant: "assorted meats & flavours",
         carb: 9.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 sausage", value: 0.7 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 sausage", value: 0.7 },
+        ],
       },
       {
         name: "beef, barbecued, with no added fat",
@@ -5803,8 +5950,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.3 x 2.2cm diameter)", value: 0.299 },
-          { name: "1 sausage (10.1 x 2.8cm diameter)", value: 0.619 }
-        ]
+          { name: "1 sausage (10.1 x 2.8cm diameter)", value: 0.619 },
+        ],
       },
       {
         name: "beef, boiled, drained",
@@ -5813,8 +5960,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.8 x 1.9cm diameter)", value: 0.572 },
-          { name: "1 sausage (10.3 x 3.1cm diameter)", value: 0.722 }
-        ]
+          { name: "1 sausage (10.3 x 3.1cm diameter)", value: 0.722 },
+        ],
       },
       {
         name: "beef, grilled, with no added fat",
@@ -5823,8 +5970,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.3 x 2.2cm diameter)", value: 0.299 },
-          { name: "1 sausage (10.1 x 2.8cm diameter)", value: 0.619 }
-        ]
+          { name: "1 sausage (10.1 x 2.8cm diameter)", value: 0.619 },
+        ],
       },
       {
         name: "beef, pan fried, with no added fat",
@@ -5833,8 +5980,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.3 x 2.2cm diameter)", value: 0.299 },
-          { name: "1 sausage (10.1 x 2.8cm diameter)", value: 0.619 }
-        ]
+          { name: "1 sausage (10.1 x 2.8cm diameter)", value: 0.619 },
+        ],
       },
       {
         name: "black pudding, fried",
@@ -5842,8 +5989,8 @@ export default [
         carb: 13.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (4 x 2cm diameter)", value: 0.3 }
-        ]
+          { name: "1 slice (4 x 2cm diameter)", value: 0.3 },
+        ],
       },
       {
         name: "chicken, barbecued, with no added fat",
@@ -5852,8 +5999,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.4 x 1.7cm diameter)", value: 0.232 },
-          { name: "1 sausage (12.2 x 2.6cm diameter)", value: 0.706 }
-        ]
+          { name: "1 sausage (12.2 x 2.6cm diameter)", value: 0.706 },
+        ],
       },
       {
         name: "chicken, boiled, drained",
@@ -5862,8 +6009,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.5 x 1.9cm diameter)", value: 0.26 },
-          { name: "1 sausage (12.1 x 2.7cm diameter)", value: 0.712 }
-        ]
+          { name: "1 sausage (12.1 x 2.7cm diameter)", value: 0.712 },
+        ],
       },
       {
         name: "chicken, grilled, with no added fat",
@@ -5872,8 +6019,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.4 x 1.7cm diameter)", value: 0.232 },
-          { name: "1 sausage (12.2 x 2.6cm diameter)", value: 0.706 }
-        ]
+          { name: "1 sausage (12.2 x 2.6cm diameter)", value: 0.706 },
+        ],
       },
       {
         name: "chicken, pan fried, with no added fat",
@@ -5882,8 +6029,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 sausage (8.4 x 1.7cm diameter)", value: 0.232 },
-          { name: "1 sausage (12.2 x 2.6cm diameter)", value: 0.706 }
-        ]
+          { name: "1 sausage (12.2 x 2.6cm diameter)", value: 0.706 },
+        ],
       },
       {
         name: "frankfurters, precooked",
@@ -5891,8 +6038,8 @@ export default [
         carb: 2.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 frankfurter (12.5 x 2.5cm diameter)", value: 0.57 }
-        ]
+          { name: "1 frankfurter (12.5 x 2.5cm diameter)", value: 0.57 },
+        ],
       },
       {
         name: "lamb, barbecued, with no added fat",
@@ -5900,8 +6047,8 @@ export default [
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (11.3 x 2.8cm diameter)", value: 0.751 }
-        ]
+          { name: "1 sausage (11.3 x 2.8cm diameter)", value: 0.751 },
+        ],
       },
       {
         name: "lamb, boiled, drained",
@@ -5909,8 +6056,8 @@ export default [
         carb: 2.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (11.3 x 3.0cm diameter)", value: 0.824 }
-        ]
+          { name: "1 sausage (11.3 x 3.0cm diameter)", value: 0.824 },
+        ],
       },
       {
         name: "lamb, grilled, with no added fat",
@@ -5918,8 +6065,8 @@ export default [
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (11.3 x 2.8cm diameter)", value: 0.751 }
-        ]
+          { name: "1 sausage (11.3 x 2.8cm diameter)", value: 0.751 },
+        ],
       },
       {
         name: "lamb, pan fried, with no added fat",
@@ -5927,8 +6074,8 @@ export default [
         carb: 2.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (11.3 x 2.8cm diameter)", value: 0.751 }
-        ]
+          { name: "1 sausage (11.3 x 2.8cm diameter)", value: 0.751 },
+        ],
       },
       {
         name: "pork, barbecued, with no added fat",
@@ -5936,8 +6083,8 @@ export default [
         carb: 2.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (10.5 x 2.8cm diameter)", value: 0.696 }
-        ]
+          { name: "1 sausage (10.5 x 2.8cm diameter)", value: 0.696 },
+        ],
       },
       {
         name: "pork, boiled, drained",
@@ -5945,8 +6092,8 @@ export default [
         carb: 2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (10.4 x 3.0cm diameter)", value: 0.756 }
-        ]
+          { name: "1 sausage (10.4 x 3.0cm diameter)", value: 0.756 },
+        ],
       },
       {
         name: "pork, grilled, with no added fat",
@@ -5954,8 +6101,8 @@ export default [
         carb: 2.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (10.5 x 2.8cm diameter)", value: 0.696 }
-        ]
+          { name: "1 sausage (10.5 x 2.8cm diameter)", value: 0.696 },
+        ],
       },
       {
         name: "pork, pan fried, with no added fat",
@@ -5963,8 +6110,8 @@ export default [
         carb: 2.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 sausage (10.5 x 2.8cm diameter)", value: 0.696 }
-        ]
+          { name: "1 sausage (10.5 x 2.8cm diameter)", value: 0.696 },
+        ],
       },
       {
         name: "salami assorted meats & flavours",
@@ -5972,8 +6119,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (0.2 x 7.4cm diameter)", value: 0.079 }
-        ]
+          { name: "1 slice (0.2 x 7.4cm diameter)", value: 0.079 },
+        ],
       },
       {
         name: "salami assorted meats & flavours, acidulated, heat treated",
@@ -5981,8 +6128,8 @@ export default [
         carb: 0.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 slice (0.2 x 7.8cm diameter)", value: 0.083 }
-        ]
+          { name: "1 slice (0.2 x 7.8cm diameter)", value: 0.083 },
+        ],
       },
       {
         name: "saveloy, boiled",
@@ -5990,10 +6137,10 @@ export default [
         carb: 5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 saveloy", value: 0.85 }
-        ]
-      }
-    ]
+          { name: "1 saveloy", value: 0.85 },
+        ],
+      },
+    ],
   },
   {
     name: "Miscellaneous",
@@ -6005,8 +6152,8 @@ export default [
         carb: 54.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.081 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.081 },
+        ],
       },
       {
         name: "Salt, table, iodised",
@@ -6014,8 +6161,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.054 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.054 },
+        ],
       },
       {
         name: "Salt, table, uniodised",
@@ -6023,8 +6170,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.054 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.054 },
+        ],
       },
       {
         name: "Seed, poppy",
@@ -6032,8 +6179,8 @@ export default [
         carb: 3.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.03 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.03 },
+        ],
       },
       {
         name: "Spread, yeast extract, Marmite, Sanitarium, fortified",
@@ -6041,8 +6188,8 @@ export default [
         carb: 14.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.058 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.058 },
+        ],
       },
       {
         name: "Spread, yeast extract, Vegemite, Kraft, fortified",
@@ -6050,8 +6197,8 @@ export default [
         carb: 3.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.051 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.051 },
+        ],
       },
       {
         name: "Stock, Oxo cubes",
@@ -6059,8 +6206,8 @@ export default [
         carb: 11.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cube (2cm)", value: 0.063 }
-        ]
+          { name: "1 cube (2cm)", value: 0.063 },
+        ],
       },
       {
         name: "Vinegar",
@@ -6068,8 +6215,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.153 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.153 },
+        ],
       },
       {
         name: "Vinegar, cider",
@@ -6077,8 +6224,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.15 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.15 },
+        ],
       },
       {
         name: "Yeast, baker's, dried",
@@ -6086,10 +6233,10 @@ export default [
         carb: 3.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.041 }
-        ]
-      }
-    ]
+          { name: "1 teaspoon (5mL)", value: 0.041 },
+        ],
+      },
+    ],
   },
   {
     name: "Coconut",
@@ -6101,8 +6248,8 @@ export default [
         carb: 1.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.552 }
-        ]
+          { name: "1 cup (250mL)", value: 2.552 },
+        ],
       },
       {
         name: "desiccated",
@@ -6111,8 +6258,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.066 },
-          { name: "1 cup (250mL)", value: 1.106 }
-        ]
+          { name: "1 cup (250mL)", value: 1.106 },
+        ],
       },
       {
         name: "flesh, raw",
@@ -6120,8 +6267,8 @@ export default [
         carb: 3.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL) grated", value: 0.94 }
-        ]
+          { name: "1 cup (250mL) grated", value: 0.94 },
+        ],
       },
       {
         name: "milk, standard",
@@ -6129,10 +6276,10 @@ export default [
         carb: 1.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.502 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.502 },
+        ],
+      },
+    ],
   },
   {
     name: "Nuts",
@@ -6144,8 +6291,8 @@ export default [
         carb: 5.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 almonds", value: 0.129 }
-        ]
+          { name: "10 almonds", value: 0.129 },
+        ],
       },
       {
         name: "almond, dry roasted, unblanched, no salt added",
@@ -6153,8 +6300,8 @@ export default [
         carb: 5.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 almonds", value: 0.118 }
-        ]
+          { name: "10 almonds", value: 0.118 },
+        ],
       },
       {
         name: "almond, kernels, dried, raw, unblanched",
@@ -6162,8 +6309,8 @@ export default [
         carb: 5.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 almonds", value: 0.112 }
-        ]
+          { name: "10 almonds", value: 0.112 },
+        ],
       },
       {
         name: "brazilnut, raw",
@@ -6171,26 +6318,35 @@ export default [
         carb: 3.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 brazilnuts", value: 0.38 }
-        ]
+          { name: "10 brazilnuts", value: 0.38 },
+        ],
       },
       {
         name: "cashew, raw",
         variant: "cashew",
         carb: 16.8,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 nuts", value: 0.125 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 nuts", value: 0.125 },
+        ],
       },
       {
         name: "cashew, roasted, no salt added",
         variant: "cashew",
         carb: 26.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 nuts", value: 0.124 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 nuts", value: 0.124 },
+        ],
       },
       {
         name: "cashew, roasted, salt added",
         variant: "cashew",
         carb: 26.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 nuts", value: 0.125 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 nuts", value: 0.125 },
+        ],
       },
       {
         name: "hazelnut, whole, skin on, raw",
@@ -6198,20 +6354,26 @@ export default [
         carb: 4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 kernels", value: 0.11 }
-        ]
+          { name: "10 kernels", value: 0.11 },
+        ],
       },
       {
         name: "macadamia, raw",
         variant: "macadamia",
         carb: 4.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 nuts", value: 0.196 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 nuts", value: 0.196 },
+        ],
       },
       {
         name: "macadamia, roasted with oil, salt added",
         variant: "macadamia",
         carb: 10.6,
-        amounts: [{ name: "100g", value: 1 }, { name: "10 nuts", value: 0.196 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "10 nuts", value: 0.196 },
+        ],
       },
       {
         name: "mixed, salted",
@@ -6219,8 +6381,8 @@ export default [
         carb: 10.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "peanut, all types, dry roasted, no salt added",
@@ -6228,8 +6390,8 @@ export default [
         carb: 13.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 peanuts", value: 0.065 }
-        ]
+          { name: "10 peanuts", value: 0.065 },
+        ],
       },
       {
         name: "peanut, all types, roasted with oil, no salt added",
@@ -6237,8 +6399,8 @@ export default [
         carb: 13.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 peanuts", value: 0.065 }
-        ]
+          { name: "10 peanuts", value: 0.065 },
+        ],
       },
       {
         name: "pecan, dried, raw",
@@ -6246,8 +6408,8 @@ export default [
         carb: 13.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 whole nuts", value: 0.211 }
-        ]
+          { name: "10 whole nuts", value: 0.211 },
+        ],
       },
       {
         name: "pine, raw",
@@ -6256,8 +6418,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "10 nuts", value: 0.016 },
-          { name: "1 tablespoon (15mL)", value: 0.1 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.1 },
+        ],
       },
       {
         name: "pistachio, raw",
@@ -6265,8 +6427,8 @@ export default [
         carb: 7.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 kernels", value: 0.064 }
-        ]
+          { name: "10 kernels", value: 0.064 },
+        ],
       },
       {
         name: "walnut, kernel, halves & pieces, raw",
@@ -6275,8 +6437,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup halves (250mL)", value: 1.148 },
-          { name: "1 cup pieces (250mL)", value: 1.336 }
-        ]
+          { name: "1 cup pieces (250mL)", value: 1.336 },
+        ],
       },
       {
         name: "almond, roasted with oil, unblanched, no salt added",
@@ -6284,10 +6446,10 @@ export default [
         carb: 5.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 almonds", value: 0.129 }
-        ]
-      }
-    ]
+          { name: "10 almonds", value: 0.129 },
+        ],
+      },
+    ],
   },
   {
     name: "Peanut butter",
@@ -6300,8 +6462,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.064 },
-          { name: "1 tablespoon (15mL)", value: 0.192 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.192 },
+        ],
       },
       {
         name: "smooth & crunchy, salt & sugar added",
@@ -6310,8 +6472,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.062 },
-          { name: "1 tablespoon (15mL)", value: 0.186 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.186 },
+        ],
       },
       {
         name: "smooth & crunchy, salt added, no sugar added",
@@ -6319,10 +6481,10 @@ export default [
         carb: 10.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.061 }
-        ]
-      }
-    ]
+          { name: "1 teaspoon (5mL)", value: 0.061 },
+        ],
+      },
+    ],
   },
   {
     name: "Seeds",
@@ -6334,8 +6496,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.38 }
-        ]
+          { name: "1 cup (250mL)", value: 1.38 },
+        ],
       },
       {
         name: "sesame butter, tahini",
@@ -6343,8 +6505,8 @@ export default [
         carb: 1.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.16 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.16 },
+        ],
       },
       {
         name: "sesame, dried, raw",
@@ -6352,8 +6514,8 @@ export default [
         carb: 8.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.086 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.086 },
+        ],
       },
       {
         name: "sunflower, kernel, dried",
@@ -6361,10 +6523,10 @@ export default [
         carb: 10.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon ground (15mL)", value: 0.069 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon ground (15mL)", value: 0.069 },
+        ],
+      },
+    ],
   },
   {
     name: "Recipes",
@@ -6374,25 +6536,25 @@ export default [
         name: "Cake, chocolate, baked, iced with butter icing",
         variant: "Cake",
         carb: 54.7,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Cake, sponge, fat added, baked",
         variant: "Cake",
         carb: 46,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Cake, sponge, no fat added, baked",
         variant: "Cake",
         carb: 48.6,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Custard square, baked",
         variant: "Custard square",
         carb: 17.6,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Dip, guacamole",
@@ -6401,14 +6563,14 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.147 },
-          { name: "1 cup (250mL)", value: 2.45 }
-        ]
+          { name: "1 cup (250mL)", value: 2.45 },
+        ],
       },
       {
         name: "Lemon curd, cooked",
         variant: "Lemon curd",
         carb: 29.4,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Meringue, baked",
@@ -6416,8 +6578,8 @@ export default [
         carb: 69.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 meringue (7.5cm diameter)", value: 0.3 }
-        ]
+          { name: "1 meringue (7.5cm diameter)", value: 0.3 },
+        ],
       },
       {
         name: "Mincemeat, fruit, Christmas",
@@ -6425,8 +6587,8 @@ export default [
         carb: 42.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.436 }
-        ]
+          { name: "1 cup (250mL)", value: 2.436 },
+        ],
       },
       {
         name: "Omelette, cheese, cooked",
@@ -6435,8 +6597,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 egg omelette", value: 0.78 },
-          { name: "1 cup (250mL)", value: 2.56 }
-        ]
+          { name: "1 cup (250mL)", value: 2.56 },
+        ],
       },
       {
         name: "Omelette, plain, cooked",
@@ -6444,58 +6606,64 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 egg omelette", value: 0.64 }
-        ]
+          { name: "1 egg omelette", value: 0.64 },
+        ],
       },
       {
         name: "Pastry, short, butter, baked",
         variant: "Pastry",
         carb: 47.6,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Pie, lemon meringue, baked",
         variant: "Pie",
         carb: 36.6,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Pudding, rice, cocoa & coconut, cooked",
         variant: "Pudding",
         carb: 20.8,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Pudding, sponge, fruit, steamed",
         variant: "Pudding",
         carb: 47.7,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Quiche, spinach, baked",
         variant: "Quiche",
         carb: 14.2,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Scone, wholemeal, baked",
         variant: "Scone",
         carb: 37.4,
-        amounts: [{ name: "100g", value: 1 }, { name: "whole", value: 0.5 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "whole", value: 0.5 },
+        ],
       },
       {
         name: "Shortbread, homemade, baked",
         variant: "Shortbread",
         carb: 56.9,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.13 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.13 },
+        ],
       },
       {
         name: "Tart, jam, baked",
         variant: "Tart",
         carb: 53.4,
-        amounts: [{ name: "100g", value: 1 }]
-      }
-    ]
+        amounts: [{ name: "100g", value: 1 }],
+      },
+    ],
   },
   {
     name: "Dip",
@@ -6507,8 +6675,8 @@ export default [
         carb: 5.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.142 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.142 },
+        ],
       },
       {
         name: "sour cream, lite, assorted flavours, 7% fat",
@@ -6516,10 +6684,10 @@ export default [
         carb: 7.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.158 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.158 },
+        ],
+      },
+    ],
   },
   {
     name: "Dressings",
@@ -6531,8 +6699,8 @@ export default [
         carb: 20.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.152 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.152 },
+        ],
       },
       {
         name: "French, Kraft",
@@ -6540,8 +6708,8 @@ export default [
         carb: 8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.15 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.15 },
+        ],
       },
       {
         name: "Italian, Kraft",
@@ -6549,8 +6717,8 @@ export default [
         carb: 5.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.147 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.147 },
+        ],
       },
       {
         name: "mayonnaise, commercial",
@@ -6558,8 +6726,8 @@ export default [
         carb: 18.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.147 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.147 },
+        ],
       },
       {
         name: "mayonnaise, reduced fat, commercial",
@@ -6567,8 +6735,8 @@ export default [
         carb: 23.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.138 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.138 },
+        ],
       },
       {
         name: "thousand island, Eta",
@@ -6576,8 +6744,8 @@ export default [
         carb: 15.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.156 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.156 },
+        ],
       },
       {
         name: "vinaigrette",
@@ -6585,10 +6753,10 @@ export default [
         carb: 10,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.16 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.16 },
+        ],
+      },
+    ],
   },
   {
     name: "Gravy",
@@ -6600,10 +6768,10 @@ export default [
         carb: 4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.514 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.514 },
+        ],
+      },
+    ],
   },
   {
     name: "Hummus",
@@ -6615,10 +6783,10 @@ export default [
         carb: 11.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.156 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.156 },
+        ],
+      },
+    ],
   },
   {
     name: "Pickle",
@@ -6630,10 +6798,10 @@ export default [
         carb: 34,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.17 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.17 },
+        ],
+      },
+    ],
   },
   {
     name: "Sauces",
@@ -6645,8 +6813,8 @@ export default [
         carb: 17.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.17 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.17 },
+        ],
       },
       {
         name: "chilli, sweet, commercial",
@@ -6654,8 +6822,8 @@ export default [
         carb: 45.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.184 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.184 },
+        ],
       },
       {
         name: "fish",
@@ -6663,8 +6831,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.182 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.182 },
+        ],
       },
       {
         name: "pasta, chunky vegetable, tomato based, heated",
@@ -6672,8 +6840,8 @@ export default [
         carb: 10.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.734 }
-        ]
+          { name: "1 cup (250mL)", value: 2.734 },
+        ],
       },
       {
         name: "simmer, butter chicken, heated",
@@ -6681,8 +6849,8 @@ export default [
         carb: 9.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.676 }
-        ]
+          { name: "1 cup (250mL)", value: 2.676 },
+        ],
       },
       {
         name: "simmer, korma, cream & coconut base",
@@ -6690,8 +6858,8 @@ export default [
         carb: 6.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.662 }
-        ]
+          { name: "1 cup (250mL)", value: 2.662 },
+        ],
       },
       {
         name: "simmer, satay, heated",
@@ -6699,8 +6867,8 @@ export default [
         carb: 12,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.71 }
-        ]
+          { name: "1 cup (250mL)", value: 2.71 },
+        ],
       },
       {
         name: "simmer, sweet & sour, heated",
@@ -6708,8 +6876,8 @@ export default [
         carb: 27,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.827 }
-        ]
+          { name: "1 cup (250mL)", value: 2.827 },
+        ],
       },
       {
         name: "soy, commercial",
@@ -6717,8 +6885,8 @@ export default [
         carb: 4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.176 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.176 },
+        ],
       },
       {
         name: "soy, reduced salt, commercial",
@@ -6726,8 +6894,8 @@ export default [
         carb: 3.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.172 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.172 },
+        ],
       },
       {
         name: "tartar, Eta",
@@ -6735,8 +6903,8 @@ export default [
         carb: 7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.146 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.146 },
+        ],
       },
       {
         name: "tomato",
@@ -6744,8 +6912,8 @@ export default [
         carb: 24.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.165 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.165 },
+        ],
       },
       {
         name: "tomato, ketchup",
@@ -6753,8 +6921,8 @@ export default [
         carb: 24.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 teaspoon (5mL)", value: 0.063 }
-        ]
+          { name: "1 teaspoon (5mL)", value: 0.063 },
+        ],
       },
       {
         name: "Worcestershire",
@@ -6762,10 +6930,10 @@ export default [
         carb: 17.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.18 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.18 },
+        ],
+      },
+    ],
   },
   {
     name: "Shellfishes",
@@ -6777,8 +6945,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "Crab, meat stick, surimi",
@@ -6787,8 +6955,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 stick", value: 0.41 },
-          { name: "1 cup chunks or flakes (250mL)", value: 1.33 }
-        ]
+          { name: "1 cup chunks or flakes (250mL)", value: 1.33 },
+        ],
       },
       {
         name: "Kina, roe, raw",
@@ -6796,8 +6964,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
       },
       {
         name: "Mussel, green, meat, boiled",
@@ -6806,8 +6974,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 mussel", value: 0.152 },
-          { name: "1 cup (250mL)", value: 2.16 }
-        ]
+          { name: "1 cup (250mL)", value: 2.16 },
+        ],
       },
       {
         name: "Mussel, green, meat, fresh, raw",
@@ -6816,19 +6984,18 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 mussel", value: 0.247 },
-          { name: "1 cup (250mL)", value: 2.39 }
-        ]
+          { name: "1 cup (250mL)", value: 2.39 },
+        ],
       },
       {
-        name:
-          "Mussel, green, meat, marinated, assorted flavoured, drained, ready to eat, Sealord",
+        name: "Mussel, green, meat, marinated, assorted flavoured, drained, ready to eat, Sealord",
         variant: "Mussel",
         carb: 8.5,
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 mussel", value: 0.16 },
-          { name: "1 cup (250mL)", value: 2.812 }
-        ]
+          { name: "1 cup (250mL)", value: 2.812 },
+        ],
       },
       {
         name: "Mussel, green, meat, marinated, drained, ready to eat, Talley's",
@@ -6837,19 +7004,18 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 mussel", value: 0.16 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
-        name:
-          "Mussel, green, meat, smoked, flavoured, ready to eat, Garlic, Aqua Fresh",
+        name: "Mussel, green, meat, smoked, flavoured, ready to eat, Garlic, Aqua Fresh",
         variant: "Mussel",
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 mussel", value: 0.096 },
-          { name: "1 cup (250mL)", value: 2.793 }
-        ]
+          { name: "1 cup (250mL)", value: 2.793 },
+        ],
       },
       {
         name: "Mussel, green, meat, smoked, ready to eat, Natural, Aqua Fresh",
@@ -6858,20 +7024,26 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 mussel", value: 0.098 },
-          { name: "1 cup (250mL)", value: 2.85 }
-        ]
+          { name: "1 cup (250mL)", value: 2.85 },
+        ],
       },
       {
         name: "Oyster, dredge, raw",
         variant: "Oyster",
         carb: 1.2,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 oyster", value: 0.15 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 oyster", value: 0.15 },
+        ],
       },
       {
         name: "Oyster, battered, deep fried in peanut oil",
         variant: "Oyster",
         carb: 9.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 oyster", value: 0.23 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 oyster", value: 0.23 },
+        ],
       },
       {
         name: "Paua, fritter, deep fried",
@@ -6879,26 +7051,35 @@ export default [
         carb: 27.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 paua fritter", value: 1.84 }
-        ]
+          { name: "1 paua fritter", value: 1.84 },
+        ],
       },
       {
         name: "Pipi, flesh, raw",
         variant: "Pipi",
         carb: 0.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 pipi", value: 0.05 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 pipi", value: 0.05 },
+        ],
       },
       {
         name: "Prawn, king, flesh, cooked",
         variant: "Prawn",
         carb: 0,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 prawn", value: 0.16 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 prawn", value: 0.16 },
+        ],
       },
       {
         name: "Prawn, king, flesh, raw",
         variant: "Prawn",
         carb: 0,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 prawn", value: 0.19 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 prawn", value: 0.19 },
+        ],
       },
       {
         name: "Scallop, battered, deep fried",
@@ -6907,8 +7088,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 scallop", value: 0.24 },
-          { name: "1 cup (250mL)", value: 1.42 }
-        ]
+          { name: "1 cup (250mL)", value: 1.42 },
+        ],
       },
       {
         name: "Scallop, raw",
@@ -6916,8 +7097,8 @@ export default [
         carb: 2.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 scallop", value: 0.14 }
-        ]
+          { name: "1 scallop", value: 0.14 },
+        ],
       },
       {
         name: "Shrimp, canned, drained",
@@ -6925,8 +7106,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.35 }
-        ]
+          { name: "1 cup (250mL)", value: 1.35 },
+        ],
       },
       {
         name: "Squid, in flour, fried",
@@ -6935,10 +7116,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 squid ring", value: 0.2 },
-          { name: "1 cup (250mL)", value: 1.58 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.58 },
+        ],
+      },
+    ],
   },
   {
     name: "Snack Foods",
@@ -6950,8 +7131,8 @@ export default [
         carb: 58.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or crisps", value: 0.252 }
-        ]
+          { name: "10 chips or crisps", value: 0.252 },
+        ],
       },
       {
         name: "Corn snack, extruded, assorted shapes, cheese flavour, salted",
@@ -6959,44 +7140,62 @@ export default [
         carb: 49,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or crisps", value: 0.144 }
-        ]
+          { name: "10 chips or crisps", value: 0.144 },
+        ],
       },
       {
         name: "Fruit bar, wholemeal, assorted flavours, Mother Earth",
         variant: "Fruit bar",
         carb: 64.8,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.5 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.5 },
+        ],
       },
       {
         name: "Fruit leather, apricot",
         variant: "Fruit leather",
         carb: 58.1,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 leather", value: 0.4 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 leather", value: 0.4 },
+        ],
       },
       {
         name: "Fruit roll, strawberry, Uncle Tobys",
         variant: "Fruit roll",
         carb: 74.8,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 roll", value: 0.21 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 roll", value: 0.21 },
+        ],
       },
       {
         name: "Muesli bar, chocolate chip",
         variant: "Muesli bar",
         carb: 66,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.32 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.32 },
+        ],
       },
       {
         name: "Muesli bar, chocolate coated, Snacker",
         variant: "Muesli bar",
         carb: 65.2,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.33 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.33 },
+        ],
       },
       {
         name: "Muesli bar, fruit & nut",
         variant: "Muesli bar",
         carb: 53.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.45 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.45 },
+        ],
       },
       {
         name: "Muesli bar, fruit filled, twisted, assorted flavours",
@@ -7004,20 +7203,26 @@ export default [
         carb: 69,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 bar (9.3 x 3.5 x 1.8cm)", value: 0.4 }
-        ]
+          { name: "1 bar (9.3 x 3.5 x 1.8cm)", value: 0.4 },
+        ],
       },
       {
         name: "Muesli bar, fruit filled, wholemeal, assorted flavours",
         variant: "Muesli bar",
         carb: 68.1,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.5 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.5 },
+        ],
       },
       {
         name: "Muesli bar, yoghurt coated",
         variant: "Muesli bar",
         carb: 67,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.33 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.33 },
+        ],
       },
       {
         name: "Multigrain chip, assorted flavours, Grainwaves, Bluebird",
@@ -7025,8 +7230,8 @@ export default [
         carb: 63.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.35 }
-        ]
+          { name: "1 cup (250mL)", value: 0.35 },
+        ],
       },
       {
         name: "Nut bar, peanut & chocolate, Choc Peanut, Tasti",
@@ -7034,18 +7239,17 @@ export default [
         carb: 33.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 bar (9.0 x 3.1 x 1.8cm)", value: 0.383 }
-        ]
+          { name: "1 bar (9.0 x 3.1 x 1.8cm)", value: 0.383 },
+        ],
       },
       {
-        name:
-          "Nut bar, peanut & chocolate, Chocolate Nut Bar Original, Nice & Natural",
+        name: "Nut bar, peanut & chocolate, Chocolate Nut Bar Original, Nice & Natural",
         variant: "Nut bar",
         carb: 37.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 bar (8.8 x 3.3 x 1.4cm)", value: 0.326 }
-        ]
+          { name: "1 bar (8.8 x 3.3 x 1.4cm)", value: 0.326 },
+        ],
       },
       {
         name: "Popcorn, air popped",
@@ -7053,8 +7257,8 @@ export default [
         carb: 55.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.106 }
-        ]
+          { name: "1 cup (250mL)", value: 0.106 },
+        ],
       },
       {
         name: "Popcorn, buttered, salted, Pop N Good",
@@ -7062,18 +7266,17 @@ export default [
         carb: 50.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.1 }
-        ]
+          { name: "1 cup (250mL)", value: 0.1 },
+        ],
       },
       {
-        name:
-          "Potato chip or crisp, assorted flavours, salted, fried in assorted oils",
+        name: "Potato chip or crisp, assorted flavours, salted, fried in assorted oils",
         variant: "Potato chip or crisp",
         carb: 42.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or crisps", value: 0.236 }
-        ]
+          { name: "10 chips or crisps", value: 0.236 },
+        ],
       },
       {
         name: "Potato chip or crisp, plain, salted, fried in assorted oils",
@@ -7081,8 +7284,8 @@ export default [
         carb: 44,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or crisps", value: 0.223 }
-        ]
+          { name: "10 chips or crisps", value: 0.223 },
+        ],
       },
       {
         name: "Pretzels, wheat flour, salted, baked",
@@ -7090,8 +7293,8 @@ export default [
         carb: 64.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.524 }
-        ]
+          { name: "1 cup (250mL)", value: 0.524 },
+        ],
       },
       {
         name: "Snack, cassava crisps, plain or assorted flavours, salt added",
@@ -7099,8 +7302,8 @@ export default [
         carb: 63.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or crisps", value: 0.115 }
-        ]
+          { name: "10 chips or crisps", value: 0.115 },
+        ],
       },
       {
         name: "Snack, kumara chips, plain or assorted flavours",
@@ -7108,8 +7311,8 @@ export default [
         carb: 48.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or crisps", value: 0.251 }
-        ]
+          { name: "10 chips or crisps", value: 0.251 },
+        ],
       },
       {
         name: "Snack, popcorn, candied",
@@ -7117,10 +7320,10 @@ export default [
         carb: 79.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.216 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 0.216 },
+        ],
+      },
+    ],
   },
   {
     name: "Soups",
@@ -7132,8 +7335,8 @@ export default [
         carb: 8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "bone & vegetable broth",
@@ -7141,8 +7344,8 @@ export default [
         carb: 1.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.54 }
-        ]
+          { name: "1 cup (250mL)", value: 2.54 },
+        ],
       },
       {
         name: "chicken & corn, heated",
@@ -7150,8 +7353,8 @@ export default [
         carb: 3.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.707 }
-        ]
+          { name: "1 cup (250mL)", value: 2.707 },
+        ],
       },
       {
         name: "chicken & corn, heated, Wattie's",
@@ -7159,8 +7362,8 @@ export default [
         carb: 3.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.517 }
-        ]
+          { name: "1 cup (250mL)", value: 2.517 },
+        ],
       },
       {
         name: "chicken & vegetable, heated, Wattie's",
@@ -7168,18 +7371,17 @@ export default [
         carb: 3.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.706 }
-        ]
+          { name: "1 cup (250mL)", value: 2.706 },
+        ],
       },
       {
-        name:
-          "chicken noodle, instant dry mix, prepared with water, Continental",
+        name: "chicken noodle, instant dry mix, prepared with water, Continental",
         variant: "chicken noodle",
         carb: 9.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.75 }
-        ]
+          { name: "1 cup (250mL)", value: 2.75 },
+        ],
       },
       {
         name: "chicken noodle, instant dry mix, prepared with water, Maggi",
@@ -7187,8 +7389,8 @@ export default [
         carb: 2.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.75 }
-        ]
+          { name: "1 cup (250mL)", value: 2.75 },
+        ],
       },
       {
         name: "cream of chicken, canned",
@@ -7196,8 +7398,8 @@ export default [
         carb: 4.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.59 }
-        ]
+          { name: "1 cup (250mL)", value: 2.59 },
+        ],
       },
       {
         name: "cream of mushroom, canned",
@@ -7205,8 +7407,8 @@ export default [
         carb: 3.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.61 }
-        ]
+          { name: "1 cup (250mL)", value: 2.61 },
+        ],
       },
       {
         name: "cream of tomato, canned",
@@ -7214,8 +7416,8 @@ export default [
         carb: 5.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.6 }
-        ]
+          { name: "1 cup (250mL)", value: 2.6 },
+        ],
       },
       {
         name: "creme of chicken, instant dry mix, prepared with water, Maggi",
@@ -7223,8 +7425,8 @@ export default [
         carb: 3.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.65 }
-        ]
+          { name: "1 cup (250mL)", value: 2.65 },
+        ],
       },
       {
         name: "creme of vegetable, instant dry mix, prepared with water, Maggi",
@@ -7232,8 +7434,8 @@ export default [
         carb: 3.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "lentil & vegetables, heated, Wattie's",
@@ -7241,8 +7443,8 @@ export default [
         carb: 5.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.704 }
-        ]
+          { name: "1 cup (250mL)", value: 2.704 },
+        ],
       },
       {
         name: "minestrone, instant dry mix, prepared with water",
@@ -7250,8 +7452,8 @@ export default [
         carb: 3.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.68 }
-        ]
+          { name: "1 cup (250mL)", value: 2.68 },
+        ],
       },
       {
         name: "mushroom, instant dry mix, prepared with water, Maggi",
@@ -7259,8 +7461,8 @@ export default [
         carb: 3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.5 }
-        ]
+          { name: "1 cup (250mL)", value: 2.5 },
+        ],
       },
       {
         name: "pumpkin, heated",
@@ -7268,8 +7470,8 @@ export default [
         carb: 9.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.75 }
-        ]
+          { name: "1 cup (250mL)", value: 2.75 },
+        ],
       },
       {
         name: "pumpkin, heated, Wattie's",
@@ -7277,8 +7479,8 @@ export default [
         carb: 3.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.487 }
-        ]
+          { name: "1 cup (250mL)", value: 2.487 },
+        ],
       },
       {
         name: "seafood chowder, heated",
@@ -7286,8 +7488,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.635 }
-        ]
+          { name: "1 cup (250mL)", value: 2.635 },
+        ],
       },
       {
         name: "tomato, instant dry mix, prepared with water, Continental",
@@ -7295,8 +7497,8 @@ export default [
         carb: 6.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.57 }
-        ]
+          { name: "1 cup (250mL)", value: 2.57 },
+        ],
       },
       {
         name: "Tuscan tomato, heated, Wattie's",
@@ -7304,8 +7506,8 @@ export default [
         carb: 4.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.601 }
-        ]
+          { name: "1 cup (250mL)", value: 2.601 },
+        ],
       },
       {
         name: "vegetable, canned",
@@ -7313,10 +7515,10 @@ export default [
         carb: 6.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.57 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.57 },
+        ],
+      },
+    ],
   },
   {
     name: "Chocolate",
@@ -7329,8 +7531,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 treat size bar (4.5 x 2.2 x 1.6cm)", value: 0.181 },
-          { name: "1 bar (11.4 x 3.1 x 1.9cm)", value: 0.651 }
-        ]
+          { name: "1 bar (11.4 x 3.1 x 1.9cm)", value: 0.651 },
+        ],
       },
       {
         name: "bar & block, Dairy Milk Fruit & Nut, Cadbury",
@@ -7339,8 +7541,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 bar (12.8 x 3.4 x 1.2cm)", value: 0.515 },
-          { name: "1 block (20.5 x 9.5 x 1.0cm)", value: 2.057 }
-        ]
+          { name: "1 block (20.5 x 9.5 x 1.0cm)", value: 2.057 },
+        ],
       },
       {
         name: "bar & block, Dairy Milk with Crunchie, Cadbury",
@@ -7349,8 +7551,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 block (20.4 x 9.5 x 0.9cm)", value: 1.981 },
-          { name: "1 block (20.1 x 16.2 x 1.0cm)", value: 3.547 }
-        ]
+          { name: "1 block (20.1 x 16.2 x 1.0cm)", value: 3.547 },
+        ],
       },
       {
         name: "bar & block, Energy, Cadbury",
@@ -7359,14 +7561,17 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 bar (12.5 x 3.1 x 1.1cm)", value: 0.512 },
-          { name: "1 block (20.3 x 9.4 x 0.9cm)", value: 2.048 }
-        ]
+          { name: "1 block (20.3 x 9.4 x 0.9cm)", value: 2.048 },
+        ],
       },
       {
         name: "bar, Bounty, Mars",
         variant: "Bounty",
         carb: 55.5,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.5 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.5 },
+        ],
       },
       {
         name: "bar, Gold Totally Nuts Bar, Moro, Cadbury",
@@ -7374,14 +7579,17 @@ export default [
         carb: 43.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 bar (10.9 x 2.7 x 2.2cm)", value: 0.628 }
-        ]
+          { name: "1 bar (10.9 x 2.7 x 2.2cm)", value: 0.628 },
+        ],
       },
       {
         name: "bar, Mars",
         variant: "Mars",
         carb: 63.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 bar", value: 0.6 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 bar", value: 0.6 },
+        ],
       },
       {
         name: "bar, milk",
@@ -7390,8 +7598,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 small bar", value: 0.5 },
-          { name: "1 large bar", value: 1.2 }
-        ]
+          { name: "1 large bar", value: 1.2 },
+        ],
       },
       {
         name: "block & slab, Peanut, Whittaker's",
@@ -7400,8 +7608,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slab (7.4 x 3.6 x 1.7cm)", value: 0.52 },
-          { name: "1 block (19.9 x 10.6 x 1.1cm)", value: 2.594 }
-        ]
+          { name: "1 block (19.9 x 10.6 x 1.1cm)", value: 2.594 },
+        ],
       },
       {
         name: "compound",
@@ -7409,8 +7617,8 @@ export default [
         carb: 65.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.155 }
-        ]
+          { name: "1 cup (250mL)", value: 2.155 },
+        ],
       },
       {
         name: "dark",
@@ -7418,8 +7626,8 @@ export default [
         carb: 62.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup grated (250mL)", value: 0.88 }
-        ]
+          { name: "1 cup grated (250mL)", value: 0.88 },
+        ],
       },
       {
         name: "fancy & filled",
@@ -7427,8 +7635,8 @@ export default [
         carb: 69.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 chocolate", value: 0.05 }
-        ]
+          { name: "1 chocolate", value: 0.05 },
+        ],
       },
       {
         name: "white",
@@ -7436,10 +7644,10 @@ export default [
         carb: 55.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup grated (250mL)", value: 0.88 }
-        ]
-      }
-    ]
+          { name: "1 cup grated (250mL)", value: 0.88 },
+        ],
+      },
+    ],
   },
   {
     name: "Gum",
@@ -7451,10 +7659,10 @@ export default [
         carb: 57.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 fruit gum", value: 0.02 }
-        ]
-      }
-    ]
+          { name: "1 fruit gum", value: 0.02 },
+        ],
+      },
+    ],
   },
   {
     name: "Sweet Spreads",
@@ -7466,8 +7674,8 @@ export default [
         carb: 79.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.21 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.21 },
+        ],
       },
       {
         name: "Jam, berry fruit",
@@ -7475,8 +7683,8 @@ export default [
         carb: 69.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.156 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.156 },
+        ],
       },
       {
         name: "Jam, stone fruit",
@@ -7484,8 +7692,8 @@ export default [
         carb: 66.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.163 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.163 },
+        ],
       },
       {
         name: "Marmalade",
@@ -7493,8 +7701,8 @@ export default [
         carb: 67.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.2 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.2 },
+        ],
       },
       {
         name: "Spread, hazelnut, Nutella, Ferrero",
@@ -7502,10 +7710,10 @@ export default [
         carb: 56.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.14 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.14 },
+        ],
+      },
+    ],
   },
   {
     name: "Frozen Treats",
@@ -7518,10 +7726,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 ice-block", value: 0.8 },
-          { name: "1 cup (250mL)", value: 1.93 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.93 },
+        ],
+      },
+    ],
   },
   {
     name: "Lollies",
@@ -7533,8 +7741,8 @@ export default [
         carb: 91.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 jellybean", value: 0.02 }
-        ]
+          { name: "1 jellybean", value: 0.02 },
+        ],
       },
       {
         name: "Liquorice, allsorts",
@@ -7542,20 +7750,26 @@ export default [
         carb: 73.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 stick (1.5 x 1.6cm diameter)", value: 0.038 }
-        ]
+          { name: "1 stick (1.5 x 1.6cm diameter)", value: 0.038 },
+        ],
       },
       {
         name: "Liquorice, black",
         variant: "black",
         carb: 75.7,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.02 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.02 },
+        ],
       },
       {
         name: "Lollies, Minties, Pascall",
         variant: "Minties",
         carb: 86.9,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 mintie", value: 0.07 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 mintie", value: 0.07 },
+        ],
       },
       {
         name: "Lollipop, assorted flavours, Chupa Chup",
@@ -7563,8 +7777,8 @@ export default [
         carb: 84.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 lollipop", value: 0.131 }
-        ]
+          { name: "1 lollipop", value: 0.131 },
+        ],
       },
       {
         name: "Marshmallow, pink & white",
@@ -7573,8 +7787,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 marshmallow", value: 0.04 },
-          { name: "1 cup chopped (250mL)", value: 0.82 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.82 },
+        ],
       },
       {
         name: "Sweet, hard, boiled",
@@ -7582,8 +7796,8 @@ export default [
         carb: 83.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 boiled sweet", value: 0.05 }
-        ]
+          { name: "1 boiled sweet", value: 0.05 },
+        ],
       },
       {
         name: "Sweet, peppermint",
@@ -7591,16 +7805,19 @@ export default [
         carb: 97,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 peppermint", value: 0.02 }
-        ]
+          { name: "1 peppermint", value: 0.02 },
+        ],
       },
       {
         name: "Toffees, mixed",
         variant: "mixed",
         carb: 67.1,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 toffee", value: 0.05 }]
-      }
-    ]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 toffee", value: 0.05 },
+        ],
+      },
+    ],
   },
   {
     name: "Sauces & Syrups",
@@ -7612,8 +7829,8 @@ export default [
         carb: 52.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.15 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.15 },
+        ],
       },
       {
         name: "Syrup, golden",
@@ -7621,10 +7838,10 @@ export default [
         carb: 76.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.2 }
-        ]
-      }
-    ]
+          { name: "1 tablespoon (15mL)", value: 0.2 },
+        ],
+      },
+    ],
   },
   {
     name: "Sugar",
@@ -7637,8 +7854,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.037 },
-          { name: "1 cup (250mL)", value: 1.855 }
-        ]
+          { name: "1 cup (250mL)", value: 1.855 },
+        ],
       },
       {
         name: "raw",
@@ -7647,8 +7864,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.039 },
-          { name: "1 cup (250mL)", value: 1.935 }
-        ]
+          { name: "1 cup (250mL)", value: 1.935 },
+        ],
       },
       {
         name: "white",
@@ -7657,10 +7874,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 teaspoon (5mL)", value: 0.049 },
-          { name: "1 cup (250mL)", value: 2.468 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.468 },
+        ],
+      },
+    ],
   },
   {
     name: "Raw Vegetables",
@@ -7672,8 +7889,8 @@ export default [
         carb: 1.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 spear (16-20cm long)", value: 0.15 }
-        ]
+          { name: "1 spear (16-20cm long)", value: 0.15 },
+        ],
       },
       {
         name: "Bean, green runner or dwarf, seeds with pod, fresh, raw",
@@ -7682,8 +7899,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 whole", value: 0.057 },
-          { name: "1 cup sliced 2cm long (250mL)", value: 1.202 }
-        ]
+          { name: "1 cup sliced 2cm long (250mL)", value: 1.202 },
+        ],
       },
       {
         name: "Broccoli, raw",
@@ -7691,8 +7908,8 @@ export default [
         carb: 1.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.83 }
-        ]
+          { name: "1 cup (250mL)", value: 0.83 },
+        ],
       },
       {
         name: "Cabbage, bok choy, raw",
@@ -7700,8 +7917,8 @@ export default [
         carb: 1.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.774 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.774 },
+        ],
       },
       {
         name: "Cabbage, choy sum, raw",
@@ -7709,8 +7926,8 @@ export default [
         carb: 0.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.72 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.72 },
+        ],
       },
       {
         name: "Cabbage, red",
@@ -7718,8 +7935,8 @@ export default [
         carb: 3.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.9 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.9 },
+        ],
       },
       {
         name: "Cabbage, tat soi, raw",
@@ -7727,8 +7944,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.841 }
-        ]
+          { name: "1 cup (250mL)", value: 0.841 },
+        ],
       },
       {
         name: "Cabbage, green drumhead, leaves, raw",
@@ -7736,8 +7953,8 @@ export default [
         carb: 3.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup shredded (250mL)", value: 0.635 }
-        ]
+          { name: "1 cup shredded (250mL)", value: 0.635 },
+        ],
       },
       {
         name: "Capsicum, green, raw",
@@ -7746,8 +7963,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup chopped (250mL)", value: 1.25 },
-          { name: "1 capsicum", value: 1.315 }
-        ]
+          { name: "1 capsicum", value: 1.315 },
+        ],
       },
       {
         name: "Capsicum, red, raw",
@@ -7756,8 +7973,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup chopped (250mL)", value: 1.3 },
-          { name: "1 capsicum", value: 1.669 }
-        ]
+          { name: "1 capsicum", value: 1.669 },
+        ],
       },
       {
         name: "Carrot, flesh, fresh, raw",
@@ -7768,8 +7985,8 @@ export default [
           { name: "1 cup grated (250mL)", value: 0.944 },
           { name: "1 whole (15cm long)", value: 1.1 },
           { name: "1 cup stick 7cm long (250mL)", value: 1.116 },
-          { name: "1 cup slices 1cm thick (250mL)", value: 1.279 }
-        ]
+          { name: "1 cup slices 1cm thick (250mL)", value: 1.279 },
+        ],
       },
       {
         name: "Cauliflower, fresh, raw",
@@ -7778,8 +7995,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 floret (7.9cm length)", value: 0.733 },
-          { name: "1 cup florets (250mL)", value: 1.518 }
-        ]
+          { name: "1 cup florets (250mL)", value: 1.518 },
+        ],
       },
       {
         name: "Celery, American Green, stalk, raw",
@@ -7788,8 +8005,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 strip (14.2 cm long)", value: 0.354 },
-          { name: "1 stalk (24-32cm long)", value: 0.696 }
-        ]
+          { name: "1 stalk (24-32cm long)", value: 0.696 },
+        ],
       },
       {
         name: "Courgette, green, unpeeled, raw",
@@ -7798,8 +8015,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice (3.9 x 3.2cm diameter)", value: 0.303 },
-          { name: "1 cup chopped (250mL)", value: 1.275 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.275 },
+        ],
       },
       {
         name: "Cucumber, lebanese, unpeeled, raw",
@@ -7807,8 +8024,8 @@ export default [
         carb: 1.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cucumber", value: 0.95 }
-        ]
+          { name: "1 cucumber", value: 0.95 },
+        ],
       },
       {
         name: "Cucumber, telegraph, raw, unpeeled",
@@ -7817,14 +8034,17 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice (2.3 x 4.5cm diameter)", value: 0.376 },
-          { name: "1 cup diced (250mL)", value: 1.475 }
-        ]
+          { name: "1 cup diced (250mL)", value: 1.475 },
+        ],
       },
       {
         name: "Garlic, cloves, raw, peeled",
         variant: "Garlic",
         carb: 10.3,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 clove", value: 0.03 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 clove", value: 0.03 },
+        ],
       },
       {
         name: "Ginger, preserved",
@@ -7832,8 +8052,8 @@ export default [
         carb: 21,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.014 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.014 },
+        ],
       },
       {
         name: "Kale, fresh, raw",
@@ -7841,8 +8061,8 @@ export default [
         carb: 0.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.426 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.426 },
+        ],
       },
       {
         name: "Kumara, Owairaka Red, flesh, raw",
@@ -7850,8 +8070,8 @@ export default [
         carb: 18.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 kumara", value: 2.172 }
-        ]
+          { name: "1 kumara", value: 2.172 },
+        ],
       },
       {
         name: "Lettuce, hydroponic varieties, raw",
@@ -7859,8 +8079,8 @@ export default [
         carb: 1.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup torn leaves (250mL)", value: 0.36 }
-        ]
+          { name: "1 cup torn leaves (250mL)", value: 0.36 },
+        ],
       },
       {
         name: "Lettuce, raw",
@@ -7868,8 +8088,8 @@ export default [
         carb: 1.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.761 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.761 },
+        ],
       },
       {
         name: "Mushroom, Portobello, whole, raw",
@@ -7878,8 +8098,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 mushroom (7.5 -10.2cm diameter)", value: 0.621 },
-          { name: "1 cup sliced (250mL)", value: 0.788 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 0.788 },
+        ],
       },
       {
         name: "Mushroom, raw",
@@ -7887,8 +8107,8 @@ export default [
         carb: 0.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.68 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.68 },
+        ],
       },
       {
         name: "Onion, brown, flesh, fresh, raw",
@@ -7896,8 +8116,8 @@ export default [
         carb: 5.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 onion (6.9cm diameter)", value: 1.74 }
-        ]
+          { name: "1 onion (6.9cm diameter)", value: 1.74 },
+        ],
       },
       {
         name: "Parsley, raw",
@@ -7906,8 +8126,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.037 },
-          { name: "1 cup chopped (250mL)", value: 0.64 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.64 },
+        ],
       },
       {
         name: "Pumpkin, Whangaparaoa crown, fresh, raw",
@@ -7915,8 +8135,8 @@ export default [
         carb: 6.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.282 }
-        ]
+          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.282 },
+        ],
       },
       {
         name: "Puwha, leaves, raw, Prickly Sow Thistle",
@@ -7924,14 +8144,17 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.4 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.4 },
+        ],
       },
       {
         name: "Radish, flesh & skin, raw",
         variant: "Radish",
         carb: 2.6,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 radish", value: 0.15 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 radish", value: 0.15 },
+        ],
       },
       {
         name: "Rocket, leaves, raw",
@@ -7939,8 +8162,8 @@ export default [
         carb: 0.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.375 }
-        ]
+          { name: "1 cup (250mL)", value: 0.375 },
+        ],
       },
       {
         name: "Salad, Mesclun, leaves, raw",
@@ -7948,8 +8171,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.375 }
-        ]
+          { name: "1 cup (250mL)", value: 0.375 },
+        ],
       },
       {
         name: "Silverbeet, leaves & stems, fresh, raw",
@@ -7957,8 +8180,8 @@ export default [
         carb: 1.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.332 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.332 },
+        ],
       },
       {
         name: "Spinach, English, raw",
@@ -7966,8 +8189,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.429 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.429 },
+        ],
       },
       {
         name: "Spring onion, bulb and stalk, fresh, raw",
@@ -7976,14 +8199,14 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.045 },
-          { name: "1 cup chopped (250mL)", value: 0.695 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.695 },
+        ],
       },
       {
         name: "Sprout, alfalfa, raw",
         variant: "Sprout",
         carb: 0,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Sprout, mung bean, raw",
@@ -7991,8 +8214,8 @@ export default [
         carb: 1.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.04 }
-        ]
+          { name: "1 cup (250mL)", value: 1.04 },
+        ],
       },
       {
         name: "Taro, corm, flesh, raw",
@@ -8000,8 +8223,8 @@ export default [
         carb: 24.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cube (3cm)", value: 0.3 }
-        ]
+          { name: "1 cube (3cm)", value: 0.3 },
+        ],
       },
       {
         name: "Tomato, whole, raw",
@@ -8010,8 +8233,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 medium whole (6.6cm diameter)", value: 1.23 },
-          { name: "1 cup chopped (250mL)", value: 1.675 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.675 },
+        ],
       },
       {
         name: "Watercress, raw",
@@ -8019,10 +8242,10 @@ export default [
         carb: 0.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.35 }
-        ]
-      }
-    ]
+          { name: "1 cup chopped (250mL)", value: 0.35 },
+        ],
+      },
+    ],
   },
   {
     name: "Canned Vegetables",
@@ -8034,8 +8257,8 @@ export default [
         carb: 2.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup spears (250mL)", value: 2.56 }
-        ]
+          { name: "1 cup spears (250mL)", value: 2.56 },
+        ],
       },
       {
         name: "Baked beans, canned in tomato sauce",
@@ -8043,8 +8266,8 @@ export default [
         carb: 12,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.684 }
-        ]
+          { name: "1 cup (250mL)", value: 2.684 },
+        ],
       },
       {
         name: "Bean, mixed beans, canned in brine, drained",
@@ -8052,8 +8275,8 @@ export default [
         carb: 8.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.169 }
-        ]
+          { name: "1 cup (250mL)", value: 2.169 },
+        ],
       },
       {
         name: "Beetroot, canned in water, sliced, drained",
@@ -8062,8 +8285,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice (0.5 x 4.6cm diameter)", value: 0.102 },
-          { name: "1 cup sliced (250mL)", value: 1.764 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.764 },
+        ],
       },
       {
         name: "Beetroot, peeled, fresh, raw",
@@ -8073,8 +8296,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 cup grated (250mL)", value: 1.703 },
           { name: "1 cup sliced (250mL)", value: 1.652 },
-          { name: "1 beetroot (7.4cm)", value: 1.958 }
-        ]
+          { name: "1 beetroot (7.4cm)", value: 1.958 },
+        ],
       },
       {
         name: "Cannellini bean, canned in brine, drained",
@@ -8082,8 +8305,8 @@ export default [
         carb: 8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.189 }
-        ]
+          { name: "1 cup (250mL)", value: 2.189 },
+        ],
       },
       {
         name: "Chickpea, canned in brine, drained",
@@ -8091,8 +8314,8 @@ export default [
         carb: 11.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.128 }
-        ]
+          { name: "1 cup (250mL)", value: 2.128 },
+        ],
       },
       {
         name: "Chilli bean, canned in chilli sauce, undrained",
@@ -8100,14 +8323,14 @@ export default [
         carb: 12.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.74 }
-        ]
+          { name: "1 cup (250mL)", value: 2.74 },
+        ],
       },
       {
         name: "Corn, baby sweet corn, canned, drained",
         variant: "Corn",
         carb: 1.9,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Red kidney bean, canned in brine, drained",
@@ -8115,8 +8338,8 @@ export default [
         carb: 8.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.149 }
-        ]
+          { name: "1 cup (250mL)", value: 2.149 },
+        ],
       },
       {
         name: "Sweet corn, creamed, canned",
@@ -8124,8 +8347,8 @@ export default [
         carb: 12.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.673 }
-        ]
+          { name: "1 cup (250mL)", value: 2.673 },
+        ],
       },
       {
         name: "Sweet corn, kernel, canned, drained",
@@ -8133,18 +8356,17 @@ export default [
         carb: 10.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup kernel (250mL)", value: 1.856 }
-        ]
+          { name: "1 cup kernel (250mL)", value: 1.856 },
+        ],
       },
       {
-        name:
-          "Tomato, canned in tomato juice, assorted flavours, canned, undrained, salt added",
+        name: "Tomato, canned in tomato juice, assorted flavours, canned, undrained, salt added",
         variant: "Tomato",
         carb: 2.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.787 }
-        ]
+          { name: "1 cup (250mL)", value: 2.787 },
+        ],
       },
       {
         name: "Tomato, canned in tomato juice, plain, undrained, no salt added",
@@ -8152,8 +8374,8 @@ export default [
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.805 }
-        ]
+          { name: "1 cup (250mL)", value: 2.805 },
+        ],
       },
       {
         name: "Tomato, canned in tomato juice, plain, undrained, salt added",
@@ -8161,8 +8383,8 @@ export default [
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.749 }
-        ]
+          { name: "1 cup (250mL)", value: 2.749 },
+        ],
       },
       {
         name: "Tomato, canned, drained",
@@ -8170,8 +8392,8 @@ export default [
         carb: 4.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.54 }
-        ]
+          { name: "1 cup (250mL)", value: 2.54 },
+        ],
       },
       {
         name: "Tomato, paste, canned",
@@ -8179,8 +8401,8 @@ export default [
         carb: 10.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 tablespoon (15mL)", value: 0.151 }
-        ]
+          { name: "1 tablespoon (15mL)", value: 0.151 },
+        ],
       },
       {
         name: "Tomato, puree, canned, Wattie's",
@@ -8189,10 +8411,10 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.153 },
-          { name: "1 cup (250mL)", value: 2.543 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 2.543 },
+        ],
+      },
+    ],
   },
   {
     name: "Cooked Vegetables",
@@ -8204,8 +8426,8 @@ export default [
         carb: 1.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 artichoke", value: 1.2 }
-        ]
+          { name: "1 artichoke", value: 1.2 },
+        ],
       },
       {
         name: "Asparagus, stalk, fresh, boiled, drained, no salt added",
@@ -8213,8 +8435,8 @@ export default [
         carb: 1.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.363 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.363 },
+        ],
       },
       {
         name: "Asparagus, stalk, fresh, steamed",
@@ -8222,8 +8444,8 @@ export default [
         carb: 1.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.35 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.35 },
+        ],
       },
       {
         name: "Bean, black, boiled, drained, no salt added",
@@ -8231,8 +8453,8 @@ export default [
         carb: 14.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.82 }
-        ]
+          { name: "1 cup (250mL)", value: 1.82 },
+        ],
       },
       {
         name: "Bean, broad, boiled, drained, no salt added",
@@ -8240,8 +8462,8 @@ export default [
         carb: 8.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.7 }
-        ]
+          { name: "1 cup (250mL)", value: 1.7 },
+        ],
       },
       {
         name: "Bean, haricot, boiled, drained",
@@ -8249,8 +8471,8 @@ export default [
         carb: 15.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.8 }
-        ]
+          { name: "1 cup (250mL)", value: 1.8 },
+        ],
       },
       {
         name: "Bean, red kidney, boiled, drained",
@@ -8258,28 +8480,26 @@ export default [
         carb: 9.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.8 }
-        ]
+          { name: "1 cup (250mL)", value: 1.8 },
+        ],
       },
       {
-        name:
-          "Bean, butterbean, seeds with pod, boiled, drained, no salt added",
+        name: "Bean, butterbean, seeds with pod, boiled, drained, no salt added",
         variant: "Bean",
         carb: 2.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.36 }
-        ]
+          { name: "1 cup (250mL)", value: 1.36 },
+        ],
       },
       {
-        name:
-          "Bean, green runner or dwarf, seeds with pod, fresh, boiled, drained, no salt added",
+        name: "Bean, green runner or dwarf, seeds with pod, fresh, boiled, drained, no salt added",
         variant: "Bean",
         carb: 4.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.214 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.214 },
+        ],
       },
       {
         name: "Bean, green runner or dwarf, seeds with pod, fresh, steamed",
@@ -8287,8 +8507,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.228 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.228 },
+        ],
       },
       {
         name: "Beetroot, peeled, fresh, roasted, no salt added",
@@ -8296,8 +8516,8 @@ export default [
         carb: 6.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 beetroot (7.4cm)", value: 1.656 }
-        ]
+          { name: "1 beetroot (7.4cm)", value: 1.656 },
+        ],
       },
       {
         name: "Broccoli, boiled, drained, no salt added",
@@ -8305,8 +8525,8 @@ export default [
         carb: 1.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.64 }
-        ]
+          { name: "1 cup (250mL)", value: 1.64 },
+        ],
       },
       {
         name: "Brussels sprout, boiled, drained, no salt added",
@@ -8314,8 +8534,8 @@ export default [
         carb: 5.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup quartered (250mL)", value: 1.302 }
-        ]
+          { name: "1 cup quartered (250mL)", value: 1.302 },
+        ],
       },
       {
         name: "Brussels sprout, steamed",
@@ -8323,8 +8543,8 @@ export default [
         carb: 6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup quartered (250mL)", value: 1.275 }
-        ]
+          { name: "1 cup quartered (250mL)", value: 1.275 },
+        ],
       },
       {
         name: "Cabbage, Chinese, cooked",
@@ -8332,8 +8552,8 @@ export default [
         carb: 1.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 1.45 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.45 },
+        ],
       },
       {
         name: "Cabbage, green drumhead, leaves, boiled, drained, no salt added",
@@ -8341,8 +8561,8 @@ export default [
         carb: 3.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup shredded (250mL)", value: 1.044 }
-        ]
+          { name: "1 cup shredded (250mL)", value: 1.044 },
+        ],
       },
       {
         name: "Cabbage, green drumhead, leaves, steamed",
@@ -8350,8 +8570,8 @@ export default [
         carb: 3.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup shredded (250mL)", value: 0.983 }
-        ]
+          { name: "1 cup shredded (250mL)", value: 0.983 },
+        ],
       },
       {
         name: "Carrot, flesh, fresh, baked with oil",
@@ -8359,8 +8579,8 @@ export default [
         carb: 10.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup slices 5cm thick (250mL)", value: 1.227 }
-        ]
+          { name: "1 cup slices 5cm thick (250mL)", value: 1.227 },
+        ],
       },
       {
         name: "Carrot, flesh, fresh, boiled, drained, no salt added",
@@ -8368,8 +8588,8 @@ export default [
         carb: 7.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced 1cm thick (250mL)", value: 1.456 }
-        ]
+          { name: "1 cup sliced 1cm thick (250mL)", value: 1.456 },
+        ],
       },
       {
         name: "Carrot, flesh, fresh, steamed",
@@ -8377,8 +8597,8 @@ export default [
         carb: 7.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced 0.5cm thick (250mL)", value: 1.357 }
-        ]
+          { name: "1 cup sliced 0.5cm thick (250mL)", value: 1.357 },
+        ],
       },
       {
         name: "Carrot, flesh, fresh, stir fried",
@@ -8386,8 +8606,8 @@ export default [
         carb: 8.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup stick 7 cm long (250mL)", value: 1.165 }
-        ]
+          { name: "1 cup stick 7 cm long (250mL)", value: 1.165 },
+        ],
       },
       {
         name: "Cassava, baked in traditional Papua New Guinea oven",
@@ -8395,8 +8615,8 @@ export default [
         carb: 36.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2.27 }
-        ]
+          { name: "1 cup (250mL)", value: 2.27 },
+        ],
       },
       {
         name: "Cassava, boiled, peeled, drained, no salt added",
@@ -8404,8 +8624,8 @@ export default [
         carb: 33.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup diced (250mL)", value: 1.39 }
-        ]
+          { name: "1 cup diced (250mL)", value: 1.39 },
+        ],
       },
       {
         name: "Cauliflower, boiled, drained, no salt added",
@@ -8414,8 +8634,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 floret (7.9cm length)", value: 0.734 },
-          { name: "1 cup florets (250mL)", value: 1.576 }
-        ]
+          { name: "1 cup florets (250mL)", value: 1.576 },
+        ],
       },
       {
         name: "Celery, American Green, stalk, stir fried",
@@ -8423,8 +8643,8 @@ export default [
         carb: 1.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup diced (250mL)", value: 2.233 }
-        ]
+          { name: "1 cup diced (250mL)", value: 2.233 },
+        ],
       },
       {
         name: "Chickpea, cooked",
@@ -8432,8 +8652,8 @@ export default [
         carb: 9.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.73 }
-        ]
+          { name: "1 cup (250mL)", value: 1.73 },
+        ],
       },
       {
         name: "Choko, flesh, cooked",
@@ -8441,8 +8661,8 @@ export default [
         carb: 4.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.4 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.4 },
+        ],
       },
       {
         name: "Eggplant, baked with oil,",
@@ -8451,8 +8671,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice (1.2 x 6.4cm diameter)", value: 0.215 },
-          { name: "1 cup sliced (250mL)", value: 1.43 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.43 },
+        ],
       },
       {
         name: "Eggplant, boiled, drained, no salt added",
@@ -8460,8 +8680,8 @@ export default [
         carb: 2.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.883 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.883 },
+        ],
       },
       {
         name: "Eggplant, fried with oil",
@@ -8470,8 +8690,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice (1.2 x 6.4cm diameter)", value: 0.299 },
-          { name: "1 cup sliced (250mL)", value: 1.85 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.85 },
+        ],
       },
       {
         name: "Eggplant, steamed",
@@ -8480,8 +8700,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 slice (0.6 x 6.3cm diameter)", value: 0.197 },
-          { name: "1 cup sliced (250mL)", value: 1.734 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.734 },
+        ],
       },
       {
         name: "Kale, fresh, sauteed with oil, no salt added",
@@ -8489,14 +8709,14 @@ export default [
         carb: 1.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.549 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.549 },
+        ],
       },
       {
         name: "Kumara, Owairaka Red, flesh, boiled, drained, no salt added",
         variant: "Kumara",
         carb: 18.8,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
         name: "Kumara, flesh, boiled, drained, no salt added",
@@ -8504,8 +8724,8 @@ export default [
         carb: 13.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup  whole (250mL)", value: 3.466 }
-        ]
+          { name: "1 cup  whole (250mL)", value: 3.466 },
+        ],
       },
       {
         name: "Leek, bulb & stalk, fresh, stir-fried, no salt added",
@@ -8513,8 +8733,8 @@ export default [
         carb: 3.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 1.213 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.213 },
+        ],
       },
       {
         name: "Lentil, split, boiled, drained, no salt added",
@@ -8522,8 +8742,8 @@ export default [
         carb: 15.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 2 }
-        ]
+          { name: "1 cup (250mL)", value: 2 },
+        ],
       },
       {
         name: "Marrow, flesh, boiled, drained, no salt added",
@@ -8531,8 +8751,8 @@ export default [
         carb: 1.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup diced (250mL)", value: 2.2 }
-        ]
+          { name: "1 cup diced (250mL)", value: 2.2 },
+        ],
       },
       {
         name: "Mushroom, Portobello, whole, baked with oil,",
@@ -8540,8 +8760,8 @@ export default [
         carb: 1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 mushroom (1.7 x 7.3cm diameter)", value: 0.458 }
-        ]
+          { name: "1 mushroom (1.7 x 7.3cm diameter)", value: 0.458 },
+        ],
       },
       {
         name: "Mushroom, fried in butter",
@@ -8549,8 +8769,8 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "Mushroom, fried in oil",
@@ -8558,8 +8778,8 @@ export default [
         carb: 0.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.41 }
-        ]
+          { name: "1 cup (250mL)", value: 1.41 },
+        ],
       },
       {
         name: "Onion, brown, flesh, fresh, sauteed",
@@ -8568,8 +8788,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cup sliced (250mL)", value: 1.566 },
-          { name: "1 cup chopped (250mL)", value: 1.703 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.703 },
+        ],
       },
       {
         name: "Parsnip, boiled, drained, no salt added",
@@ -8577,8 +8797,8 @@ export default [
         carb: 10.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.989 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.989 },
+        ],
       },
       {
         name: "Parsnip, flesh, baked without fat",
@@ -8586,8 +8806,8 @@ export default [
         carb: 14.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.449 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.449 },
+        ],
       },
       {
         name: "Parsnip, flesh, steamed",
@@ -8595,8 +8815,8 @@ export default [
         carb: 11.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.772 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.772 },
+        ],
       },
       {
         name: "Pea, split, dried, boiled, drained, no salt added",
@@ -8604,8 +8824,8 @@ export default [
         carb: 22.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.94 }
-        ]
+          { name: "1 cup (250mL)", value: 1.94 },
+        ],
       },
       {
         name: "Potato, flesh & skin, floury, baked without oil, no added salt",
@@ -8615,8 +8835,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 small (6.3 x 4.4cm diameter)", value: 0.771 },
           { name: "1 medium (9.0 x 4.8cm diameter)", value: 1.628 },
-          { name: "1 large (11.5 x 5.7cm diameter)", value: 2.582 }
-        ]
+          { name: "1 large (11.5 x 5.7cm diameter)", value: 2.582 },
+        ],
       },
       {
         name: "Potato, flesh & skin, waxy, boiled, drained, no salt added",
@@ -8626,8 +8846,8 @@ export default [
           { name: "100g", value: 1 },
           { name: "1 small (5.5 x 4.4cm diameter)", value: 0.835 },
           { name: "1 medium (7.6 x 4.7cm diameter)", value: 1.286 },
-          { name: "1 large (9.7 x 5.4cm diameter)", value: 2.295 }
-        ]
+          { name: "1 large (9.7 x 5.4cm diameter)", value: 2.295 },
+        ],
       },
       {
         name: "Potato, flesh, floury, boiled, drained, mashed, no salt added",
@@ -8635,8 +8855,8 @@ export default [
         carb: 12.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup mashed (250mL)", value: 2.462 }
-        ]
+          { name: "1 cup mashed (250mL)", value: 2.462 },
+        ],
       },
       {
         name: "Potato, flesh, floury, fried in canola oil, no salt added",
@@ -8644,58 +8864,53 @@ export default [
         carb: 16.6,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.972 }
-        ]
+          { name: "1 cup (250mL)", value: 1.972 },
+        ],
       },
       {
-        name:
-          "Potato, flesh, floury, mashed with 3.3% fat milk & butter, no salt added",
+        name: "Potato, flesh, floury, mashed with 3.3% fat milk & butter, no salt added",
         variant: "Potato",
         carb: 10.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup mashed (250mL)", value: 2.474 }
-        ]
+          { name: "1 cup mashed (250mL)", value: 2.474 },
+        ],
       },
       {
-        name:
-          "Potato, flesh, floury, mashed with 3.3% fat milk & margarine, no salt added",
+        name: "Potato, flesh, floury, mashed with 3.3% fat milk & margarine, no salt added",
         variant: "Potato",
         carb: 10.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup mashed (250mL)", value: 2.486 }
-        ]
+          { name: "1 cup mashed (250mL)", value: 2.486 },
+        ],
       },
       {
-        name:
-          "Pumpkin, Kumi Kumi, flesh and skin, fresh, boiled, drained, no salt added",
+        name: "Pumpkin, Kumi Kumi, flesh and skin, fresh, boiled, drained, no salt added",
         variant: "Pumpkin",
         carb: 3.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup cubed (250mL)", value: 1.543 }
-        ]
+          { name: "1 cup cubed (250mL)", value: 1.543 },
+        ],
       },
       {
-        name:
-          "Pumpkin, Whangaparaoa crown, flesh, fresh, steamed, Whangaparaoa crown",
+        name: "Pumpkin, Whangaparaoa crown, flesh, fresh, steamed, Whangaparaoa crown",
         variant: "Pumpkin",
         carb: 7.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.462 }
-        ]
+          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.462 },
+        ],
       },
       {
-        name:
-          "Pumpkin, Whangaparaoa crown, fresh, boiled, drained, no salt added",
+        name: "Pumpkin, Whangaparaoa crown, fresh, boiled, drained, no salt added",
         variant: "Pumpkin",
         carb: 7.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.554 }
-        ]
+          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.554 },
+        ],
       },
       {
         name: "Pumpkin, flesh, Whangaparaoa crown, fresh, baked with oil",
@@ -8703,18 +8918,17 @@ export default [
         carb: 11.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.236 }
-        ]
+          { name: "1 cup sliced 5 x 2 x 2cm (250mL)", value: 1.236 },
+        ],
       },
       {
-        name:
-          "Puwha, Sow Thistle, leaves & upper stem, boiled, drained, no salt added",
+        name: "Puwha, Sow Thistle, leaves & upper stem, boiled, drained, no salt added",
         variant: "Puwha",
         carb: 0.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 1.46 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.46 },
+        ],
       },
       {
         name: "Seaweed, sheet, toasted, nori",
@@ -8722,18 +8936,17 @@ export default [
         carb: 2.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "5 sheets", value: 0.113 }
-        ]
+          { name: "5 sheets", value: 0.113 },
+        ],
       },
       {
-        name:
-          "Silverbeet, leaves & stems, fresh, boiled, drained, no salt added",
+        name: "Silverbeet, leaves & stems, fresh, boiled, drained, no salt added",
         variant: "Silverbeet",
         carb: 1.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.724 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.724 },
+        ],
       },
       {
         name: "Silverbeet, leaves & stems, fresh, steamed",
@@ -8741,8 +8954,8 @@ export default [
         carb: 1.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup chopped (250mL)", value: 0.65 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 0.65 },
+        ],
       },
       {
         name: "Spinach, English, boiled, drained, no salt added",
@@ -8750,8 +8963,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.5 }
-        ]
+          { name: "1 cup (250mL)", value: 1.5 },
+        ],
       },
       {
         name: "Spring onion, bulb and stalk, fresh, sauteed",
@@ -8760,8 +8973,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 tablespoon (15mL)", value: 0.066 },
-          { name: "1 cup chopped (250mL)", value: 1.106 }
-        ]
+          { name: "1 cup chopped (250mL)", value: 1.106 },
+        ],
       },
       {
         name: "Squash, buttercup, flesh, steamed",
@@ -8769,8 +8982,8 @@ export default [
         carb: 18.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup diced (250mL)", value: 2.22 }
-        ]
+          { name: "1 cup diced (250mL)", value: 2.22 },
+        ],
       },
       {
         name: "Swede, peeled, fresh, boiled, drained, no salt added",
@@ -8778,8 +8991,8 @@ export default [
         carb: 4.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup cubed (250mL)", value: 1.868 }
-        ]
+          { name: "1 cup cubed (250mL)", value: 1.868 },
+        ],
       },
       {
         name: "Sweet corn, kernel, fresh, boiled, drained, no salt added",
@@ -8788,8 +9001,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cob (18.5 x 5.4cm diameter)", value: 1.656 },
-          { name: "1 cup kernel (250mL)", value: 1.847 }
-        ]
+          { name: "1 cup kernel (250mL)", value: 1.847 },
+        ],
       },
       {
         name: "Sweet corn, kernel, fresh, microwaved, no salt added",
@@ -8798,8 +9011,8 @@ export default [
         amounts: [
           { name: "100g", value: 1 },
           { name: "1 cob (17.8 x 5.1cm diameter)", value: 1.294 },
-          { name: "1 cup kernel (250mL)", value: 1.844 }
-        ]
+          { name: "1 cup kernel (250mL)", value: 1.844 },
+        ],
       },
       {
         name: "Taro, corm, flesh, baked",
@@ -8807,8 +9020,8 @@ export default [
         carb: 24.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.475 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.475 },
+        ],
       },
       {
         name: "Taro, corm, flesh, boiled",
@@ -8816,15 +9029,17 @@ export default [
         carb: 24.9,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup sliced (250mL)", value: 1.45 }
-        ]
+          { name: "1 cup sliced (250mL)", value: 1.45 },
+        ],
       },
       {
-        name:
-          "Tofu, soy bean curd, regular, firm, simmered or pouched, no salt added",
+        name: "Tofu, soy bean curd, regular, firm, simmered or pouched, no salt added",
         variant: "Tofu",
         carb: 0,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 piece", value: 0.332 }]
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 piece", value: 0.332 },
+        ],
       },
       {
         name: "Tofu, soy bean curd, regular, firm, stir-fried, no salt added",
@@ -8832,8 +9047,8 @@ export default [
         carb: 0,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 piece (3.5 x 2.2 x 2.6cm)", value: 0.182 }
-        ]
+          { name: "1 piece (3.5 x 2.2 x 2.6cm)", value: 0.182 },
+        ],
       },
       {
         name: "Tomato, sun-dried",
@@ -8841,8 +9056,8 @@ export default [
         carb: 43.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.54 }
-        ]
+          { name: "1 cup (250mL)", value: 0.54 },
+        ],
       },
       {
         name: "Turnip, root, flesh, boiled, drained, no salt added",
@@ -8850,23 +9065,22 @@ export default [
         carb: 2.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup mashed (250mL)", value: 1.22 }
-        ]
+          { name: "1 cup mashed (250mL)", value: 1.22 },
+        ],
       },
       {
         name: "Yams, New Zealand, red, unpeeled, baked without fat",
         variant: "Yams",
         carb: 18.8,
-        amounts: [{ name: "100g", value: 1 }]
+        amounts: [{ name: "100g", value: 1 }],
       },
       {
-        name:
-          "Yams, New Zealand, red, unpeeled, boiled, drained, no salt added",
+        name: "Yams, New Zealand, red, unpeeled, boiled, drained, no salt added",
         variant: "Yams",
         carb: 12.5,
-        amounts: [{ name: "100g", value: 1 }]
-      }
-    ]
+        amounts: [{ name: "100g", value: 1 }],
+      },
+    ],
   },
   {
     name: "Frozen Vegetables",
@@ -8878,8 +9092,8 @@ export default [
         carb: 2.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 0.95 }
-        ]
+          { name: "1 cup (250mL)", value: 0.95 },
+        ],
       },
       {
         name: "Broccoflower, frozen, boiled, drained, no salt added",
@@ -8887,8 +9101,8 @@ export default [
         carb: 2.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.64 }
-        ]
+          { name: "1 cup (250mL)", value: 1.64 },
+        ],
       },
       {
         name: "Pea, green, frozen, boiled, drained, no salt added",
@@ -8896,8 +9110,8 @@ export default [
         carb: 9.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.806 }
-        ]
+          { name: "1 cup (250mL)", value: 1.806 },
+        ],
       },
       {
         name: "Potato, fries beer batter, frozen, baked",
@@ -8905,58 +9119,53 @@ export default [
         carb: 24.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.561 }
-        ]
+          { name: "1 cup (250mL)", value: 1.561 },
+        ],
       },
       {
-        name:
-          "Potato, fries tempura, frozen, baked, Crunchy Steak Cut Fries, Wattie's",
+        name: "Potato, fries tempura, frozen, baked, Crunchy Steak Cut Fries, Wattie's",
         variant: "Potato",
         carb: 24.1,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.721 }
-        ]
+          { name: "1 cup (250mL)", value: 1.721 },
+        ],
       },
       {
-        name:
-          "Potato, fries, chunky cut, frozen, precooked in canola oil, baked",
+        name: "Potato, fries, chunky cut, frozen, precooked in canola oil, baked",
         variant: "Potato",
         carb: 32.7,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or fries", value: 0.826 }
-        ]
+          { name: "10 chips or fries", value: 0.826 },
+        ],
       },
       {
-        name:
-          "Potato, fries, chunky cut, frozen, precooked in polyunsaturated oil, baked",
+        name: "Potato, fries, chunky cut, frozen, precooked in polyunsaturated oil, baked",
         variant: "Potato",
         carb: 25.8,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or fries", value: 0.8 }
-        ]
+          { name: "10 chips or fries", value: 0.8 },
+        ],
       },
       {
-        name:
-          "Potato, fries, shoestring cut, frozen, precooked in polyunsaturated oil, baked",
+        name: "Potato, fries, shoestring cut, frozen, precooked in polyunsaturated oil, baked",
         variant: "Potato",
         carb: 33,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or fries", value: 0.21 }
-        ]
+          { name: "10 chips or fries", value: 0.21 },
+        ],
       },
       {
-        name:
-          "Potato, fries, straight cut, frozen, precooked in polyunsaturated oil, baked",
+        name: "Potato, fries, straight cut, frozen, precooked in polyunsaturated oil, baked",
         variant: "Potato",
         carb: 26.2,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 chips or fries", value: 0.588 }
-        ]
+          { name: "10 chips or fries", value: 0.588 },
+        ],
       },
       {
         name: "Potato, wedges lower fat & salt, baked, Wedges Crunchy, Pams",
@@ -8964,8 +9173,8 @@ export default [
         carb: 24.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.509 }
-        ]
+          { name: "1 cup (250mL)", value: 1.509 },
+        ],
       },
       {
         name: "Potato, wedges, frozen, precooked in polyunsaturated oil, baked",
@@ -8973,8 +9182,8 @@ export default [
         carb: 28.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "10 wedges", value: 0.947 }
-        ]
+          { name: "10 wedges", value: 0.947 },
+        ],
       },
       {
         name: "Sweet corn, kernel, frozen, boiled, drained, no salt added",
@@ -8982,20 +9191,19 @@ export default [
         carb: 8.3,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.826 }
-        ]
+          { name: "1 cup (250mL)", value: 1.826 },
+        ],
       },
       {
-        name:
-          "Vegetables mix, carrots, corn & peas, frozen, boiled, drained, no salt added",
+        name: "Vegetables mix, carrots, corn & peas, frozen, boiled, drained, no salt added",
         variant: "Vegetables mix",
         carb: 10.4,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 cup (250mL)", value: 1.45 }
-        ]
-      }
-    ]
+          { name: "1 cup (250mL)", value: 1.45 },
+        ],
+      },
+    ],
   },
   {
     name: "Pickled Vegetables",
@@ -9007,15 +9215,18 @@ export default [
         carb: 25.5,
         amounts: [
           { name: "100g", value: 1 },
-          { name: "1 gherkin (2 x 6cm)", value: 0.19 }
-        ]
+          { name: "1 gherkin (2 x 6cm)", value: 0.19 },
+        ],
       },
       {
         name: "Onion, pickled",
         variant: "Onion",
         carb: 13,
-        amounts: [{ name: "100g", value: 1 }, { name: "1 onion", value: 0.25 }]
-      }
-    ]
-  }
+        amounts: [
+          { name: "100g", value: 1 },
+          { name: "1 onion", value: 0.25 },
+        ],
+      },
+    ],
+  },
 ];

@@ -2,8 +2,8 @@
   <div class="view-container">
     <h1>Dosage Calculator</h1>
     <NumberInput
-      title="Blood Glucose"
       id="glucose"
+      title="Blood Glucose"
       color="blue"
       :unit="BGUnit.name"
       :step="0.1"
@@ -11,58 +11,57 @@
       @input="updateNumberInput"
     />
     <NumberInput
-      title="Carbohydrates"
       id="carbs"
+      title="Carbohydrates"
       color="green"
       :unit="carbUnit.name"
       :step="1"
       :value="carbs"
       @input="updateNumberInput"
     />
-    <Results
-      :carbRatio="carbRatio"
+    <DosageResults
+      :carb-ratio="carbRatio"
       :target="target"
-      :correctionResult="correctionResult"
-      :ratioResult="ratioResult"
-      :resultTotal="resultTotal"
+      :correction-result="correctionResult"
+      :ratio-result="ratioResult"
+      :result-total="resultTotal"
     />
   </div>
 </template>
 
 <script>
 import NumberInput from "../components/NumberInput";
-import Results from "../components/Results";
+import DosageResults from "../components/DosageResults";
 import { createNamespacedHelpers } from "vuex";
 
-const { mapState, mapGetters, mapActions } = createNamespacedHelpers(
-  "dosecalc"
-);
+const { mapState, mapGetters, mapActions } =
+  createNamespacedHelpers("dosecalc");
 
 export default {
-  name: "dosecalc",
+  name: "DoseCalc",
   components: {
     NumberInput,
-    Results
+    DosageResults,
+  },
+  data: function () {
+    return {
+      carbRatio: this.$store.state.settings.carbRatio,
+      target: this.$store.state.settings.target,
+    };
   },
   computed: {
-    carbUnit: function() {
+    carbUnit: function () {
       return this.$store.getters["settings/carbUnit"];
     },
-    BGUnit: function() {
+    BGUnit: function () {
       return this.$store.getters["settings/BGUnit"];
     },
     ...mapState(["glucose", "carbs"]),
-    ...mapGetters(["ratioResult", "correctionResult", "resultTotal"])
-  },
-  data: function() {
-    return {
-      carbRatio: this.$store.state.settings.carbRatio,
-      target: this.$store.state.settings.target
-    };
+    ...mapGetters(["ratioResult", "correctionResult", "resultTotal"]),
   },
   methods: {
-    ...mapActions(["updateNumberInput"])
-  }
+    ...mapActions(["updateNumberInput"]),
+  },
 };
 </script>
 

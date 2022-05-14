@@ -3,48 +3,48 @@
     <h1>Carb Calculator</h1>
     <div class="selectgroup">
       <input
+        v-if="!customCarb"
         id="searchTerm"
         type="text"
         placeholder="Enter a search term"
-        v-if="!customCarb"
         :value="searchTerm"
         @input="search"
       />
       <DropdownInput
-        id="selectedCategoryName"
         v-if="!customCarb"
+        id="selectedCategoryName"
         :value="selectedCategoryName"
-        emptyString="Select a Category"
+        empty-string="Select a Category"
         :list="categoriesList"
         @change="selectedCategoryNameChange"
       />
       <DropdownInput
-        id="selectedCarbName"
         v-if="selectedCategoryName"
+        id="selectedCarbName"
         :value="selectedCarbName"
-        emptyString="Select a Carb"
+        empty-string="Select a Carb"
         :list="carbsList"
         @change="selectedCarbNameChange"
       />
       <DropdownInput
-        id="selectedAmountName"
         v-if="selectedCarbName"
+        id="selectedAmountName"
         :value="selectedAmountName"
-        emptyString="Select an Amount"
+        empty-string="Select an Amount"
         :list="amountsList"
         @change="selectedAmountNameChange"
       />
       <input
         v-if="customCarb"
+        v-model="customCarbName"
         type="text"
         placeholder="Enter custom name (optional)"
-        v-model="customCarbName"
       />
       <input
         v-if="!selectedCategoryName"
+        v-model="customCarb"
         type="number"
         placeholder="Or enter custom value"
-        v-model="customCarb"
       />
     </div>
     <button class="bg-blue" @click="add">Add to list</button>
@@ -59,39 +59,39 @@ import CarbTotal from "@/components/CarbTotal";
 import CarbList from "@/components/CarbList";
 
 export default {
-  name: "carbcalc",
+  name: "CarbCalc",
   components: {
     DropdownInput,
     CarbTotal,
-    CarbList
+    CarbList,
   },
-  data: function() {
+  data: function () {
     return {
       selectedAmountName: "",
       selectedCarbName: "",
       selectedCategoryName: "",
       customCarb: "",
-      customCarbName: ""
+      customCarbName: "",
     };
   },
   computed: {
-    searchTerm: function() {
+    searchTerm: function () {
       return this.$store.getters["carbcalc/searchTerm"];
     },
-    categoriesList: function() {
+    categoriesList: function () {
       return this.$store.getters["carbcalc/categoriesList"];
     },
-    selectedCategory: function() {
+    selectedCategory: function () {
       const subCategories = this.categoriesList.reduce(
         (accumulator, current) => accumulator.concat(current.subcategories),
         []
       );
 
       return subCategories.find(
-        category => category.name === this.$data.selectedCategoryName
+        (category) => category.name === this.$data.selectedCategoryName
       );
     },
-    carbsList: function() {
+    carbsList: function () {
       const selectedCategory = this.selectedCategory;
 
       if (selectedCategory) {
@@ -100,12 +100,12 @@ export default {
 
       return [];
     },
-    selectedCarb: function() {
+    selectedCarb: function () {
       return this.carbsList.find(
-        carb => carb.name === this.$data.selectedCarbName
+        (carb) => carb.name === this.$data.selectedCarbName
       );
     },
-    amountsList: function() {
+    amountsList: function () {
       const selectedCarb = this.selectedCarb;
 
       if (selectedCarb) {
@@ -114,23 +114,23 @@ export default {
 
       return [];
     },
-    selectedAmount: function() {
+    selectedAmount: function () {
       return this.amountsList.find(
-        amount => amount.name === this.$data.selectedAmountName
+        (amount) => amount.name === this.$data.selectedAmountName
       );
     },
-    carbUnit: function() {
+    carbUnit: function () {
       return this.$store.getters["settings/carbUnit"];
     },
-    total: function() {
+    total: function () {
       return this.$store.getters["carbcalc/total"];
     },
-    items: function() {
+    items: function () {
       return this.$store.state.carbcalc.selectedItems;
-    }
+    },
   },
   methods: {
-    add: function() {
+    add: function () {
       let amount = this.$data.customCarb
           ? this.$data.customCarb + this.carbUnit.name
           : "",
@@ -154,30 +154,30 @@ export default {
         amountMultiplier,
         carbs,
         subcategory,
-        name
+        name,
       };
 
       if (amount) {
         this.$store.commit("carbcalc/addItem", item);
       }
     },
-    selectedCategoryNameChange: function(value) {
+    selectedCategoryNameChange: function (value) {
       this.selectedCategoryName = value;
       this.$data.selectedCarbName = "";
       this.selectedCarbNameChange("");
     },
-    selectedCarbNameChange: function(value) {
+    selectedCarbNameChange: function (value) {
       this.$data.selectedCarbName = value;
       this.selectedAmountNameChange("");
     },
-    selectedAmountNameChange: function(value) {
+    selectedAmountNameChange: function (value) {
       this.$data.selectedAmountName = value;
     },
-    search: function($event) {
+    search: function ($event) {
       this.$store.commit("carbcalc/search", $event.target.value);
       this.selectedCategoryNameChange("");
-    }
-  }
+    },
+  },
 };
 </script>
 
