@@ -34,7 +34,7 @@
     <NumberInput
       id="correctionFactor"
       title="Correction Factor"
-      :unit="correctionNumber + ' &#247; TDI'"
+      :unit="correctionNumber + ' &#58; TDI'"
       :step="1"
       :value="correctionFactor"
       @input="updateNumberInput"

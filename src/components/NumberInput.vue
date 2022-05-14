@@ -9,7 +9,8 @@
         :value="computedValue"
         @input="input"
       />
-      <p class="unit">{{ unit }}</p>
+      <!-- eslint-disable-next-line vue/no-v-html -->
+      <p class="unit" v-html="unit"></p>
     </div>
   </div>
 </template>

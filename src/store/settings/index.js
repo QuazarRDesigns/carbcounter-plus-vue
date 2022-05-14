@@ -16,6 +16,7 @@ export default {
     BGUnitOptions: [new BGUnit("mmol/L", 1), new BGUnit("mg/dL", 18.0182)],
     target: 6.5,
     correctionFactor: 2,
+    // Don't pass user data into correctionNumber
     correctionNumber: 100,
     saved: false,
   }),
