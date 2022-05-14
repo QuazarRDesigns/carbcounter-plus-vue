@@ -8,15 +8,16 @@
         height="40"
         width="40"
         @click="toggleMenu"
+        v-if="this.$route.name !== 'Home'"
       />
       <router-link to="/" class="logo"
         ><img class="logo__img" src="@/assets/svgs/logo.svg" alt="Home"
       /></router-link>
     </div>
-    <div ref="menu" class="menu hide">
-      <router-link class="bg-blue" to="/carbcalc">CarbCalc&nbsp;</router-link>
-      <router-link class="bg-green" to="/dosecalc">DoseCalc&nbsp;</router-link>
-      <router-link class="bg-pink" to="/settings">Settings&nbsp;</router-link>
+    <div ref="menu" class="menu hide" v-if="this.$route.name !== 'Home'">
+      <router-link class="bg-blue" to="/carbcalc">CarbCalc</router-link>
+      <router-link class="bg-green" to="/dosecalc">DoseCalc</router-link>
+      <router-link class="bg-pink" to="/settings">Settings</router-link>
     </div>
   </nav>
 </template>
@@ -42,9 +43,8 @@ export default {
 nav {
   display: flex;
   flex-flow: column nowrap;
-  gap: 0.5rem;
   background-color: #fff;
-  padding: 30px;
+  padding: 1rem;
 
   a {
     display: flex;
@@ -91,13 +91,14 @@ nav {
 
 .top {
   display: flex;
+  gap: 1rem;
   flex-flow: row nowrap;
-  justify-content: space-between;
   align-items: center;
 }
 
 .logo {
   flex: 0;
+  margin: 0 auto;
   background-color: transparent;
 
   &.router-link-exact-active {
@@ -115,13 +116,34 @@ nav {
   gap: 0.5rem;
 }
 
-.menu.hide {
-  display: none;
+@media screen and (max-width: 420px) {
+  .menu {
+    height: 8.125rem;
+    margin-top: 1rem;
+    overflow: hidden;
+    transition: height 0.5s cubic-bezier(0, 0, 0.45, 1),
+      opacity 0.3s 0.1s cubic-bezier(0, 0, 0, 0.9),
+      margin-top 0.1s cubic-bezier(0, 0, 0.2, 0);
+  }
+
+  .menu.hide {
+    height: 0;
+    margin-top: 0;
+    opacity: 0;
+    transition: height 0.5s cubic-bezier(0, 0, 0.45, 1),
+      opacity 0.4s cubic-bezier(0, 0, 0, 0.9),
+      margin-top 0.3s 0.2s cubic-bezier(0, 0, 0.8, 1);
+  }
 }
 
 @media screen and (min-width: 420px) {
+  nav {
+    gap: 1rem;
+  }
+
   .menu {
     flex-flow: row nowrap;
+    height: 3rem;
   }
 
   .top {
