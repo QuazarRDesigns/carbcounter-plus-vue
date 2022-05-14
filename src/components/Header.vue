@@ -121,8 +121,8 @@ nav {
     height: 8.125rem;
     margin-top: 1rem;
     overflow: hidden;
-    transition: height 0.8s cubic-bezier(0, 0, 0.45, 1),
-      opacity 0.7s 0.1s cubic-bezier(0, 0, 0, 0.9),
+    transition: height 0.5s cubic-bezier(0, 0, 0.45, 1),
+      opacity 0.3s 0.1s cubic-bezier(0, 0, 0, 0.9),
       margin-top 0.1s cubic-bezier(0, 0, 0.2, 0);
   }
 
@@ -130,9 +130,9 @@ nav {
     height: 0;
     margin-top: 0;
     opacity: 0;
-    transition: height 0.8s cubic-bezier(0, 0, 0.45, 1),
-      opacity 0.7s cubic-bezier(0, 0, 0, 0.9),
-      margin-top 0.3s 0.5s cubic-bezier(0, 0, 0.8, 1);
+    transition: height 0.5s cubic-bezier(0, 0, 0.45, 1),
+      opacity 0.4s cubic-bezier(0, 0, 0, 0.9),
+      margin-top 0.3s 0.2s cubic-bezier(0, 0, 0.8, 1);
   }
 }
 
