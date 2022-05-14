@@ -13,7 +13,7 @@
         ><img class="logo__img" src="@/assets/svgs/logo.svg" alt="Home"
       /></router-link>
     </div>
-    <div ref="menu" class="menu hide">
+    <div ref="menu" class="menu hide" v-if="this.$route.name !== 'Home'">
       <router-link class="bg-blue" to="/carbcalc">CarbCalc&nbsp;</router-link>
       <router-link class="bg-green" to="/dosecalc">DoseCalc&nbsp;</router-link>
       <router-link class="bg-pink" to="/settings">Settings&nbsp;</router-link>
