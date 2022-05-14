@@ -8,6 +8,7 @@
         height="40"
         width="40"
         @click="toggleMenu"
+        v-if="this.$route.name !== 'Home'"
       />
       <router-link to="/" class="logo"
         ><img class="logo__img" src="@/assets/svgs/logo.svg" alt="Home"
