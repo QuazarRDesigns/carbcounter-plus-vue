@@ -45,7 +45,7 @@ nav {
   flex-flow: column nowrap;
   gap: 0.5rem;
   background-color: #fff;
-  padding: 30px;
+  padding: 1rem;
 
   a {
     display: flex;
