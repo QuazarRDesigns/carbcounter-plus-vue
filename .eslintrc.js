@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   env: {
-    node: true,
+    es2021: true
   },
   extends: [
     "eslint:recommended",
@@ -13,7 +13,6 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "error" : "off",
   },
   parserOptions: {
-    ecmaVersion: "2020",
     ecmaFeatures: {
       jsx: true,
     },
