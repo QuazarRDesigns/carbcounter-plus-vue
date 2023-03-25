@@ -4,17 +4,17 @@
       <MenuButton
         title="CarbCalc"
         color="blue"
-        :svg="require('@/assets/svgs/carbcalc.svg')"
+        svg="./src/assets/svgs/carbcalc.svg"
       />
       <MenuButton
         title="DoseCalc"
         color="green"
-        :svg="require('@/assets/svgs/dosecalc.svg')"
+        svg="./src/assets/svgs/dosecalc.svg"
       />
       <MenuButton
         title="Settings"
         color="pink"
-        :svg="require('@/assets/svgs/settings.svg')"
+        svg="./src/assets/svgs/settings.svg"
       />
       <span class="version">Carb Counter+: v0.5.0</span>
     </div>
