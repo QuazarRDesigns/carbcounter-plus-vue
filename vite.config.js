@@ -4,21 +4,10 @@ import vue from "@vitejs/plugin-vue";
 // https://vitejs.dev/config/
 const path = require("path");
 export default defineConfig({
-  plugins: [
-    vue({
-      template: {
-        compilerOptions: {
-          compatConfig: {
-            MODE: 2,
-          },
-        },
-      },
-    }),
-  ],
+  plugins: [vue()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
-      vue: "@vue/compat",
     },
   },
 });
