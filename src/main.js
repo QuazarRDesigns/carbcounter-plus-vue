@@ -12,5 +12,6 @@ const app = createApp({
 });
 
 app.use(VueRouter);
+app.use(store);
 
 app.mount("#app");

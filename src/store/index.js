@@ -1,13 +1,10 @@
-import Vue from "vue";
-import Vuex from "vuex";
+import { createStore } from "vuex";
 import carbRatio from "../classes/CarbRatio";
 import carbcalc from "./carbcalc";
 import dosecalc from "./dosecalc";
 import settings from "./settings";
 
-Vue.use(Vuex);
-
-const store = new Vuex.Store({
+const store = createStore({
   mutations: {
     initialiseStore(state) {
       if (typeof Storage !== "undefined") {
