@@ -1,16 +1,16 @@
-import Vue from "vue";
+import { createApp } from "vue";
+import VueRouter from "vue-router";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
 
-Vue.config.productionTip = false;
-
-new Vue({
+const app = createApp({
   router,
   store,
-  beforeCreate() {
-    this.$store.commit("initialiseStore");
-  },
-  render: (h) => h(App),
-}).$mount("#app");
+  ...App,
+});
+
+app.use(VueRouter);
+
+app.mount("#app");

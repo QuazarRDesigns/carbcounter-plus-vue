@@ -1,11 +1,8 @@
-import Vue from "vue";
 import Router from "vue-router";
 import AppHome from "./views/AppHome.vue";
 import CarbCalc from "./views/CarbCalc.vue";
 import DoseCalc from "./views/DoseCalc.vue";
 import Settings from "./views/Settings.vue";
-
-Vue.use(Router);
 
 export default new Router({
   routes: [
