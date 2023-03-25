@@ -1,10 +1,11 @@
-import Router from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import AppHome from "./views/AppHome.vue";
 import CarbCalc from "./views/CarbCalc.vue";
 import DoseCalc from "./views/DoseCalc.vue";
 import Settings from "./views/Settings.vue";
 
-export default new Router({
+export default createRouter({
+  history: createWebHistory(),
   routes: [
     {
       path: "/",
