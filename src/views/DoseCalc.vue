@@ -30,8 +30,8 @@
 </template>
 
 <script>
-import NumberInput from "../components/NumberInput";
-import DosageResults from "../components/DosageResults";
+import NumberInput from "../components/NumberInput.vue";
+import DosageResults from "../components/DosageResults.vue";
 import { createNamespacedHelpers } from "vuex";
 
 const { mapState, mapGetters, mapActions } =

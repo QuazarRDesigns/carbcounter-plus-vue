@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import DosageResult from "../components/DosageResult";
+import DosageResult from "../components/DosageResult.vue";
 import CarbRatio from "../classes/CarbRatio.js";
 
 export default {

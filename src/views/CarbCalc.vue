@@ -54,9 +54,9 @@
 </template>
 
 <script>
-import DropdownInput from "@/components/DropdownInput";
-import CarbTotal from "@/components/CarbTotal";
-import CarbList from "@/components/CarbList";
+import DropdownInput from "@/components/DropdownInput.vue";
+import CarbTotal from "@/components/CarbTotal.vue";
+import CarbList from "@/components/CarbList.vue";
 
 export default {
   name: "CarbCalc",
