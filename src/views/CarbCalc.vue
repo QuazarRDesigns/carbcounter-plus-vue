@@ -54,6 +54,11 @@
 </template>
 
 <script>
+import { mapState, mapActions } from "pinia";
+
+import { useSettingsStore } from "../stores/settings";
+import { useCarbCalcStore } from "@/stores/carbcalc";
+
 import DropdownInput from "@/components/DropdownInput.vue";
 import CarbTotal from "@/components/CarbTotal.vue";
 import CarbList from "@/components/CarbList.vue";
@@ -75,12 +80,13 @@ export default {
     };
   },
   computed: {
-    searchTerm: function () {
-      return this.$store.getters["carbcalc/searchTerm"];
-    },
-    categoriesList: function () {
-      return this.$store.getters["carbcalc/categoriesList"];
-    },
+    ...mapState(useSettingsStore, ["carbUnit"]),
+    ...mapState(useCarbCalcStore, [
+      "searchTerm",
+      "categoriesList",
+      "total",
+      "selectedItems",
+    ]),
     selectedCategory: function () {
       const subCategories = this.categoriesList.reduce(
         (accumulator, current) => accumulator.concat(current.subcategories),
@@ -119,17 +125,13 @@ export default {
         (amount) => amount.name === this.$data.selectedAmountName
       );
     },
-    carbUnit: function () {
-      return this.$store.getters["settings/carbUnit"];
-    },
-    total: function () {
-      return this.$store.getters["carbcalc/total"];
-    },
     items: function () {
-      return this.$store.state.carbcalc.selectedItems;
+      return this.selectedItems;
     },
   },
   methods: {
+    ...mapActions(useCarbCalcStore, ["addItem"]),
+    ...mapActions(useCarbCalcStore, { carbSearch: "search" }),
     add: function () {
       let amount = this.$data.customCarb
           ? this.$data.customCarb + this.carbUnit.name
@@ -158,12 +160,11 @@ export default {
       };
 
       if (amount) {
-        this.$store.commit("carbcalc/addItem", item);
+        this.addItem(item);
       }
     },
     selectedCategoryNameChange: function (value) {
-      this.selectedCategoryName = value;
-      this.$data.selectedCarbName = "";
+      this.$data.selectedCategoryName = value;
       this.selectedCarbNameChange("");
     },
     selectedCarbNameChange: function (value) {
@@ -173,8 +174,8 @@ export default {
     selectedAmountNameChange: function (value) {
       this.$data.selectedAmountName = value;
     },
-    search: function ($event) {
-      this.$store.commit("carbcalc/search", $event.target.value);
+    search: function (event) {
+      this.carbSearch(event.target.value);
       this.selectedCategoryNameChange("");
     },
   },

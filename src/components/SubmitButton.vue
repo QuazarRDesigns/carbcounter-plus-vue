@@ -15,6 +15,7 @@ export default {
     },
     saved: Boolean,
   },
+  emits: ["change"],
   methods: {
     click: function () {
       this.$emit("click");

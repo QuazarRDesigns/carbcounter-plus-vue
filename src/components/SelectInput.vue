@@ -20,11 +20,10 @@
 <script>
 export default {
   name: "SelectInput",
-  model: {
-    prop: "value",
-    event: "change",
-  },
   props: {
+    value: {
+      type: [Number],
+    },
     title: { type: String, default: "Label" },
     color: {
       default: "",
@@ -35,11 +34,7 @@ export default {
     id: { type: String, default: "" },
     options: { type: Array, default: () => [] },
   },
-  data: function () {
-    return {
-      value: this.$attrs.value,
-    };
-  },
+  emits: ["change"],
   methods: {
     change: function ($event) {
       this.$emit("change", {

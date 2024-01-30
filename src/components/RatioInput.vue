@@ -56,6 +56,7 @@ export default {
     },
     value: CarbRatio,
   },
+  emits: ["input", "blur"],
   computed: {
     left: function () {
       return this.value.insulin;

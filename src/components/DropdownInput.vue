@@ -49,6 +49,7 @@ export default {
       default: () => [],
     },
   },
+  emits: ["change"],
   methods: {
     input: function ($event) {
       const value =

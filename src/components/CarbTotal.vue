@@ -11,6 +11,11 @@
 </template>
 
 <script>
+import { mapActions } from "pinia";
+
+import { useSettingsStore } from "../stores/settings";
+import { useDoseCalcStore } from "../stores/dosecalc";
+
 export default {
   name: "CarbTotal",
   props: {
@@ -21,14 +26,15 @@ export default {
   },
   computed: {
     carbUnit: function () {
-      return this.$store.getters["settings/carbUnit"];
+      const settingsStore = useSettingsStore();
+      return settingsStore.carbUnit;
     },
   },
   methods: {
+    ...mapActions(useDoseCalcStore, ["update"]),
     calculateDosage($event) {
       $event.preventDefault();
-
-      this.$store.commit("dosecalc/update", {
+      this.update({
         property: "carbs",
         index: this.total,
       });

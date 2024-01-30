@@ -46,6 +46,7 @@ export default {
       default: 0,
     },
   },
+  emits: ["input"],
   computed: {
     computedValue: function () {
       return Number(this.value.toFixed(1));

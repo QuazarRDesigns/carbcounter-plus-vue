@@ -16,19 +16,25 @@
 </template>
 
 <script>
+import { useCarbCalcStore } from "../stores/carbcalc.js";
+import { useSettingsStore } from "../stores/settings.js";
+
 export default {
   name: "CarbList",
   computed: {
     items: function () {
-      return this.$store.state.carbcalc.selectedItems;
+      const carbCalcStore = useCarbCalcStore();
+      return carbCalcStore.selectedItems;
     },
     carbUnit: function () {
-      return this.$store.getters["settings/carbUnit"];
+      const settingsStore = useSettingsStore();
+      return settingsStore.carbUnit;
     },
   },
   methods: {
     remove: function (event, item) {
-      this.$store.commit("carbcalc/removeItem", item);
+      const carbCalcStore = useCarbCalcStore();
+      carbCalcStore.removeItem(item);
     },
   },
 };

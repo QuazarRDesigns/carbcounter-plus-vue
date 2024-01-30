@@ -1,5 +1,8 @@
-import carbs from "../../carbs";
-import CarbCategory from "../../classes/CarbCategory";
+import { defineStore } from "pinia";
+import { useSettingsStore } from "./settings.js";
+
+import carbs from "../carbs.js";
+import CarbCategory from "../classes/CarbCategory.js";
 
 function initCarbCategories() {
   const categoriesList = [];
@@ -33,40 +36,35 @@ function filterListBySearchTerm(list, searchTerm) {
 
 const CarbCategories = initCarbCategories();
 
-export default {
-  namespaced: true,
+export const useCarbCalcStore = defineStore("carbcalc", {
   state: () => ({
     searchTerm: "",
     selectedItems: [],
   }),
-  mutations: {
-    addItem(state, payload) {
-      state.selectedItems.push(payload);
+  actions: {
+    addItem(payload) {
+      this.selectedItems.push(payload);
     },
-    removeItem(state, payload) {
-      state.selectedItems.splice(state.selectedItems.indexOf(payload), 1);
+    removeItem(payload) {
+      this.selectedItems.splice(this.selectedItems.indexOf(payload), 1);
     },
-    search(state, payload) {
-      state.searchTerm = payload;
+    search(payload) {
+      this.searchTerm = payload;
     },
   },
-  actions: {},
   getters: {
-    searchTerm: function (state) {
-      return state.searchTerm;
-    },
     categoriesList: function (state) {
       return filterListBySearchTerm(CarbCategories, state.searchTerm);
     },
-    total: function (state, getters, rootState, rootGetters) {
+    total: function (state) {
+      const settingsStore = useSettingsStore();
       const reducer = (accumulator, currentValue) => currentValue + accumulator;
       return state.selectedItems
         .map(
           (item) =>
-            (item.carbs * item.amountMultiplier) /
-            rootGetters["settings/carbUnit"].value
+            (item.carbs * item.amountMultiplier) / settingsStore.carbUnit.value
         )
         .reduce(reducer, 0);
     },
   },
-};
+});

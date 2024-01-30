@@ -1,7 +1,7 @@
 /**
  * Class representing a ratio of insulin to carbohydrates
  */
-export default class carbRatio {
+export default class CarbRatio {
   constructor(insulin, carb) {
     this.insulin = insulin;
     this.carbs = carb;

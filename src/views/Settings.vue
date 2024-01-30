@@ -44,14 +44,14 @@
 </template>
 
 <script>
+import { mapState, mapActions } from "pinia";
+
+import { useSettingsStore } from "../stores/settings";
+
 import RatioInput from "../components/RatioInput.vue";
 import NumberInput from "../components/NumberInput.vue";
 import SelectInput from "../components/SelectInput.vue";
 import SubmitButton from "../components/SubmitButton.vue";
-import { createNamespacedHelpers } from "vuex";
-
-const { mapState, mapGetters, mapActions } =
-  createNamespacedHelpers("settings");
 
 export default {
   name: "AppSettings",
@@ -62,7 +62,7 @@ export default {
     SubmitButton,
   },
   computed: {
-    ...mapState([
+    ...mapState(useSettingsStore, [
       "carbRatio",
       "carbUnitIndex",
       "carbUnitOptions",
@@ -72,11 +72,11 @@ export default {
       "correctionFactor",
       "correctionNumber",
       "saved",
+      "BGUnit",
     ]),
-    ...mapGetters(["BGUnit"]),
   },
   methods: {
-    ...mapActions([
+    ...mapActions(useSettingsStore, [
       "updateRatioInput",
       "updateNumberInput",
       "updateSelectInput",

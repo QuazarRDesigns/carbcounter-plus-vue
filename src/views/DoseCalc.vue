@@ -30,12 +30,13 @@
 </template>
 
 <script>
+import { mapState, mapActions } from "pinia";
+
+import { useSettingsStore } from "../stores/settings";
+import { useDoseCalcStore } from "../stores/dosecalc";
+
 import NumberInput from "../components/NumberInput.vue";
 import DosageResults from "../components/DosageResults.vue";
-import { createNamespacedHelpers } from "vuex";
-
-const { mapState, mapGetters, mapActions } =
-  createNamespacedHelpers("dosecalc");
 
 export default {
   name: "DoseCalc",
@@ -43,24 +44,23 @@ export default {
     NumberInput,
     DosageResults,
   },
-  data: function () {
-    return {
-      carbRatio: this.$store.state.settings.carbRatio,
-      target: this.$store.state.settings.target,
-    };
-  },
   computed: {
-    carbUnit: function () {
-      return this.$store.getters["settings/carbUnit"];
-    },
-    BGUnit: function () {
-      return this.$store.getters["settings/BGUnit"];
-    },
-    ...mapState(["glucose", "carbs"]),
-    ...mapGetters(["ratioResult", "correctionResult", "resultTotal"]),
+    ...mapState(useSettingsStore, [
+      "carbRatio",
+      "target",
+      "carbUnit",
+      "BGUnit",
+    ]),
+    ...mapState(useDoseCalcStore, [
+      "glucose",
+      "carbs",
+      "ratioResult",
+      "correctionResult",
+      "resultTotal",
+    ]),
   },
   methods: {
-    ...mapActions(["updateNumberInput"]),
+    ...mapActions(useDoseCalcStore, ["updateNumberInput"]),
   },
 };
 </script>
