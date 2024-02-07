@@ -19,32 +19,28 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import DosageResult from "../components/DosageResult.vue";
 import CarbRatio from "../classes/CarbRatio.js";
 
-export default {
-  name: "DosageResults",
-  components: {
-    DosageResult,
+import { defineProps } from "vue";
+
+defineProps({
+  carbRatio: CarbRatio,
+  target: {
+    type: Number,
+    default: 0,
   },
-  props: {
-    carbRatio: CarbRatio,
-    target: {
-      type: Number,
-      default: 0,
-    },
-    correctionResult: { type: Number, default: 0 },
-    ratioResult: {
-      type: Number,
-      default: 0,
-    },
-    resultTotal: {
-      type: Number,
-      default: 0,
-    },
+  correctionResult: { type: Number, default: 0 },
+  ratioResult: {
+    type: Number,
+    default: 0,
   },
-};
+  resultTotal: {
+    type: Number,
+    default: 0,
+  },
+});
 </script>
 
 <style lang="scss" scoped>

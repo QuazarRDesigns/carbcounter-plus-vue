@@ -5,85 +5,101 @@
       id="carbRatio"
       title="Insulin to Carb Ratio"
       :step="1"
-      :value="carbRatio"
+      :value="settingsStore.carbRatio"
       @input="updateRatioInput"
-      @blur="carbRatio.simplify()"
+      @blur="settingsStore.carbRatio.simplify()"
     />
     <SelectInput
       id="carbUnit"
       title="Carbohydrate Unit"
-      :options="carbUnitOptions"
-      :value="carbUnitIndex"
+      :options="settingsStore.carbUnitOptions"
+      :value="settingsStore.carbUnitIndex"
       @change="updateSelectInput"
     />
     <SelectInput
       id="BGUnit"
       title="Blood Glucose Unit"
-      :options="BGUnitOptions"
-      :value="BGUnitIndex"
+      :options="settingsStore.BGUnitOptions"
+      :value="settingsStore.BGUnitIndex"
       @change="updateSelectInput"
     />
     <NumberInput
       id="target"
       title="Target Value"
-      :unit="BGUnit.name"
+      :unit="settingsStore.BGUnit.name"
       :step="0.1"
-      :value="target"
+      :value="settingsStore.target"
       @input="updateNumberInput"
     />
     <NumberInput
       id="correctionFactor"
       title="Correction Factor"
-      :unit="correctionNumber + ' &#58; TDI'"
+      :unit="settingsStore.correctionNumber + ' &#58; TDI'"
       :step="1"
-      :value="correctionFactor"
+      :value="settingsStore.correctionFactor"
       @input="updateNumberInput"
     />
-    <SubmitButton title="Save Settings" :saved="saved" @click="saveSettings" />
+    <SubmitButton
+      title="Save Settings"
+      :saved="settingsStore.saved"
+      @click="settingsStore.saveSettings"
+    />
   </div>
 </template>
 
-<script>
-import { mapState, mapActions } from "pinia";
-
+<script setup>
 import { useSettingsStore } from "../stores/settings";
+import { useDoseCalcStore } from "../stores/dosecalc";
 
 import RatioInput from "../components/RatioInput.vue";
 import NumberInput from "../components/NumberInput.vue";
 import SelectInput from "../components/SelectInput.vue";
 import SubmitButton from "../components/SubmitButton.vue";
 
-export default {
-  name: "AppSettings",
-  components: {
-    RatioInput,
-    SelectInput,
-    NumberInput,
-    SubmitButton,
-  },
-  computed: {
-    ...mapState(useSettingsStore, [
-      "carbRatio",
-      "carbUnitIndex",
-      "carbUnitOptions",
-      "BGUnitIndex",
-      "BGUnitOptions",
-      "target",
-      "correctionFactor",
-      "correctionNumber",
-      "saved",
-      "BGUnit",
-    ]),
-  },
-  methods: {
-    ...mapActions(useSettingsStore, [
-      "updateRatioInput",
-      "updateNumberInput",
-      "updateSelectInput",
-      "saveSettings",
-    ]),
-  },
-};
+const settingsStore = useSettingsStore();
+const doseCalcStore = useDoseCalcStore();
+
+function updateRatioInput(payload) {
+  const property = payload.id;
+  const value = payload.value;
+  settingsStore.$patch({
+    [property]: value,
+  });
+}
+
+function updateNumberInput(payload) {
+  const property = payload.id;
+  const value = payload.value;
+  settingsStore.$patch({
+    [property]: value,
+  });
+}
+
+function updateSelectInput(payload) {
+  if (payload.id === "BGUnit") {
+    settingsStore.convertTarget(payload.value);
+    doseCalcStore.convertGlucose({
+      previousBGUnitValue: Number(
+        settingsStore.BGUnitOptions[settingsStore.BGUnitIndex].value
+      ),
+      newBGUnitValue: Number(settingsStore.BGUnitOptions[payload.value].value),
+    });
+  }
+  if (payload.id === "carbUnit") {
+    settingsStore.convertCarbRatio(payload.value);
+    doseCalcStore.convertCarbs({
+      previousCarbUnitValue: Number(
+        settingsStore.carbUnitOptions[settingsStore.carbUnitIndex].value
+      ),
+      newCarbUnitValue: Number(
+        settingsStore.carbUnitOptions[payload.value].value
+      ),
+    });
+  }
+  settingsStore.$patch({
+    [payload.id + "Index"]: Number(payload.value),
+  });
+}
 </script>
 
 <style lang="scss" scoped></style>

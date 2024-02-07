@@ -9,32 +9,28 @@
   </router-link>
 </template>
 
-<script>
-export default {
-  name: "MenuButton",
-  props: {
-    title: {
-      type: String,
-      default: "Menu Item",
-    },
-    color: {
-      default: "blue",
-      validator: function (value) {
-        // The value must match one of these strings
-        return ["blue", "green", "pink"].indexOf(value) !== -1;
-      },
-    },
-    svg: {
-      type: String,
-      default: "",
+<script setup>
+import { defineProps, computed } from "vue";
+
+const props = defineProps({
+  title: {
+    type: String,
+    default: "Menu Item",
+  },
+  color: {
+    default: "blue",
+    validator: function (value) {
+      // The value must match one of these strings
+      return ["blue", "green", "pink"].indexOf(value) !== -1;
     },
   },
-  computed: {
-    colorClass: function () {
-      return "bg-" + this.color;
-    },
+  svg: {
+    type: String,
+    default: "",
   },
-};
+});
+
+const colorClass = computed(() => "bg-" + props.color);
 </script>
 
 <style lang="scss" scoped>

@@ -1,48 +1,39 @@
 <template>
   <div class="container">
     <span class="stat">
-      <span class="number">{{ total.toFixed(1) }}</span>
-      <span class="unit">{{ carbUnit.name }}</span>
+      <span class="number">{{ carbCalcStore.total.toFixed(1) }}</span>
+      <span class="unit">{{ settingsStore.carbUnit.name }}</span>
     </span>
-    <a href="#/dosecalc/" class="button bg-green" @click="calculateDosage">
+    <a
+      href="#/dosecalc/"
+      class="button bg-green"
+      @click.prevent="calculateDosage"
+    >
       Calculate Dosage
     </a>
   </div>
 </template>
 
-<script>
-import { mapActions } from "pinia";
-
+<script setup>
 import { useSettingsStore } from "../stores/settings";
 import { useDoseCalcStore } from "../stores/dosecalc";
+import { useCarbCalcStore } from "../stores/carbcalc";
 
-export default {
-  name: "CarbTotal",
-  props: {
-    total: {
-      type: Number,
-      default: 0,
-    },
-  },
-  computed: {
-    carbUnit: function () {
-      const settingsStore = useSettingsStore();
-      return settingsStore.carbUnit;
-    },
-  },
-  methods: {
-    ...mapActions(useDoseCalcStore, ["update"]),
-    calculateDosage($event) {
-      $event.preventDefault();
-      this.update({
-        property: "carbs",
-        index: this.total,
-      });
+import { useRouter } from "vue-router";
 
-      this.$router.push("dosecalc");
-    },
-  },
-};
+const settingsStore = useSettingsStore();
+const doseCalcStore = useDoseCalcStore();
+const carbCalcStore = useCarbCalcStore();
+
+const router = useRouter();
+
+function calculateDosage() {
+  doseCalcStore.$patch({
+    carbs: carbCalcStore.total,
+  });
+
+  router.push("dosecalc");
+}
 </script>
 
 <style lang="scss" scoped>

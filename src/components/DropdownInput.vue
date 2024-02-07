@@ -35,29 +35,28 @@
   </select>
 </template>
 
-<script>
-export default {
-  name: "DropdownInput",
-  props: {
-    value: {
-      type: [String],
-      default: "",
-    },
-    emptyString: { type: String, default: "Select an option" },
-    list: {
-      type: Array,
-      default: () => [],
-    },
+<script setup>
+import { defineProps, defineEmits } from "vue";
+
+const props = defineProps({
+  value: {
+    type: [String],
+    default: "",
   },
-  emits: ["change"],
-  methods: {
-    input: function ($event) {
-      const value =
-        $event.target.value !== this.emptyString ? $event.target.value : "";
-      this.$emit("change", value);
-    },
+  emptyString: { type: String, default: "Select an option" },
+  list: {
+    type: Array,
+    default: () => [],
   },
-};
+});
+
+const emit = defineEmits(["change"]);
+
+function input($event) {
+  const value =
+    $event.target.value !== props.emptyString ? $event.target.value : "";
+  emit("change", value);
+}
 </script>
 
 <style lang="scss" scoped></style>

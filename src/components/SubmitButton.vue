@@ -5,24 +5,25 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "SubmitButton",
-  props: {
-    title: {
-      type: String,
-      default: "Submit",
-    },
-    saved: Boolean,
+<script setup>
+import { defineProps, defineEmits, ref } from "vue";
+
+defineProps({
+  title: {
+    type: String,
+    default: "Submit",
   },
-  emits: ["click"],
-  methods: {
-    click: function () {
-      this.$emit("click");
-      this.$refs.button.blur();
-    },
-  },
-};
+  saved: Boolean,
+});
+
+const emit = defineEmits(["click"]);
+
+const button = ref(null);
+
+function click() {
+  emit("click");
+  button.value.blur();
+}
 </script>
 
 <style></style>

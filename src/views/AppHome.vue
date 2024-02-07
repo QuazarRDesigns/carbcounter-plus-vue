@@ -21,16 +21,8 @@
   </div>
 </template>
 
-<script>
-// @ is an alias to /src
+<script setup>
 import MenuButton from "@/components/MenuButton.vue";
-
-export default {
-  name: "AppHome",
-  components: {
-    MenuButton,
-  },
-};
 </script>
 
 <style lang="scss" scoped>

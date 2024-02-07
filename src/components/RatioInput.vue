@@ -31,57 +31,57 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import CarbRatio from "../classes/CarbRatio";
-export default {
-  name: "RatioInput",
-  props: {
-    title: {
-      type: String,
-      default: "Label",
-    },
-    color: {
-      default: "",
-      validator: function (value) {
-        return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
-      },
-    },
-    id: {
-      type: String,
-      default: "",
-    },
-    step: {
-      type: Number,
-      default: 1,
-    },
-    value: CarbRatio,
-  },
-  emits: ["input", "blur"],
-  computed: {
-    left: function () {
-      return this.value.insulin;
-    },
-    right: function () {
-      return this.value.carbs;
-    },
-  },
-  methods: {
-    input: function () {
-      const leftValue = this.$refs.leftInput.value,
-        rightValue = this.$refs.rightInput.value;
 
-      const ratio = new CarbRatio(leftValue, rightValue);
+import { defineProps, defineEmits, ref, computed } from "vue";
 
-      this.$emit("input", {
-        id: this.id,
-        value: ratio,
-      });
-    },
-    blur: function () {
-      this.$emit("blur");
+const props = defineProps({
+  title: {
+    type: String,
+    default: "Label",
+  },
+  color: {
+    default: "",
+    validator: function (value) {
+      return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
     },
   },
-};
+  id: {
+    type: String,
+    default: "",
+  },
+  step: {
+    type: Number,
+    default: 1,
+  },
+  value: CarbRatio,
+});
+
+const emit = defineEmits(["input", "blur"]);
+
+const leftInput = ref(null);
+const rightInput = ref(null);
+
+const left = computed(() => props.value.insulin);
+
+const right = computed(() => props.value.carbs);
+
+function input() {
+  const leftValue = leftInput.value.value,
+    rightValue = rightInput.value.value;
+
+  const ratio = new CarbRatio(leftValue, rightValue);
+
+  emit("input", {
+    id: props.id,
+    value: ratio,
+  });
+}
+
+function blur() {
+  emit("blur");
+}
 </script>
 
 <style lang="scss" scoped>

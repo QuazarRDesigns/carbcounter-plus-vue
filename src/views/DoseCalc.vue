@@ -5,64 +5,47 @@
       id="glucose"
       title="Blood Glucose"
       color="blue"
-      :unit="BGUnit.name"
+      :unit="settingsStore.BGUnit.name"
       :step="0.1"
-      :value="glucose"
+      :value="doseCalcStore.glucose"
       @input="updateNumberInput"
     />
     <NumberInput
       id="carbs"
       title="Carbohydrates"
       color="green"
-      :unit="carbUnit.name"
+      :unit="settingsStore.carbUnit.name"
       :step="1"
-      :value="carbs"
+      :value="doseCalcStore.carbs"
       @input="updateNumberInput"
     />
     <DosageResults
-      :carb-ratio="carbRatio"
-      :target="target"
-      :correction-result="correctionResult"
-      :ratio-result="ratioResult"
-      :result-total="resultTotal"
+      :carb-ratio="settingsStore.carbRatio"
+      :target="settingsStore.target"
+      :correction-result="doseCalcStore.correctionResult"
+      :ratio-result="doseCalcStore.ratioResult"
+      :result-total="doseCalcStore.resultTotal"
     />
   </div>
 </template>
 
-<script>
-import { mapState, mapActions } from "pinia";
-
+<script setup>
 import { useSettingsStore } from "../stores/settings";
 import { useDoseCalcStore } from "../stores/dosecalc";
 
 import NumberInput from "../components/NumberInput.vue";
 import DosageResults from "../components/DosageResults.vue";
 
-export default {
-  name: "DoseCalc",
-  components: {
-    NumberInput,
-    DosageResults,
-  },
-  computed: {
-    ...mapState(useSettingsStore, [
-      "carbRatio",
-      "target",
-      "carbUnit",
-      "BGUnit",
-    ]),
-    ...mapState(useDoseCalcStore, [
-      "glucose",
-      "carbs",
-      "ratioResult",
-      "correctionResult",
-      "resultTotal",
-    ]),
-  },
-  methods: {
-    ...mapActions(useDoseCalcStore, ["updateNumberInput"]),
-  },
-};
+const settingsStore = useSettingsStore();
+const doseCalcStore = useDoseCalcStore();
+
+function updateNumberInput(payload) {
+  const property = payload.id;
+  const value = payload.value;
+  doseCalcStore.$patch({
+    [property]: value,
+  });
+}
 </script>
 
 <style></style>

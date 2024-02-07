@@ -17,33 +17,32 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "SelectInput",
-  props: {
-    value: {
-      type: [Number],
-    },
-    title: { type: String, default: "Label" },
-    color: {
-      default: "",
-      validator: function (value) {
-        return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
-      },
-    },
-    id: { type: String, default: "" },
-    options: { type: Array, default: () => [] },
+<script setup>
+import { defineProps, defineEmits } from "vue";
+
+const props = defineProps({
+  value: {
+    type: [Number],
   },
-  emits: ["change"],
-  methods: {
-    change: function ($event) {
-      this.$emit("change", {
-        id: this.id,
-        value: $event.target.value,
-      });
+  title: { type: String, default: "Label" },
+  color: {
+    default: "",
+    validator: function (value) {
+      return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
     },
   },
-};
+  id: { type: String, default: "" },
+  options: { type: Array, default: () => [] },
+});
+
+const emit = defineEmits(["change"]);
+
+function change($event) {
+  emit("change", {
+    id: props.id,
+    value: $event.target.value,
+  });
+}
 </script>
 
 <style lang="scss" scoped>

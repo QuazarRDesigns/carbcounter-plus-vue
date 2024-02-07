@@ -22,19 +22,18 @@
   </nav>
 </template>
 
-<script>
-export default {
-  name: "AppHeader",
-  methods: {
-    toggleMenu: function () {
-      if (this.$refs.menu.classList.contains("hide")) {
-        this.$refs.menu.classList.remove("hide");
-      } else {
-        this.$refs.menu.classList.add("hide");
-      }
-    },
-  },
-};
+<script setup>
+import { ref } from "vue";
+
+const menu = ref(null);
+
+function toggleMenu() {
+  if (menu.value.classList.contains("hide")) {
+    menu.value.classList.remove("hide");
+  } else {
+    menu.value.classList.add("hide");
+  }
+}
 </script>
 
 <style lang="scss" scoped>

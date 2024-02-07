@@ -15,29 +15,16 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed } from "vue";
 import { useCarbCalcStore } from "../stores/carbcalc.js";
-import { useSettingsStore } from "../stores/settings.js";
 
-export default {
-  name: "CarbList",
-  computed: {
-    items: function () {
-      const carbCalcStore = useCarbCalcStore();
-      return carbCalcStore.selectedItems;
-    },
-    carbUnit: function () {
-      const settingsStore = useSettingsStore();
-      return settingsStore.carbUnit;
-    },
-  },
-  methods: {
-    remove: function (event, item) {
-      const carbCalcStore = useCarbCalcStore();
-      carbCalcStore.removeItem(item);
-    },
-  },
-};
+const carbCalcStore = useCarbCalcStore();
+const items = computed(() => carbCalcStore.selectedItems);
+
+function remove($event, item) {
+  carbCalcStore.removeItem(item);
+}
 </script>
 
 <style lang="scss" scoped>

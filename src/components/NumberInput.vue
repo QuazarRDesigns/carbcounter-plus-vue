@@ -15,55 +15,52 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "NumberInput",
-  props: {
-    title: {
-      type: String,
-      default: "Label",
-    },
-    color: {
-      default: "",
-      validator: function (value) {
-        return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
-      },
-    },
-    id: {
-      type: String,
-      default: "",
-    },
-    value: {
-      type: Number,
-      default: 0,
-    },
-    unit: {
-      type: String,
-      default: "",
-    },
-    step: {
-      type: Number,
-      default: 0,
+<script setup>
+import { defineProps, defineEmits, computed } from "vue";
+
+const props = defineProps({
+  title: {
+    type: String,
+    default: "Label",
+  },
+  color: {
+    default: "",
+    validator: function (value) {
+      return value === "" || ["blue", "green", "pink"].indexOf(value) !== -1;
     },
   },
-  emits: ["input"],
-  computed: {
-    computedValue: function () {
-      return Number(this.value.toFixed(1));
-    },
+  id: {
+    type: String,
+    default: "",
   },
-  methods: {
-    input: function ($event) {
-      this.$emit("input", {
-        id: this.id,
-        value: $event.target.value,
-      });
-    },
-    clamp: function (value, min, max) {
-      return Math.min(Math.max(min, value), max);
-    },
+  value: {
+    type: Number,
+    default: 0,
   },
-};
+  unit: {
+    type: String,
+    default: "",
+  },
+  step: {
+    type: Number,
+    default: 0,
+  },
+});
+
+const emit = defineEmits(["input"]);
+
+const computedValue = computed(() => Number(props.value.toFixed(1)));
+
+function input($event) {
+  emit("input", {
+    id: props.id,
+    value: Number($event.target.value),
+  });
+}
+
+function clamp(value, min, max) {
+  return Math.min(Math.max(min, value), max);
+}
 </script>
 
 <style lang="scss" scoped>

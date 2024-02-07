@@ -1,74 +1,74 @@
+import { ref, computed } from "vue";
 import { defineStore } from "pinia";
 import { useSettingsStore } from "./settings";
 
-export const useDoseCalcStore = defineStore("dosecalc", {
-  state: () => ({
-    glucose: 0,
-    carbs: 0,
-  }),
-  actions: {
-    updateNumberInput: function (payload) {
-      this.update({
-        property: payload.id,
-        index: Number(payload.value),
-      });
-    },
-    update(payload) {
-      this[payload.property] = payload.index;
-    },
-    convertGlucose({ previousBGUnitValue, newBGUnitValue }) {
-      const glucose = (this.glucose / previousBGUnitValue) * newBGUnitValue;
+export const useDoseCalcStore = defineStore("dosecalc", () => {
+  const glucose = ref(0);
+  const carbs = ref(0);
 
-      this.glucose = glucose;
-    },
-    convertCarbs({ previousCarbUnitValue, newCarbUnitValue }) {
-      let carbs = this.carbs;
+  function convertGlucose({ previousBGUnitValue, newBGUnitValue }) {
+    const newGlucose = (glucose.value / previousBGUnitValue) * newBGUnitValue;
 
-      if (previousCarbUnitValue === 1) {
-        carbs = this.carbs / newCarbUnitValue;
-      } else {
-        carbs = (this.carbs * previousCarbUnitValue) / newCarbUnitValue;
-      }
+    glucose.value = newGlucose;
+  }
 
-      this.carbs = carbs;
-    },
-  },
-  getters: {
-    ratioResult: function (state) {
-      const settingsStore = useSettingsStore();
-      let carbs = state.carbs;
-      let carbRatio = settingsStore.carbRatio.value;
+  function convertCarbs({ previousCarbUnitValue, newCarbUnitValue }) {
+    let newCarbs = carbs.value;
 
-      // Calculate Carb Insulin
-      const carbsum = carbs / carbRatio;
-      let ratioResult = Number(carbsum.toFixed(1));
+    if (previousCarbUnitValue === 1) {
+      newCarbs = carbs.value / newCarbUnitValue;
+    } else {
+      newCarbs = (carbs.value * previousCarbUnitValue) / newCarbUnitValue;
+    }
 
-      if (Number.isNaN(ratioResult) || ratioResult < 0) {
-        ratioResult = 0;
-      }
+    carbs.value = newCarbs;
+  }
 
-      return ratioResult;
-    },
-    correctionResult: function (state) {
-      const settingsStore = useSettingsStore();
-      const glucoseDiff = state.glucose - settingsStore.target;
-      const correctionFactor = settingsStore.correctionFactor;
+  const ratioResult = computed(() => {
+    const settingsStore = useSettingsStore();
+    let carbRatio = settingsStore.carbRatio.value;
 
-      // Calculate Correctional Insulin
-      const correctionsum = glucoseDiff / correctionFactor;
-      let correctionResult = Number(correctionsum.toFixed(1));
+    // Calculate Carb Insulin
+    const carbsum = carbs.value / carbRatio;
+    let ratioResult = Number(carbsum.toFixed(1));
 
-      if (Number.isNaN(correctionResult) || correctionResult < 0) {
-        correctionResult = 0;
-      }
+    if (Number.isNaN(ratioResult) || ratioResult < 0) {
+      ratioResult = 0;
+    }
 
-      return correctionResult;
-    },
-    resultTotal: function () {
-      const total = this.correctionResult + this.ratioResult;
+    return ratioResult;
+  });
 
-      // Calculate Total Insulin
-      return Number(total.toFixed(1));
-    },
-  },
+  const correctionResult = computed(() => {
+    const settingsStore = useSettingsStore();
+    const glucoseDiff = glucose.value - settingsStore.target;
+    const correctionFactor = settingsStore.correctionFactor;
+
+    // Calculate Correctional Insulin
+    const correctionsum = glucoseDiff / correctionFactor;
+    let correctionResult = Number(correctionsum.toFixed(1));
+
+    if (Number.isNaN(correctionResult) || correctionResult < 0) {
+      correctionResult = 0;
+    }
+
+    return correctionResult;
+  });
+
+  const resultTotal = computed(() => {
+    const total = correctionResult.value + ratioResult.value;
+
+    // Calculate Total Insulin
+    return Number(total.toFixed(1));
+  });
+
+  return {
+    glucose,
+    carbs,
+    convertGlucose,
+    convertCarbs,
+    ratioResult,
+    correctionResult,
+    resultTotal,
+  };
 });

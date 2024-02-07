@@ -1,3 +1,4 @@
+import { ref, computed } from "vue";
 import { defineStore } from "pinia";
 import { useSettingsStore } from "./settings.js";
 
@@ -36,35 +37,44 @@ function filterListBySearchTerm(list, searchTerm) {
 
 const CarbCategories = initCarbCategories();
 
-export const useCarbCalcStore = defineStore("carbcalc", {
-  state: () => ({
-    searchTerm: "",
-    selectedItems: [],
-  }),
-  actions: {
-    addItem(payload) {
-      this.selectedItems.push(payload);
-    },
-    removeItem(payload) {
-      this.selectedItems.splice(this.selectedItems.indexOf(payload), 1);
-    },
-    search(payload) {
-      this.searchTerm = payload;
-    },
-  },
-  getters: {
-    categoriesList: function (state) {
-      return filterListBySearchTerm(CarbCategories, state.searchTerm);
-    },
-    total: function (state) {
-      const settingsStore = useSettingsStore();
-      const reducer = (accumulator, currentValue) => currentValue + accumulator;
-      return state.selectedItems
-        .map(
-          (item) =>
-            (item.carbs * item.amountMultiplier) / settingsStore.carbUnit.value
-        )
-        .reduce(reducer, 0);
-    },
-  },
+export const useCarbCalcStore = defineStore("carbcalc", () => {
+  const searchTerm = ref("");
+  const selectedItems = ref([]);
+
+  function addItem(payload) {
+    selectedItems.value.push(payload);
+  }
+
+  function removeItem(payload) {
+    selectedItems.value.splice(selectedItems.value.indexOf(payload), 1);
+  }
+
+  function search(payload) {
+    searchTerm.value = payload;
+  }
+
+  const categoriesList = computed(() => {
+    return filterListBySearchTerm(CarbCategories, searchTerm.value);
+  });
+
+  const total = computed(() => {
+    const settingsStore = useSettingsStore();
+    const reducer = (accumulator, currentValue) => currentValue + accumulator;
+    return selectedItems.value
+      .map(
+        (item) =>
+          (item.carbs * item.amountMultiplier) / settingsStore.carbUnit.value
+      )
+      .reduce(reducer, 0);
+  });
+
+  return {
+    searchTerm,
+    selectedItems,
+    addItem,
+    removeItem,
+    search,
+    categoriesList,
+    total,
+  };
 });

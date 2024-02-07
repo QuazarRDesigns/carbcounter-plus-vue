@@ -7,7 +7,7 @@
         id="searchTerm"
         type="text"
         placeholder="Enter a search term"
-        :value="searchTerm"
+        :value="carbCalcStore.searchTerm"
         @input="search"
       />
       <DropdownInput
@@ -15,7 +15,7 @@
         id="selectedCategoryName"
         :value="selectedCategoryName"
         empty-string="Select a Category"
-        :list="categoriesList"
+        :list="carbCalcStore.categoriesList"
         @change="selectedCategoryNameChange"
       />
       <DropdownInput
@@ -48,138 +48,115 @@
       />
     </div>
     <button class="bg-blue" @click="add">Add to list</button>
-    <CarbTotal :total="total" />
+    <CarbTotal />
     <CarbList />
   </div>
 </template>
 
-<script>
-import { mapState, mapActions } from "pinia";
+<script setup>
+import { ref, computed } from "vue";
 
 import { useSettingsStore } from "../stores/settings";
-import { useCarbCalcStore } from "@/stores/carbcalc";
+import { useCarbCalcStore } from "../stores/carbcalc";
 
 import DropdownInput from "@/components/DropdownInput.vue";
 import CarbTotal from "@/components/CarbTotal.vue";
 import CarbList from "@/components/CarbList.vue";
 
-export default {
-  name: "CarbCalc",
-  components: {
-    DropdownInput,
-    CarbTotal,
-    CarbList,
-  },
-  data: function () {
-    return {
-      selectedAmountName: "",
-      selectedCarbName: "",
-      selectedCategoryName: "",
-      customCarb: "",
-      customCarbName: "",
-    };
-  },
-  computed: {
-    ...mapState(useSettingsStore, ["carbUnit"]),
-    ...mapState(useCarbCalcStore, [
-      "searchTerm",
-      "categoriesList",
-      "total",
-      "selectedItems",
-    ]),
-    selectedCategory: function () {
-      const subCategories = this.categoriesList.reduce(
-        (accumulator, current) => accumulator.concat(current.subcategories),
-        []
-      );
+const settingsStore = useSettingsStore();
+const carbCalcStore = useCarbCalcStore();
 
-      return subCategories.find(
-        (category) => category.name === this.$data.selectedCategoryName
-      );
-    },
-    carbsList: function () {
-      const selectedCategory = this.selectedCategory;
+const selectedAmountName = ref("");
+const selectedCarbName = ref("");
+const selectedCategoryName = ref("");
+const customCarb = ref("");
+const customCarbName = ref("");
 
-      if (selectedCategory) {
-        return selectedCategory.carbs;
-      }
+const selectedCategory = computed(() => {
+  const subCategories = carbCalcStore.categoriesList.reduce(
+    (accumulator, current) => accumulator.concat(current.subcategories),
+    []
+  );
 
-      return [];
-    },
-    selectedCarb: function () {
-      return this.carbsList.find(
-        (carb) => carb.name === this.$data.selectedCarbName
-      );
-    },
-    amountsList: function () {
-      const selectedCarb = this.selectedCarb;
+  return subCategories.find(
+    (category) => category.name === selectedCategoryName.value
+  );
+});
 
-      if (selectedCarb) {
-        return selectedCarb.amounts;
-      }
+const carbsList = computed(() => {
+  if (selectedCategory.value) {
+    return selectedCategory.value.carbs;
+  }
 
-      return [];
-    },
-    selectedAmount: function () {
-      return this.amountsList.find(
-        (amount) => amount.name === this.$data.selectedAmountName
-      );
-    },
-    items: function () {
-      return this.selectedItems;
-    },
-  },
-  methods: {
-    ...mapActions(useCarbCalcStore, ["addItem"]),
-    ...mapActions(useCarbCalcStore, { carbSearch: "search" }),
-    add: function () {
-      let amount = this.$data.customCarb
-          ? this.$data.customCarb + this.carbUnit.name
-          : "",
-        amountMultiplier = this.carbUnit.value,
-        carbs = this.$data.customCarb,
-        subcategory = "",
-        name = this.$data.customCarbName
-          ? this.$data.customCarbName
-          : "Custom Entry";
+  return [];
+});
 
-      if (this.selectedAmount) {
-        amount = this.selectedAmount.name;
-        amountMultiplier = this.selectedAmount.value;
-        subcategory = this.selectedCategory.name;
-        name = this.selectedCarb.name;
-        carbs = this.selectedCarb.carb;
-      }
+const selectedCarb = computed(() => {
+  return carbsList.value.find((carb) => carb.name === selectedCarbName.value);
+});
 
-      const item = {
-        amount,
-        amountMultiplier,
-        carbs,
-        subcategory,
-        name,
-      };
+const amountsList = computed(() => {
+  if (selectedCarb.value) {
+    return selectedCarb.value.amounts;
+  }
 
-      if (amount) {
-        this.addItem(item);
-      }
-    },
-    selectedCategoryNameChange: function (value) {
-      this.$data.selectedCategoryName = value;
-      this.selectedCarbNameChange("");
-    },
-    selectedCarbNameChange: function (value) {
-      this.$data.selectedCarbName = value;
-      this.selectedAmountNameChange("");
-    },
-    selectedAmountNameChange: function (value) {
-      this.$data.selectedAmountName = value;
-    },
-    search: function (event) {
-      this.carbSearch(event.target.value);
-      this.selectedCategoryNameChange("");
-    },
-  },
-};
+  return [];
+});
+
+const selectedAmount = computed(() => {
+  return amountsList.value.find(
+    (amount) => amount.name === selectedAmountName.value
+  );
+});
+
+function add() {
+  let amount = customCarb.value
+      ? customCarb.value + settingsStore.carbUnit.name
+      : "",
+    amountMultiplier = settingsStore.carbUnit.value,
+    carbs = customCarb.value,
+    subcategory = "",
+    name = customCarbName.value ? customCarbName.value : "Custom Entry";
+
+  if (selectedAmount.value) {
+    amount = selectedAmount.value.name;
+    amountMultiplier = selectedAmount.value.value;
+    subcategory = selectedCategory.value.name;
+    name = selectedCarb.value.name;
+    carbs = selectedCarb.value.carb;
+  }
+
+  const item = {
+    amount,
+    amountMultiplier,
+    carbs,
+    subcategory,
+    name,
+  };
+
+  if (amount) {
+    carbCalcStore.addItem(item);
+  }
+}
+
+function selectedCategoryNameChange(value) {
+  selectedCategoryName.value = value;
+  selectedCarbNameChange("");
+}
+
+function selectedCarbNameChange(value) {
+  selectedCarbName.value = value;
+  selectedAmountNameChange("");
+}
+
+function selectedAmountNameChange(value) {
+  selectedAmountName.value = value;
+}
+
+function search($event) {
+  carbCalcStore.search($event.target.value);
+  selectedCategoryNameChange("");
+}
 </script>
 
 <style lang="scss" scoped>

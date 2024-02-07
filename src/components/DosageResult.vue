@@ -13,48 +13,42 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "DosageResult",
-  props: {
-    title: {
-      type: String,
-      default: "Total",
-    },
-    color: {
-      default: "blue",
-      validator: function (value) {
-        return ["blue", "green", "pink"].indexOf(value) !== -1;
-      },
-    },
-    value: {
-      type: Number,
-      default: 0,
-    },
-    unit: {
-      type: String,
-      default: "IU",
-    },
-    ratio: {
-      default: "",
-      validator: function (value) {
-        return value === "" || /\d:\d/.test(value);
-      },
-    },
-    target: {
-      type: Number,
-      default: 0,
+<script setup>
+import { defineProps, computed } from "vue";
+
+const props = defineProps({
+  title: {
+    type: String,
+    default: "Total",
+  },
+  color: {
+    default: "blue",
+    validator: function (value) {
+      return ["blue", "green", "pink"].indexOf(value) !== -1;
     },
   },
-  computed: {
-    returnValue: function () {
-      return Math.max(0, this.value);
-    },
-    rounded: function () {
-      return Math.round(this.value);
+  value: {
+    type: Number,
+    default: 0,
+  },
+  unit: {
+    type: String,
+    default: "IU",
+  },
+  ratio: {
+    default: "",
+    validator: function (value) {
+      return value === "" || /\d:\d/.test(value);
     },
   },
-};
+  target: {
+    type: Number,
+    default: 0,
+  },
+});
+
+const returnValue = computed(() => Math.max(0, props.value));
+const rounded = computed(() => Math.round(props.value));
 </script>
 
 <style lang="scss" scoped>
