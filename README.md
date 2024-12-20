@@ -27,3 +27,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Update dependencies
+```
+npm install -g npm-check-updates
+ncu -u
+```
