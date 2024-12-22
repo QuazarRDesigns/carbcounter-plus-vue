@@ -4,7 +4,7 @@
     <RatioInput
       id="carbRatio"
       title="Insulin to Carb Ratio"
-      :step="1"
+      :step="0.5"
       :value="settingsStore.carbRatio"
       @input="updateRatioInput"
       @blur="settingsStore.carbRatio.simplify()"
@@ -35,7 +35,8 @@
       id="correctionFactor"
       title="Correction Factor"
       :unit="settingsStore.correctionNumber + ' &#58; TDI'"
-      :step="1"
+      :step="0.001"
+      :max="100"
       :value="settingsStore.correctionFactor"
       @input="updateNumberInput"
     />

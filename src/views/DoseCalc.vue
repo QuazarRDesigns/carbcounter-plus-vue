@@ -15,7 +15,7 @@
       title="Carbohydrates"
       color="green"
       :unit="settingsStore.carbUnit.name"
-      :step="1"
+      :step="0.1"
       :value="doseCalcStore.carbs"
       @input="updateNumberInput"
     />
