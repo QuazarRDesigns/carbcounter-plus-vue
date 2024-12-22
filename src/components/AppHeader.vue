@@ -37,7 +37,8 @@ function toggleMenu() {
 </script>
 
 <style lang="scss" scoped>
-@import "@/scss/variables.scss";
+@use "sass:color";
+@use "@/scss/variables.scss" as vars;
 
 nav {
   display: flex;
@@ -63,26 +64,26 @@ nav {
     }
 
     &.bg-blue {
-      background-color: $blue;
+      background-color: vars.$blue;
 
       &:hover {
-        background-color: lighten($color: $blue, $amount: 10);
+        background-color: color.adjust(vars.$blue, $lightness: 10%);
       }
     }
 
     &.bg-green {
-      background-color: $green;
+      background-color: vars.$green;
 
       &:hover {
-        background-color: lighten($color: $green, $amount: 10);
+        background-color: color.adjust(vars.$green, $lightness: 10%);
       }
     }
 
     &.bg-pink {
-      background-color: $pink;
+      background-color: vars.$pink;
 
       &:hover {
-        background-color: lighten($color: $pink, $amount: 10);
+        background-color: color.adjust(vars.$pink, $lightness: 10%);
       }
     }
   }
@@ -120,7 +121,8 @@ nav {
     height: 8.125rem;
     margin-top: 1rem;
     overflow: hidden;
-    transition: height 0.5s cubic-bezier(0, 0, 0.45, 1),
+    transition:
+      height 0.5s cubic-bezier(0, 0, 0.45, 1),
       opacity 0.3s 0.1s cubic-bezier(0, 0, 0, 0.9),
       margin-top 0.1s cubic-bezier(0, 0, 0.2, 0);
   }
@@ -129,7 +131,8 @@ nav {
     height: 0;
     margin-top: 0;
     opacity: 0;
-    transition: height 0.5s cubic-bezier(0, 0, 0.45, 1),
+    transition:
+      height 0.5s cubic-bezier(0, 0, 0.45, 1),
       opacity 0.4s cubic-bezier(0, 0, 0, 0.9),
       margin-top 0.3s 0.2s cubic-bezier(0, 0, 0.8, 1);
   }

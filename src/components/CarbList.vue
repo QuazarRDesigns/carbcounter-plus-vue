@@ -28,7 +28,7 @@ function remove($event, item) {
 </script>
 
 <style lang="scss" scoped>
-@import "@/scss/variables.scss";
+@use "@/scss/variables.scss" as vars;
 
 .container {
   display: flex;
@@ -59,14 +59,14 @@ function remove($event, item) {
 }
 
 .item-name {
-  color: $green;
+  color: vars.$green;
   font-weight: bold;
   flex: 0 1 auto;
   padding: 0 1rem;
 }
 
 .item-amount {
-  color: $green;
+  color: vars.$green;
   flex: 0 1 auto;
   margin: 0 auto;
 }

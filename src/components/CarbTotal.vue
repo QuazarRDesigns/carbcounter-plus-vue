@@ -37,7 +37,7 @@ function calculateDosage() {
 </script>
 
 <style lang="scss" scoped>
-@import "@/scss/variables.scss";
+@use "@/scss/variables.scss" as vars;
 
 .container {
   background: #fff;
@@ -56,7 +56,7 @@ function calculateDosage() {
 }
 
 .stat {
-  color: $blue;
+  color: vars.$blue;
   font-size: 3rem;
 
   .number {

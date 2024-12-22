@@ -10,7 +10,8 @@ import AppHeader from "@/components/AppHeader.vue";
 </script>
 
 <style lang="scss">
-@import "@/scss/variables.scss";
+@use "sass:color";
+@use "@/scss/variables.scss" as vars;
 
 :root {
   font-size: #{"clamp(1rem, 1.6vw, 1.5rem)"};
@@ -21,7 +22,7 @@ import AppHeader from "@/components/AppHeader.vue";
 }
 
 body {
-  background: $yellow;
+  background: vars.$yellow;
   margin: 0;
 }
 
@@ -82,48 +83,48 @@ input {
 }
 
 .view-container {
-  width: $container-width;
+  width: vars.$container-width;
   min-width: 320px;
   margin: 0 auto;
   padding: 0 1rem 1rem;
 }
 
 .bg-blue {
-  background-color: $blue;
+  background-color: vars.$blue;
 
   &:hover,
   &:focus {
-    background-color: lighten($color: $blue, $amount: 10);
+    background-color: color.adjust(vars.$blue, $lightness: 10%);
   }
 }
 
 .bg-green {
-  background-color: $green;
+  background-color: vars.$green;
 
   &:hover,
   &:focus {
-    background-color: lighten($color: $green, $amount: 10);
+    background-color: color.adjust(vars.$green, $lightness: 10%);
   }
 }
 
 .bg-pink {
-  background-color: $pink;
+  background-color: vars.$pink;
 
   &:hover,
   &:focus {
-    background-color: lighten($color: $pink, $amount: 10);
+    background-color: color.adjust(vars.$pink, $lightness: 10%);
   }
 }
 
 .text-blue {
-  color: $blue;
+  color: vars.$blue;
 }
 
 .text-green {
-  color: $green;
+  color: vars.$green;
 }
 
 .text-pink {
-  color: $pink;
+  color: vars.$pink;
 }
 </style>

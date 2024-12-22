@@ -64,8 +64,6 @@ function clamp(value, min, max) {
 </script>
 
 <style lang="scss" scoped>
-@import "@/scss/variables.scss";
-
 .container {
   background: #fff;
   padding: 0.5rem;
