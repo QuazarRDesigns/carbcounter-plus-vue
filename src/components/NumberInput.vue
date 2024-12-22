@@ -5,6 +5,8 @@
       <input
         id="this.id"
         type="number"
+        :max="max"
+        :min="min"
         :step="step"
         :value="computedValue"
         @input="input"
@@ -45,20 +47,29 @@ const props = defineProps({
     type: Number,
     default: 0,
   },
+  min: {
+    type: Number,
+    default: 0,
+  },
+  max: {
+    type: Number,
+    default: 5000,
+  },
 });
 
 const emit = defineEmits(["input"]);
 
-const computedValue = computed(() => Number(props.value.toFixed(1)));
+const computedValue = computed(() => clamp(props.value));
 
 function input($event) {
   emit("input", {
     id: props.id,
-    value: Number($event.target.value),
+    value: clamp(Number($event.target.value)),
   });
 }
 
-function clamp(value, min, max) {
+function clamp(value) {
+  const { min, max } = props;
   return Math.min(Math.max(min, value), max);
 }
 </script>
