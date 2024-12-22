@@ -1,9 +1,9 @@
 <template>
   <div class="container">
-    <label :class="'text-' + color" for="this.id">{{ title }}</label>
+    <label :class="'text-' + color" :for="id">{{ title }}</label>
     <div class="input-wrapper">
       <input
-        id="this.id"
+        :id="id"
         type="number"
         :max="max"
         :min="min"
