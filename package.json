@@ -1,6 +1,7 @@
 {
   "name": "carbcounter-plus-vue",
   "version": "0.5.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "vite",
