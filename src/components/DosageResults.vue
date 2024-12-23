@@ -23,8 +23,6 @@
 import DosageResult from "../components/DosageResult.vue";
 import CarbRatio from "../classes/CarbRatio.js";
 
-import { defineProps } from "vue";
-
 defineProps({
   carbRatio: CarbRatio,
   target: {

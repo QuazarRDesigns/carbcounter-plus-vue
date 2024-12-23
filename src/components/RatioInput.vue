@@ -38,7 +38,7 @@
 <script setup>
 import CarbRatio from "../classes/CarbRatio";
 
-import { defineProps, defineEmits, ref, computed } from "vue";
+import { ref, computed } from "vue";
 
 const props = defineProps({
   title: {
