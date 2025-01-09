@@ -1,21 +1,9 @@
 <template>
   <div class="view-container home">
     <div class="menu">
-      <MenuButton
-        title="CarbCalc"
-        color="blue"
-        svg="./src/assets/svgs/carbcalc.svg"
-      />
-      <MenuButton
-        title="DoseCalc"
-        color="green"
-        svg="./src/assets/svgs/dosecalc.svg"
-      />
-      <MenuButton
-        title="Settings"
-        color="pink"
-        svg="./src/assets/svgs/settings.svg"
-      />
+      <MenuButton title="CarbCalc" color="blue" :svg="carbCalcIcon" />
+      <MenuButton title="DoseCalc" color="green" :svg="doseCalcIcon" />
+      <MenuButton title="Settings" color="pink" :svg="settingsIcon" />
       <span class="version">Carb Counter+: v0.5.0</span>
     </div>
   </div>
@@ -23,6 +11,9 @@
 
 <script setup>
 import MenuButton from "@/components/MenuButton.vue";
+import carbCalcIcon from "@/assets/svgs/carbcalc.svg";
+import doseCalcIcon from "@/assets/svgs/dosecalc.svg";
+import settingsIcon from "@/assets/svgs/settings.svg";
 </script>
 
 <style lang="scss" scoped>
